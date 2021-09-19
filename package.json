@@ -1,0 +1,69 @@
+{
+  "name": "Havamal",
+  "private": true,
+  "description": "Website for the Swedish band Havamal",
+  "version": "0.1.0",
+  "author": "Adrian Grimm",
+  "bugs": {
+    "url": "https://github.com/gatsbyjs/gatsby/issues"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.4.1",
+    "@emotion/styled": "^11.3.0",
+    "@fontsource/grenze": "^4.5.0",
+    "@fontsource/roboto": "^4.5.0",
+    "dotenv": "^10.0.0",
+    "formik": "^2.2.9",
+    "gatsby": "^3.14.0",
+    "gatsby-cli": "^3.14.0",
+    "gatsby-plugin-emotion": "^6.14.0",
+    "gatsby-plugin-feed": "^3.14.0",
+    "gatsby-plugin-google-analytics": "^3.14.0",
+    "gatsby-plugin-image": "^1.14.0",
+    "gatsby-plugin-manifest": "^3.14.0",
+    "gatsby-plugin-netlify-cms": "^5.14.0",
+    "gatsby-plugin-offline": "^4.14.0",
+    "gatsby-plugin-react-helmet": "^4.14.0",
+    "gatsby-plugin-sharp": "^3.14.0",
+    "gatsby-remark-copy-linked-files": "^4.11.0",
+    "gatsby-remark-images": "^5.11.0",
+    "gatsby-remark-prismjs": "^5.11.0",
+    "gatsby-remark-responsive-iframe": "^4.11.0",
+    "gatsby-remark-smartypants": "^4.11.0",
+    "gatsby-source-cloudinary": "^0.1.14",
+    "gatsby-source-filesystem": "^3.14.0",
+    "gatsby-transformer-remark": "^4.11.0",
+    "gatsby-transformer-sharp": "^3.14.0",
+    "netlify-cms-app": "^2.15.44",
+    "prismjs": "^1.25.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-helmet": "^6.1.0",
+    "simple-react-lightbox": "^3.6.9-0",
+    "typeface-merriweather": "0.0.72",
+    "typeface-montserrat": "0.0.75",
+    "yup": "^0.32.9"
+  },
+  "devDependencies": {
+    "prettier": "2.3.2"
+  },
+  "homepage": "https://github.com/gatsbyjs/gatsby-starter-blog#readme",
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "0BSD",
+  "main": "n/a",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/usmcamgrimm/havamal-v6.git"
+  },
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
+    "start": "gatsby develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+  }
+}
