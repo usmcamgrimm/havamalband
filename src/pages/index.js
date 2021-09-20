@@ -1,89 +1,101 @@
-import * as React from "react"
-import { Link, graphql } from "gatsby"
+import React from 'react'
+import { StaticImage } from 'gatsby-plugin-image'
+import Layout from "../components/Layout"
+import LinkLayout from '../components/LinkLayout'
+import Raids from '../components/Raids'
+import HavamalVideo from '../components/SingleVideo'
 
-import Bio from "../components/bio"
-import Layout from "../components/layout"
-import Seo from "../components/seo"
+import { css } from '@emotion/react'
+import styled from '@emotion/styled'
 
-const BlogIndex = ({ data, location }) => {
-  const siteTitle = data.site.siteMetadata?.title || `Title`
-  const posts = data.allMarkdownRemark.nodes
-
-  if (posts.length === 0) {
-    return (
-      <Layout location={location} title={siteTitle}>
-        <Seo title="All posts" />
-        <Bio />
-        <p>
-          No blog posts found. Add markdown posts to "content/blog" (or the
-          directory you specified for the "gatsby-source-filesystem" plugin in
-          gatsby-config.js).
-        </p>
-      </Layout>
-    )
-  }
-
+export default function Index() {
   return (
-    <Layout location={location} title={siteTitle}>
-      <Seo title="All posts" />
-      <Bio />
-      <ol style={{ listStyle: `none` }}>
-        {posts.map(post => {
-          const title = post.frontmatter.title || post.fields.slug
+    <Layout>
+      <Container>
+        <StaticImage
+          src="../resources/band-photos/bandPhoto.jpg"
+          alt="photo of the band"
+          placeholder="blurred"
+          layout="constrained"
+          css={css`
+            max-width: 80%;
+            margin-top: 2rem;
+            border-radius: 12px;
+            box-shadow: 12px 12px 18px #000000, -12px -12px 18px #000000;
+          `}
+        />
+        <StaticImage
+          src="../resources/images/havamal_logo.png"
+          alt="Havamal logo"
+          placeholder="blurred"
+          layout="constrained"
+          css={css`
+            margin-top: -400px;
+            max-width: 1100px;
+            height: auto;
+            z-index: 10;
+            @media screen and (max-width: 1025px) {
+              margin-top: -300px;
+            }
+            @media screen and (max-width: 768px) {
+              margin-top: -250px;
+            }
+            @media screen and (max-width: 500px) {
+              margin-top: -100px;
+            }
+          `}
+        />
+        <Welcome>
+          Hail, Hordes of Havamal!
+        </Welcome>
+      </Container>
+      <VideoContainer>
+        <HavamalVideo
+          videoURL="https://www.youtube.com/embed/w6Gy4ZGG5eg"
+          videoTitle="Nidhöggr"
+        />
+      </VideoContainer>
+      
+      <section id="raids"
+        css={css`
+            margin-bottom: 3rem;
+        `}
+      >
+        <Raids />
+      </section>
 
-          return (
-            <li key={post.fields.slug}>
-              <article
-                className="post-list-item"
-                itemScope
-                itemType="http://schema.org/Article"
-              >
-                <header>
-                  <h2>
-                    <Link to={post.fields.slug} itemProp="url">
-                      <span itemProp="headline">{title}</span>
-                    </Link>
-                  </h2>
-                  <small>{post.frontmatter.date}</small>
-                </header>
-                <section>
-                  <p
-                    dangerouslySetInnerHTML={{
-                      __html: post.frontmatter.description || post.excerpt,
-                    }}
-                    itemProp="description"
-                  />
-                </section>
-              </article>
-            </li>
-          )
-        })}
-      </ol>
-    </Layout>
+      <section id="linksSection">
+        <h1 css={css`
+          font-family: Norse;
+          font-size: 3rem;
+          font-weight: normal;
+          color: #66add9;
+          text-align: center;
+          margin-top: 2rem;
+          margin-bottom: 2rem;
+        `}>Follow Havamal:</h1>
+        <LinkLayout />
+      </section>
+
+    </Layout> 
   )
 }
 
-export default BlogIndex
-
-export const pageQuery = graphql`
-  query {
-    site {
-      siteMetadata {
-        title
-      }
-    }
-    allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
-      nodes {
-        excerpt
-        fields {
-          slug
-        }
-        frontmatter {
-          date(formatString: "MMMM DD, YYYY")
-          title
-          description
-        }
-      }
-    }
-  }
+const Welcome = styled.h1`
+  font-family: norse;
+  font-size: clamp(1.5rem, 4rem, 5rem);
+  font-weight: normal;
+  text-align: center;
+  color: #66add9;
+  padding: 2rem;
 `
+const Container = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+`
+const VideoContainer = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+`;

@@ -62,6 +62,27 @@
   --color-accent: #d1dce5;
 }
 
+/* Colors */
+/*!
+yellow: `#ffcd00`,
+blue: {
+  lighter: `#66add9`,
+  default: `#004b87`,
+  darker: `#002f54`,
+},
+red: {
+  default: `#ce1126`,
+  darker: `#d50000`,
+}
+*/
+
+@font-face {
+  font-family: 'norse';
+  src: url('../fonts/norse/Norse.woff2') format('woff2'),
+       url('../fonts/norse/Norse.woff') format('woff'),
+       url('../fonts/norse/Norse.ttf') format('truetype');
+}
+
 /* HTML elements */
 
 *,
