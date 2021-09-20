@@ -1,7 +1,6 @@
 import React, { useState } from 'react'
 import { FaRegArrowAltCircleUp } from 'react-icons/fa'
 
-import { css } from '@emotion/react'
 import styled from '@emotion/styled'
 
 const ScrollButton = styled.div`

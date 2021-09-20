@@ -1,5 +1,5 @@
 import React from 'react'
-import '../styles/layout.css'
+import '../style.css'
 import Navbar from './Navbar/Navbar'
 import ScrollArrow from './ScrollArrow'
 
