@@ -78,9 +78,9 @@ red: {
 
 @font-face {
   font-family: 'norse';
-  src: url('../fonts/norse/Norse.woff2') format('woff2'),
-       url('../fonts/norse/Norse.woff') format('woff'),
-       url('../fonts/norse/Norse.ttf') format('truetype');
+  src: url('./fonts/norse/Norse.woff2') format('woff2'),
+       url('./fonts/norse/Norse.woff') format('woff'),
+       url('./fonts/norse/Norse.ttf') format('truetype');
 }
 
 /* HTML elements */
