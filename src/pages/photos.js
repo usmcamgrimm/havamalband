@@ -1,5 +1,5 @@
 import React from 'react'
-import Layout from '../components/Layout'
+import Layout from '../components/layout'
 import MediaGallery from '../components/MediaGallery'
 import SimpleReactLightbox from 'simple-react-lightbox'
 

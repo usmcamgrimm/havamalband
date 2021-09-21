@@ -1,6 +1,6 @@
 import React from 'react'
 import { StaticImage } from 'gatsby-plugin-image'
-import Layout from "../components/Layout"
+import Layout from "../components/layout"
 import LinkLayout from '../components/LinkLayout'
 import Raids from '../components/Raids'
 import HavamalVideo from '../components/SingleVideo'

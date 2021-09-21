@@ -1,5 +1,5 @@
 import React from 'react'
-import Layout from '../components/Layout'
+import Layout from '../components/layout'
 import ContactForm from '../components/ContactForm'
 import ContactInfo from '../components/ContactInfo'
 import Merch from '../components/Merch'

@@ -1,6 +1,6 @@
 import React from 'react'
 import { graphql } from 'gatsby'
-import Layout from '../components/Layout'
+import Layout from '../components/layout'
 import { StaticImage } from 'gatsby-plugin-image'
 import { css } from '@emotion/react'
 import styled from '@emotion/styled'
