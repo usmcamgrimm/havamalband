@@ -55,7 +55,6 @@ const SagaText = styled.p`
 `;
 
 export default function Saga({ data }) {
-  const hymnweavers = data.hymnweavers.nodes
   return (
     <Layout>
       <h1 css={css`
