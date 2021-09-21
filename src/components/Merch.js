@@ -22,6 +22,15 @@ export default function Merch() {
         margin-top: 4rem;
         margin-bottom: 4rem;
       `}>Havamal Merch</h1>
+
+    <a 
+      href="https://havamal.bandcamp.com/merch" 
+      target="_blank" 
+      rel="noreferrer" 
+      aria-label="Havamal merch on Bandcamp"
+    >
+      <p>Havamal Merch on Bandcamp</p>
+    </a>
     </MerchWrapper>
   )
 }
