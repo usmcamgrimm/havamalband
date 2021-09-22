@@ -70,9 +70,9 @@ export default function Raids() {
             }
           `}
         >
-          <DateTitle>10 Sept 2021</DateTitle>
-          <EventTitle className="event">Raise Your Horns</EventTitle>
-          <LocationTitle className="location">Musikhuzet, Rønne, Denmark</LocationTitle>
+          <DateTitle>28 May 2022</DateTitle>
+          <EventTitle className="event">Järfälla Metal Fest</EventTitle>
+          <LocationTitle className="location">Fredagsmangel, Järfälla, Sweden</LocationTitle>
         </RaidContainer>
       </RaidWrapper>
     </>
