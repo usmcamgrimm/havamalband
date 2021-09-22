@@ -9,6 +9,12 @@ const MerchWrapper = styled.div`
   flex-direction: column;
   align-items: center;
 `;
+const MerchLink = styled.div`
+  font-family: grenze;
+  text-defcoration: none;
+  font-size: 1.4rem;
+  color: #ffffff;
+`;
 
 export default function Merch() {
   return (
@@ -23,14 +29,25 @@ export default function Merch() {
         margin-bottom: 4rem;
       `}>Havamal Merch</h1>
 
-    <a 
+    <MerchLink 
       href="https://havamal.bandcamp.com/merch" 
       target="_blank" 
       rel="noreferrer" 
       aria-label="Havamal merch on Bandcamp"
     >
       <p>Havamal Merch on Bandcamp</p>
-    </a>
+    </MerchLink>
+
+    <MerchLink 
+      href="https://artgatesrecords.com/store/en/havamal" 
+      target="_blank" 
+      rel="noreferrer" 
+      aria-label="Havamal merch on Art Gates records"
+    >
+      <p>Havamal Merch on Art Gates Records</p>
+    </MerchLink>
     </MerchWrapper>
   )
 }
+
+
