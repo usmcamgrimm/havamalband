@@ -1,45 +1,9 @@
 import React from 'react'
-import { graphql } from 'gatsby'
 import Layout from '../components/layout'
-import { StaticImage } from 'gatsby-plugin-image'
+import HymnWeavers from '../components/HymnWeavers'
 import { css } from '@emotion/react'
 import styled from '@emotion/styled'
 
-const Band = styled.div`
-  display: grid;
-  place-items: center;
-  grid-gap: 12px;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-  padding: 0;
-  width: 50%;
-  margin: 0 auto;
-  @media screen and (max-width: 500px) {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    padding: 1rem 7rem;
-  }
-`;
-const HW = styled.div`
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  .gatsby-image-wrapper {
-    max-width: 250px;
-    height: auto;
-    box-shadow: 5px 3px 16px rgba(0, 0, 0, 0.8);
-  }
-  p {
-    font-family: grenze;
-    color: #ffffff;
-    font-size: 1.2rem;
-    text-align: center;
-    margin-bottom: 0;
-  }
-  p.instrument {
-    color: #66add9;
-  }
-`;
 const SagaContainer = styled.div`
   display: flex;
   flex-direction: column;
@@ -54,7 +18,7 @@ const SagaText = styled.p`
   font-size: 1.5rem;
 `;
 
-export default function Saga({ data }) {
+export default function Saga() {
   return (
     <Layout>
       <h1 css={css`
@@ -68,11 +32,7 @@ export default function Saga({ data }) {
       `}>The Hymn-Weavers</h1>
 
       <section id="band-images">
-        <Band>
-          <HW>
-            <p>Band photos will go here</p>
-          </HW>
-        </Band>
+        <HymnWeavers />
       </section>
 
       <section id="havamal-saga">
