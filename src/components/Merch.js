@@ -9,11 +9,15 @@ const MerchWrapper = styled.div`
   flex-direction: column;
   align-items: center;
 `;
-const MerchLink = styled.div`
+const MerchLink = styled.a`
   font-family: grenze;
-  text-defcoration: none;
+  text-decoration: none;
   font-size: 1.4rem;
   color: #ffffff;
+  &:hover {
+    color: #004b87;
+    transform: scale(1.1);
+  }
 `;
 
 export default function Merch() {
