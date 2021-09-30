@@ -4,6 +4,14 @@ import { Link, graphql } from 'gatsby'
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 
+import { css } from '@emotion/react'
+import styled from '@emotion/styled'
+
+const PostDesc = styled.p`
+  color: #ffffff;
+  width: 80%;
+`;
+
 const BlogIndex = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata?.title || `Title`
   const posts = data.allMarkdownRemark.nodes
@@ -29,7 +37,7 @@ const BlogIndex = ({ data, location }) => {
           const title = post.frontmatter.title || post.fields.slug
 
           return (
-            <li key={post.fields.slug}>
+            <li key={post.fields.slug} css={css`margin-left:16px`}>
               <article
                 className="post-list-item"
                 itemScope
@@ -44,7 +52,7 @@ const BlogIndex = ({ data, location }) => {
                   <small>{post.frontmatter.date}</small>
                 </header>
                 <section>
-                  <p
+                  <PostDesc
                     dangerouslySetInnerHTML={{
                       __html: post.frontmatter.description || post.excerpt,
                     }}
