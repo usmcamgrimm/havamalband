@@ -33,7 +33,7 @@ export default function Index() {
             margin-top: -400px;
             max-width: 1100px;
             height: auto;
-            z-index: 10;
+            z-index: 1;
             @media screen and (max-width: 1025px) {
               margin-top: -300px;
             }
