@@ -12,13 +12,13 @@
 
 ### This website is built using these resources and technologies:
 
-* GatsbyJS
-* Netlify CMS
-* Cloudinary
-* Emotion
+- GatsbyJS
+- Netlify CMS
+- Cloudinary
+- Emotion
 
-What started as a project for the VetsWhoCode cohort has evolved and is now in its 4th iteration. I started it, then scrapped it, started again, then wrote the entire project in HTML, CSS, and JavaScript. 
+What started as a project for the VetsWhoCode cohort has evolved and is now in its 4th iteration. I started it, then scrapped it, started again, then wrote the entire project in HTML, CSS, and JavaScript.
 
-I wasn't happy with the result and felt limited. I decided to re-write the project in Gatsby so I could work with React and incorporate some features from Gatsby.  My goal was to learn different technologies while improving the speed and usability of the website.
+I wasn't happy with the result and felt limited. I decided to re-write the project in Gatsby so I could work with React and incorporate some features from Gatsby. My goal was to learn different technologies while improving the speed and usability of the website.
 
-While upgrading the project to Gatsby version 3, I kept Sanity and traded TailwindCSS for Emotion. 
+While upgrading the project to Gatsby version 3, I chose to use NetlifyCMS instead of Sanity and traded TailwindCSS for Emotion.
