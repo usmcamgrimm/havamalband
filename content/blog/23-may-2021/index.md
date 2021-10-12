@@ -1,0 +1,11 @@
+---
+title: 23 May  2021
+author: Havamal
+thumbnail: 23may2021.jpg
+---
+Odin's blessings upon all our Einherjars and Valkyries around the Nine Realms! 
+This is how We celebrate the release of our new beast of an album!
+Tell us, have you listened to our hymns yet and which one did befell you the most!? 
+And to you, who have reached out and written fine words about our anthems. Own words, reviews and whatnot, we just want to say TACK!
+Hope to see you soon on a musical raid and in a drunken musical rage! May not one ear remain untouched by our new saga, and may Odin grant you a glorious death and a grand legacy!
+SKÅL!
