@@ -32,4 +32,6 @@ Exclusive merch preorder packs to be unleashed soon!
 More info coming soon:
 
 [www.artgatesrecords.com](www.artgatesrecords.com)
-<https://www.instagram.com/officialhavamal>
+
+
+[https://www.instagram.com/officialhavamal](https://www.instagram.com/officialhavamal)
