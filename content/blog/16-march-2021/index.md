@@ -3,7 +3,8 @@ title: 16 March 2021
 author: Art Gates Records
 thumbnail: 16mar2021.jpg
 ---
-⚔️𝗩𝗜𝗞𝗜𝗡𝗚 𝗠𝗘𝗧𝗔𝗟 𝗪𝗔𝗥𝗥𝗜𝗢𝗥𝗦 𝗛𝗔𝗩𝗔𝗠𝗔𝗟 𝗥𝗘𝗧𝗨𝗥𝗡 𝗧𝗢 𝗧𝗛𝗘 𝗕𝗔𝗧𝗧𝗟𝗘𝗙𝗜𝗘𝗟𝗗 𝗪𝗜𝗧𝗛  𝗧𝗛𝗘𝗜𝗥 𝗡𝗘𝗪 𝗔𝗟𝗕𝗨𝗠: "𝗧𝗛𝗘 𝗦𝗛𝗔𝗗𝗢𝗪 𝗖𝗛𝗔𝗣𝗧𝗘𝗥" ⚔️
+
+⚔️𝗩𝗜𝗞𝗜𝗡𝗚 𝗠𝗘𝗧𝗔𝗟 𝗪𝗔𝗥𝗥𝗜𝗢𝗥𝗦 𝗛𝗔𝗩𝗔𝗠𝗔𝗟 𝗥𝗘𝗧𝗨𝗥𝗡 𝗧𝗢 𝗧𝗛𝗘 𝗕𝗔𝗧𝗧𝗟𝗘𝗙𝗜𝗘𝗟𝗗 𝗪𝗜𝗧𝗛 𝗧𝗛𝗘𝗜𝗥 𝗡𝗘𝗪 𝗔𝗟𝗕𝗨𝗠: "𝗧𝗛𝗘 𝗦𝗛𝗔𝗗𝗢𝗪 𝗖𝗛𝗔𝗣𝗧𝗘𝗥" ⚔️
 
 Swedish Viking Metal warriors HAVAMAL are back in the game with their second opus #TheShadowChapter , coming out May 21st 2021 via Art Gates Records worldwide.
 After unleashing one of the wild debuts in the Viking/Folk Metal scene in 2019, the band returns with their most ambitious record to date.
@@ -31,7 +32,5 @@ Exclusive merch preorder packs to be unleashed soon!
 
 More info coming soon:
 
-[www.artgatesrecords.com](www.artgatesrecords.com)
-
-
+[www.artgatesrecords.com](www.artgatesrecords.com)  
 [https://www.instagram.com/officialhavamal](https://www.instagram.com/officialhavamal)
