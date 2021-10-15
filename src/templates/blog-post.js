@@ -3,6 +3,7 @@ import { Link, graphql } from 'gatsby'
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
+import { css } from '@emotion/react'
 
 const BlogPostTemplate = ({ data, location }) => {
   const post = data.markdownRemark
@@ -21,35 +22,49 @@ const BlogPostTemplate = ({ data, location }) => {
         itemType="http://schema.org/Article"
       >
         <header>
-          <h1 itemProp="headline">{post.frontmatter.title}</h1>
-          <p>{post.frontmatter.date}</p>
+          <h1 
+            css={css`
+              text-align:center;
+              color: #66add9;
+              font-family: grenze;
+              font-weight: normal;
+            `}
+            itemProp="headline"
+          >{post.frontmatter.title}</h1>
         </header>
         <section
           dangerouslySetInnerHTML={{ __html: post.html }}
           itemProp="articleBody"
+          css={css`
+            color: #ffffff;
+            font-family: grenze;
+            padding: 12px 72px;
+            font-size: 1.4rem;
+          `}
         />
         <hr />
       </article>
       <nav className="blog-post-nav">
         <ul
-          style={{
-            display: `flex`,
-            flexWrap: `wrap`,
-            justifyContent: `space-between`,
-            listStyle: `none`,
-            padding: 0,
-          }}
+          css={css`
+            display: flex;
+            flex-wrap: nowrap;
+            justify-content: space-evenly;
+            align-items: center;
+            list-style: none;
+            padding: 24px;
+          `}
         >
           <li>
             {previous && (
-              <Link to={previous.fields.slug} rel="prev">
+              <Link css={css`text-decoration: none`} to={previous.fields.slug} rel="prev">
                 ← {previous.frontmatter.title}
               </Link>
             )}
           </li>
           <li>
             {next && (
-              <Link to={next.fields.slug} rel="next">
+              <Link css={css`text-decoration: none`} to={next.fields.slug} rel="next">
                 {next.frontmatter.title} →
               </Link>
             )}
