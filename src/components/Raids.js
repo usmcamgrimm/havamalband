@@ -11,12 +11,23 @@ const RaidWrapper = styled.div`
 `;
 const DateTitle = styled.p`
   grid-area: date;
+  @media screen and (max-width: 768px) {
+    margin: 0;
+  }
 `;
 const EventTitle = styled.p`
   grid-area: event;
+  @media screen and (max-width: 768px) {
+    margin: 0;
+    margin-top: -16px;
+  }
 `;
 const LocationTitle = styled.p`
   grid-area: location;
+  @media screen and (max-width: 768px) {
+    margin: 0;
+    margin-top: -16px;
+  }
 `
 const RaidContainer = styled.div`
   margin: 0 auto;
@@ -28,13 +39,17 @@ const RaidContainer = styled.div`
     "date event location";
   grid-gap: 12px;
   font-family: grenze;
-  font-size: 1.4rem;
+  font-size: clamp(1.2rem, 5vw, 1.8rem);
   color: #ffffff;
   @media screen and (max-width: 768px) {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    margin-left: 1rem;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+  }
+  @media screen and (min-width: 1024px) {
+    grid-template-columns: 200px 300px 400px;
   }
 `;
 const Line = styled.hr`
@@ -55,6 +70,9 @@ export default function Raids() {
         color: #66add9;
         text-align: center;
         margin-bottom: 4rem;
+        @media screen and (max-width: 768px) {
+          margin-bottom: 32px;
+        }
       `}>Upcoming Raids</h1>
       <RaidWrapper>
         <RaidContainer

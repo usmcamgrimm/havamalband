@@ -58,7 +58,7 @@ export default function Index() {
       
       <section id="raids"
         css={css`
-            margin-bottom: 3rem;
+            padding-bottom: 48px;
         `}
       >
         <Raids />
