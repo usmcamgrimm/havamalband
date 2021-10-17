@@ -3,6 +3,7 @@ title: 27 Nov 2020
 author: Havamal
 thumbnail: 27nov2020.jpg
 ---
+
 Havamal and Sandra part paths.
 
 With each battle fought, a bond is formed. That bond will live eternally on even though the persons sealing that bond drifts apart. Now, as Sandra leaves her former axe-wielding bass-self behind and therefore the role as one of the hymn-weavers, the bond of flesh and steel is gone yet the bond of music and memories remains.
@@ -14,3 +15,5 @@ We, the hymn-weavers, would like to inform our pagan hordes that the studio prog
 Photo by Tobias Myllynen
 
 Hail Sandra! Hail her now resting axe-hand! Hail her legacy! Hail the times to come! Hail our fearless warriors! Hail the hymn-weavers! Hail Havamal!
+
+![27nov2020.jpg](./27nov2020.jpg)
