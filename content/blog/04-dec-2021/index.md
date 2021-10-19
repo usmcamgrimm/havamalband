@@ -1,5 +1,6 @@
 ---
 title: 04 Dec 2020
+date: 2020-12-04T17:26:18.205Z
 author: Havamal
 thumbnail: spotify_havamal.jpg
 ---
