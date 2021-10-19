@@ -3,8 +3,11 @@ title: 19 October 2021
 author: Havamal
 thumbnail: 19oct2021.jpg
 ---
-Proud Einherjars and Valkyries of Odin's wisdom, heed! 
-The ravens now proclaims bountiful numbers amassed by warriors across all our Nine realms, as our hymn Hel has passed 100.000 streams and by its side our grand hymn Berserker has surpassed 400.000 streams! 
-These are huge steps for our mortal eye to behold, and We can't thank you enough, blood-brothers and battle-sisters! A thousand bloodied thanks to our pagan horde! 
-So tell the ravens, which song deserves most praise and which one would you like to hear during a live raid? 
+
+Proud Einherjars and Valkyries of Odin's wisdom, heed!
+The ravens now proclaims bountiful numbers amassed by warriors across all our Nine realms, as our hymn Hel has passed 100.000 streams and by its side our grand hymn Berserker has surpassed 400.000 streams!
+These are huge steps for our mortal eye to behold, and We can't thank you enough, blood-brothers and battle-sisters! A thousand bloodied thanks to our pagan horde!
+So tell the ravens, which song deserves most praise and which one would you like to hear during a live raid?
 Hail our listeners! Hail our horde that made these numbers possible! Hail Odin's musical inspiration! Hail the hymn-weavers! Hail Havamal!
+
+![19oct20201](./19oct2021.jpg)
