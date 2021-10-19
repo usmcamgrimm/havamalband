@@ -1,5 +1,6 @@
 ---
 title: 01 Nov 2020
+date: 2020-11-01T17:23:58.074Z
 author: Havamal
 thumbnail: 1nov2020.jpg
 ---
