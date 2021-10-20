@@ -1,5 +1,6 @@
 ---
 title: 19 October 2021
+date: 2021-10-19T16:17:56.179Z
 author: Havamal
 thumbnail: 19oct2021.jpg
 ---
