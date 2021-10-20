@@ -1,5 +1,6 @@
 ---
 title: 09 Dec 2020
+date: 2020-12-09T17:08:43.436Z
 author: Havamal
 thumbnail: havamal.png
 ---
