@@ -1,5 +1,6 @@
 ---
 title: 17 September 2021
+date: 2021-09-17T16:16:39.916Z
 author: Havamal
 thumbnail: 17sep2021.jpg
 ---
