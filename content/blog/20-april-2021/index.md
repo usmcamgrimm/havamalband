@@ -1,5 +1,6 @@
 ---
 title: 20 April 2021
+date: 2021-04-20T16:18:37.269Z
 author: Havamal
 thumbnail: stock_logo.jpg
 ---
