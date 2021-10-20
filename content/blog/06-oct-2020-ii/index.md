@@ -1,5 +1,6 @@
 ---
 title: 06 Oct 2020 II
+date: 2020-10-06T16:07:30.125Z
 author: Havamal
 thumbnail: 6oct2020.jpg
 ---
