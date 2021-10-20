@@ -1,5 +1,6 @@
 ---
 title: 09 June 2021
+date: 2021-06-09T16:09:23.381Z
 author: Havamal
 thumbnail: 9june2021.jpg
 ---
