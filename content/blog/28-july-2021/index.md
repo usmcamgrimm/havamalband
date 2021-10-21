@@ -1,5 +1,6 @@
 ---
 title: 28 July 2021
+date: 2021-07-28T16:19:43.663Z
 author: Havamal
 thumbnail: 28july2021.jpg
 ---
