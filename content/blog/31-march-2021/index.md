@@ -1,5 +1,6 @@
 ---
 title: 31 March 2021
+date: 2021-03-31T16:13:36.253Z
 author: Havamal
 thumbnail: stock_logo.jpg
 ---
