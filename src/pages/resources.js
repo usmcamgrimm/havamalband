@@ -3,6 +3,7 @@ import Layout from '../components/layout'
 import ContactForm from '../components/ContactForm'
 import ContactInfo from '../components/ContactInfo'
 import Merch from '../components/Merch'
+import Horde from '../components/Horde'
 
 import { css } from '@emotion/react'
 import styled from '@emotion/styled'
@@ -77,6 +78,10 @@ export default function resources() {
 
       <section id="merch">
         <Merch />
+      </section>
+
+      <section id="hordes">
+        <Horde />
       </section>
     </Layout>
   )
