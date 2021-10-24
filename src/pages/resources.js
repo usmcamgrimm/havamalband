@@ -76,12 +76,25 @@ export default function resources() {
         </ContactContainer>
       </section>
 
-      <section id="merch">
-        <Merch />
-      </section>
+      <section 
+        id="merch_horde"
+        css={css`
+          display: flex;
+          flex-direction: row;
+          justify-content: space-evenly;
+          @media screen and (max-width: 500px) {
+            flex-direction: column;
+            justify-content: center;
+          }
+        `}
+      >
+        <div id="merch">
+          <Merch />
+        </div>
 
-      <section id="hordes">
-        <Horde />
+        <div id="hordes">
+          <Horde />
+        </div>
       </section>
     </Layout>
   )

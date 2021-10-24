@@ -39,7 +39,7 @@ export default function Merch() {
       rel="noreferrer" 
       aria-label="Havamal merch on Bandcamp"
     >
-      <p>Havamal Merch on Bandcamp</p>
+      <p>Havamal Bandcamp Store</p>
     </MerchLink>
 
     <MerchLink 
@@ -48,7 +48,7 @@ export default function Merch() {
       rel="noreferrer" 
       aria-label="Havamal merch on Art Gates records"
     >
-      <p>Havamal Merch on Art Gates Records</p>
+      <p>Havamal Store at Art Gates Records</p>
     </MerchLink>
     </MerchWrapper>
   )
