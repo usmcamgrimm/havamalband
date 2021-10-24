@@ -15,53 +15,54 @@ const Band = styled.div`
   @media screen and (max-width: 500px) {
     display: flex;
     justify-content: center;
+    align-items: center;
     flex-direction: column;
-    padding: 1rem 7rem;
+    padding: 1rem;
   }
 `;
 export default function HymnWeavers() {
   return(
     <Band>
       <StaticImage
-        src="../resources/band-photos/andreas_new.jpg"
+        src="../resources/band-photos/andreas.jpg"
         alt="Andreas Herlogsson"
         placeholder="blurred"
         layout="constrained"
         css={css`
-          max-width: 150px;
+          max-width: 400px;
           border-radius: 5px;
         `}
       />
 
       <StaticImage
-        src="../resources/band-photos/bjorn_new.jpg"
+        src="../resources/band-photos/bjorn.jpg"
         alt="Andreas Herlogsson"
         placeholder="blurred"
         layout="constrained"
         css={css`
-          max-width: 150px;
+          max-width: 400px;
           border-radius: 5px;
         `}
       />
 
       <StaticImage
-        src="../resources/band-photos/Kjell_new.jpg"
+        src="../resources/band-photos/Kjell.jpg"
         alt="Andreas Herlogsson"
         placeholder="blurred"
         layout="constrained"
         css={css`
-          max-width: 150px;
+          max-width: 400px;
           border-radius: 5px;
         `}
       />
 
       <StaticImage
-        src="../resources/band-photos/lennie_new.jpg"
+        src="../resources/band-photos/lennie.jpg"
         alt="Andreas Herlogsson"
         placeholder="blurred"
         layout="constrained"
         css={css`
-          max-width: 150px;
+          max-width: 400px;
           border-radius: 5px;
         `}
       />
@@ -72,7 +73,7 @@ export default function HymnWeavers() {
         placeholder="blurred"
         layout="constrained"
         css={css`
-          max-width:150px;
+          max-width: 400px;
           border-radius: 5px;
         `}
       />
