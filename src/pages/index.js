@@ -31,14 +31,14 @@ export default function Index() {
           layout="constrained"
           css={css`
             margin-top: -400px;
-            max-width: 1100px;
+            max-width: 800px;
             height: auto;
             z-index: 1;
             @media screen and (max-width: 1025px) {
               margin-top: -300px;
             }
             @media screen and (max-width: 768px) {
-              margin-top: -250px;
+              margin-top: -350px;
             }
             @media screen and (max-width: 500px) {
               margin-top: -100px;
