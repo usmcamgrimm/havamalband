@@ -52,13 +52,13 @@ const RaidContainer = styled.div`
     grid-template-columns: 200px 300px 400px;
   }
 `;
-// const Line = styled.hr`
-//   width: 50%;
-//   margin: 0 auto;
-//   margin-top: 1rem;
-//   margin-bottom: 2rem;
-//   border-bottom: 1px solid rgba(147, 147, 147, 0.4);
-// `;
+const Line = styled.hr`
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border-bottom: 1px solid rgba(147, 147, 147, 0.4);
+`;
 
 export default function Raids() {
   return(
@@ -75,6 +75,26 @@ export default function Raids() {
         }
       `}>Upcoming Raids</h1>
       <RaidWrapper>
+      <RaidContainer
+          as="a"
+          href="https://www.facebook.com/cernunnos.festival/"
+          target="_blank" 
+          rel="noreferrer"
+          css={css`
+            text-decoration: none;
+            &:hover {
+              color: #004b87;
+              transform: scale(1.01);
+            }
+          `}
+        >
+          <DateTitle>20 February 2022</DateTitle>
+          <EventTitle className="event">Cernunnos Pagan Fest</EventTitle>
+          <LocationTitle className="location">La Ferme du Buisson, Noisiel, France</LocationTitle>
+        </RaidContainer>
+
+        <Line />
+
         <RaidContainer
           as="a"
           href="https://www.facebook.com/2228032767282124/posts/3635924743159579/?sfnsn=mo"
