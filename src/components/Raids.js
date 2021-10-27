@@ -11,21 +11,16 @@ const RaidWrapper = styled.div`
 `;
 const DateTitle = styled.p`
   grid-area: date;
-  @media screen and (max-width: 768px) {
-    margin: 0;
-  }
+  margin: 0;
 `;
 const EventTitle = styled.p`
   grid-area: event;
-  @media screen and (max-width: 768px) {
-    margin: 0;
-    margin-top: -16px;
-  }
+  margin: 0;
 `;
 const LocationTitle = styled.p`
   grid-area: location;
+  margin: 0;
   @media screen and (max-width: 768px) {
-    margin: 0;
     margin-top: -16px;
   }
 `
