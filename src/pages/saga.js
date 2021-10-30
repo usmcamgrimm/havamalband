@@ -10,7 +10,10 @@ const SagaContainer = styled.div`
   align-items: center;
   text-align: start;
   margin: 0 auto;
-  width: 60%;
+  width: 80%;
+  @media screen and (max-width: 500px) {
+    width: 90%;
+  }
 `;
 const SagaText = styled.p`
   font-family: grenze;
