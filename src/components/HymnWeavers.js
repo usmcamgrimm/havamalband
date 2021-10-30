@@ -31,6 +31,7 @@ export default function HymnWeavers() {
         css={css`
           max-width: 500px;
           border-radius: 5px;
+          box-shadow: 0 2px 6px #000000;
         `}
       />
 
@@ -42,6 +43,7 @@ export default function HymnWeavers() {
         css={css`
           max-width: 500px;
           border-radius: 5px;
+          box-shadow: 0 2px 6px #000000;
         `}
       />
 
@@ -53,17 +55,19 @@ export default function HymnWeavers() {
         css={css`
           max-width: 500px;
           border-radius: 5px;
+          box-shadow: 0 2px 6px #000000;
         `}
       />
 
       <StaticImage
-        src="../resources/band-photos/Kjell.jpg"
-        alt="Andreas Herlogsson"
+        src="../resources/band-photos/kjell.jpg"
+        alt="Kjell Gilliusson"
         placeholder="blurred"
         layout="constrained"
         css={css`
           max-width: 500px;
           border-radius: 5px;
+          box-shadow: 0 2px 6px #000000;
         `}
       />
 
@@ -75,6 +79,7 @@ export default function HymnWeavers() {
         css={css`
           max-width: 500px;
           border-radius: 5px;
+          box-shadow: 0 2px 6px #000000;
         `}
       />
     </Band>
