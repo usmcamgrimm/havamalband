@@ -12,53 +12,53 @@ Today we continue the saga with the man behind the bass! We give you the mighty 
 
 Don't forget to ask him about anything in the comments below!
 
-Name:
+**Name:**
 
 Tino Vesanen
 
-Instrument:
+**Instrument:**
 
 Bass Guitar
 
-Gear:
+**Gear:**
 
 Right now I'm using a Squier Precision Bass, Line6 HX Stomp, Orange OB1-300, OBC212 cab and some various pedals. And also borrowing Lennie's Hartke rig
 
-Your biggest influences or inspirations?
+**Your biggest influences or inspirations?**
 
 Some of my favourite bass players include Billy Gould from Faith No More, Geezer Butler, obviously, Alex Webster, Steve DiGiorgio, Cliff Burton, and the list goes on and on and on and on.
 
 I must also mention my bandmates! Their talent really inspires me to work harder at my end!
 
-Your favourite bands? Metal and nonmetal!
+**Your favourite bands? Metal and nonmetal!**
 
 Wow, where to begin? There's so many! To mention a few: Bad Brains, Mokoma, Pelle Miljoona, Megadeth, Bloodbath, Testament, Death, Judas Priest, CCR
 
-What hobbies, apart from music, do you have?
+**What hobbies, apart from music, do you have?**
 
 Travelling, skiing, skateboarding
 
-In Norse mythology, which is your favourite character and story?
+**In Norse mythology, which is your favourite character and story?**
 
 I'm not that well versed in Norse mythology
 
-I never really got to hear stories or study it growing up, I grew up listening to stories from the Kalevala and finnish myths..
+I never really got to hear stories or study it growing up, I grew up listening to stories from the Kalevala and Finnish myths..
 
 Ukko (Tor) the thunder god is my favourite.
 
-What are you listening to right now?
+**What are you listening to right now?**
 
 A playlist filled with death metal, Finnish rock and punk and random songs I like
 
-Which is your preferred poison?
+**Which is your preferred poison?**
 
 Caffeine for sure! Fast food takes second place.
 
-Which is your dream concert to play?
+**Which is your dream concert to play?**
 
 All of them! Wacken would be pretty cool though.
 
-Anything you want to add?
+**Anything you want to add?**
 
 A Huge thank you to the guys in the band for giving me this opportunity to play music again! And thanks to all the fans, hope to meet you on the road soon!!!
 
