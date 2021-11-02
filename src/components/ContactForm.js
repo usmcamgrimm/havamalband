@@ -8,7 +8,7 @@ import styled from '@emotion/styled'
 
 const FormWrapper = styled.div`
   margin: 0 auto;
-  width: 60%;
+  width: 70%;
   @media (max-width: 768px) {
     width: 100%;
     padding: 12px;
