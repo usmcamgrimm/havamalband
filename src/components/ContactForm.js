@@ -75,10 +75,13 @@ export default function ContactForm() {
           className="flex flex-col justify-center items:center;"
           name="contactForm"
           data-netlify={true}
+          data-netlify-honeypot="bot-field"
           css={css`
             width: 100%;
           `}
         >
+          <Field type="hidden" name="contactForm" />
+          <field type="hidden" name="bot-field" />
           <label htmlFor="name">
             <p
               css={css`
