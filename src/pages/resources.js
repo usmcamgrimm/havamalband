@@ -1,6 +1,7 @@
 import React from 'react'
+import { StaticImage } from 'gatsby-plugin-image'
 import Layout from '../components/layout'
-import ContactForm from '../components/ContactForm'
+import ContactForm from '../components/ContactForm/ContactForm'
 import ContactInfo from '../components/ContactInfo'
 import Merch from '../components/Merch'
 import Horde from '../components/Horde'
@@ -82,6 +83,7 @@ export default function resources() {
           display: flex;
           flex-direction: row;
           justify-content: space-evenly;
+          align-items: center;
           @media screen and (max-width: 500px) {
             flex-direction: column;
             justify-content: center;
@@ -90,6 +92,27 @@ export default function resources() {
       >
         <div id="merch">
           <Merch />
+        </div>
+
+        <div 
+          id="logo"
+          css={css`
+            @media screen and (max-width: 1023px) {
+              display: none;
+            }
+          `}
+        >
+          <StaticImage
+            src="../resources/images/havamal_logo.png"
+            alt="Havamal logo"
+            placeholder="blurred"
+            layout="constrained"
+            css={css`
+              max-width: 200px;
+              height: auto;
+              z-index: 1;
+            `}
+          />
         </div>
 
         <div id="hordes">

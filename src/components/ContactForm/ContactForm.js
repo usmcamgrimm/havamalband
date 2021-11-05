@@ -90,6 +90,7 @@ export default function ContactForm() {
                 color: #ffffff;
                 margin-bottom: 0;
               `}>Your Name</p>
+            <ErrorMessage name="name" css={css`color: #ce1126;`} />
           </label>
           <Field
             css={css`
@@ -106,7 +107,6 @@ export default function ContactForm() {
             type="text"
             placeholder="Name"
           />
-          <ErrorMessage name="name" />
 
           <label htmlFor="email">
             <p
@@ -116,6 +116,7 @@ export default function ContactForm() {
                 color: #ffffff;
                 margin-bottom: 0;
               `}>Email Address</p>
+            <ErrorMessage name="email" />
           </label>
           <Field
             css={css`
@@ -132,7 +133,6 @@ export default function ContactForm() {
             type="email"
             placeholder="Email address"
           />
-          <ErrorMessage name="email" />
 
           <label htmlFor="message">
             <p
@@ -142,6 +142,7 @@ export default function ContactForm() {
                 color: #ffffff;
                 margin-bottom: 0;
               `}>Message</p>
+            <ErrorMessage name="message" />
           </label>
           <Field
             css={css`
@@ -160,7 +161,6 @@ export default function ContactForm() {
             name="message"
             placeholder="Type your message to Havamal..."
           />
-          <ErrorMessage name="message" />
 
           <div className="mt-4">
             <SubmitBtn
