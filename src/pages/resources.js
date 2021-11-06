@@ -83,7 +83,6 @@ export default function resources() {
           display: flex;
           flex-direction: row;
           justify-content: space-evenly;
-          align-items: center;
           @media screen and (max-width: 500px) {
             flex-direction: column;
             justify-content: center;
@@ -94,7 +93,7 @@ export default function resources() {
           <Merch />
         </div>
 
-        <div 
+        {/* <div 
           id="logo"
           css={css`
             @media screen and (max-width: 1023px) {
@@ -108,12 +107,13 @@ export default function resources() {
             placeholder="blurred"
             layout="constrained"
             css={css`
-              max-width: 200px;
+              max-width: 400px;
               height: auto;
-              z-index: 1;
+              z-index: 10;
+              margin-top: 36px;
             `}
           />
-        </div>
+        </div> */}
 
         <div id="hordes">
           <Horde />
