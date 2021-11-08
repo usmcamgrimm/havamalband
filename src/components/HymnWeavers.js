@@ -12,7 +12,7 @@ const Band = styled.div`
   padding: 0;
   width: 80%;
   margin: 0 auto;
-  @media screen and (max-width: 500px) {
+  @media screen and (max-width: 768px) {
     display: flex;
     justify-content: center;
     align-items: center;
