@@ -2,6 +2,7 @@ import React from 'react'
 import { Formik, Form, Field, ErrorMessage } from 'formik'
 import * as Yup from 'yup'
 import { navigate } from 'gatsby'
+import './form.css'
 
 import { css } from '@emotion/react'
 import styled from '@emotion/styled'
