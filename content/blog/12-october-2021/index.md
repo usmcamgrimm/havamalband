@@ -1,5 +1,5 @@
 ---
-title: 12 October 2021
+title: 12 November 2021
 date: 2021-11-12T09:23:01.429Z
 author: Havamal
 thumbnail: 12nov2021.jpg
@@ -57,5 +57,7 @@ Wacken open air is of course a dream concert, but also Sabaton open air and Swed
 I would like to thank all all of our fans that has supported us over the year! You are the ones that have inspired us! Huge thanks to all of you!
 
 
+
+Photo: \[Tobias Myllynen](https://www.facebook.com/tobias.myllynen/)
 
 ![](12nov2021.jpg)
