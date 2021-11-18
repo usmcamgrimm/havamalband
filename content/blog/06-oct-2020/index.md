@@ -1,5 +1,5 @@
 ---
-title: 06 Oct 2020
+title: 06 October 2020
 date: 2020-10-06T16:08:12.517Z
 author: Art Gates Records
 thumbnail: 6oct2020.jpg
