@@ -1,5 +1,5 @@
 ---
-title: 20 Dec 2020
+title: 20 December 2020
 date: 2020-12-20T17:20:58.547Z
 author: Havamal
 thumbnail: 20dec2020.jpg
