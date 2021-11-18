@@ -9,4 +9,4 @@ jobs:
       - name: Lighthouse
         uses: foo-software/lighthouse-check-action@master
         with:
-          url: "https://havamalband.com"
+          urls: "https://havamalband.com"
