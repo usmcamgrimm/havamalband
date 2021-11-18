@@ -1,5 +1,5 @@
 ---
-title: 14 Feb 2021
+title: 14 February 2021
 date: 2021-02-14T17:13:47.331Z
 author: Havamal
 thumbnail: 14feb2021.jpg
