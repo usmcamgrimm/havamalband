@@ -1,5 +1,5 @@
 ---
-title: 02 Aug 2021
+title: 02 August 2021
 date: 2021-08-02T16:25:14.717Z
 author: Havamal
 thumbnail: 2aug2021.jpg
