@@ -1,5 +1,5 @@
 ---
-title: 30 Aug 2020
+title: 30 August 2020
 date: 2020-08-30T16:20:41.710Z
 author: Havamal
 thumbnail: 30aug2020.jpg
