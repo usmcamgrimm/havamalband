@@ -1,5 +1,5 @@
 ---
-title: 25 Oct 2020
+title: 25 October 2020
 date: 2020-10-25T16:17:19.177Z
 author: Havamal
 thumbnail: 25oct2020.jpg
