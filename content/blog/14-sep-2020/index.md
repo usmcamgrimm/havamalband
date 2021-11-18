@@ -1,5 +1,5 @@
 ---
-title: 14 Sep 2020
+title: 14 September 2020
 date: 2020-09-14T16:14:11.755Z
 author: Havamal
 thumbnail: 14sep2020.jpg
