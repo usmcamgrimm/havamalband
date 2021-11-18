@@ -1,5 +1,5 @@
 ---
-title: 30 Aug 2021
+title: 30 August 2021
 date: 2021-08-30T16:21:09.650Z
 author: Havamal
 thumbnail: 30aug2021.jpg
