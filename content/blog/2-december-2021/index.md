@@ -1,5 +1,5 @@
 ---
-title: 2 December 2021
+title: 02 December 2021
 date: 2021-12-02T10:45:09.236Z
 author: Havamal
 thumbnail: spotify_2021.jpg
