@@ -17,3 +17,5 @@ jobs:
         with:
           name: Lighthouse reports
           path: /tmp/artifacts
+          accessToken: ${{ secrets.LIGHTHOUSE_CHECK_GITHUB_ACCESS_TOKEN }}
+          outputDirectory: /tmp/artifacts
