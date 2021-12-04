@@ -1,0 +1,16 @@
+name: Lighthouse
+on: [pull_request]
+
+jobs:
+  lighthouse:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@master
+      - run: mkdir -p ${{ github.workspace }}/tmp/artifacts
+      - name: Run Lighthouse
+        uses: foo-software/lighthouse-check-action@master
+        with:
+          prCommentEnabled: True
+          gitHubAccessToken: ${{ secrets.LIGHTHOUSE_CHECK_GITHUB_ACCESS_TOKEN }}
+          outputDirectory: ${{ github.workspace }}/tmp/artifacts
+          urls: "https://www.havamalband.com,https://havamal-v6.netlify.app"
