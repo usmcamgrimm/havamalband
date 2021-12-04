@@ -16,6 +16,5 @@ jobs:
         uses: actions/upload-artifact@master
         with:
           name: Lighthouse reports
-          path: /tmp/artifacts
-          accessToken: ${{ secrets.LIGHTHOUSE_CHECK_GITHUB_ACCESS_TOKEN }}
+          gitHubAccessToken: ${{ secrets.LIGHTHOUSE_CHECK_GITHUB_ACCESS_TOKEN }}
           outputDirectory: /tmp/artifacts
