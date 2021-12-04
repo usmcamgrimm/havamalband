@@ -1,8 +1,8 @@
-name: Lighthouse
+name: Lighthouse Check
 on: [pull_request]
 
 jobs:
-  lighthouse:
+  lighthouse-check:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@master
@@ -10,11 +10,10 @@ jobs:
       - name: Run Lighthouse
         uses: foo-software/lighthouse-check-action@master
         with:
-          gitHubAccessToken: ${{ secrets.LIGHTHOUSE_CHECK_GITHUB_ACCESS_TOKEN }}
           outputDirectory: /tmp/artifacts
           urls: "https://www.havamalband.com,https://havamal-v6.netlify.app"
       - name: Upload artifacts
         uses: actions/upload-artifact@master
         with:
-        name: Lihghthouse reports
-        path: /tmp/artifacts
+          name: Lighthouse reports
+          path: /tmp/artifacts
