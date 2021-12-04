@@ -6,11 +6,15 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@master
-      - run: mkdir -p ${{ github.workspace }}/tmp/artifacts
+      - run: mkdir /tmp/artifacts
       - name: Run Lighthouse
         uses: foo-software/lighthouse-check-action@master
         with:
-          prCommentEnabled: True
           gitHubAccessToken: ${{ secrets.LIGHTHOUSE_CHECK_GITHUB_ACCESS_TOKEN }}
-          outputDirectory: ${{ github.workspace }}/tmp/artifacts
+          outputDirectory: /tmp/artifacts
           urls: "https://www.havamalband.com,https://havamal-v6.netlify.app"
+      - name: Upload artifacts
+        uses: actions/upload-artifact@master
+        with:
+        name: Lihghthouse reports
+        path: /tmp/artifacts
