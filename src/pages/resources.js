@@ -1,5 +1,4 @@
 import React from 'react'
-import { StaticImage } from 'gatsby-plugin-image'
 import Layout from '../components/layout'
 import ContactForm from '../components/ContactForm/ContactForm'
 import ContactInfo from '../components/ContactInfo'
@@ -92,28 +91,6 @@ export default function resources() {
         <div id="merch">
           <Merch />
         </div>
-
-        {/* <div 
-          id="logo"
-          css={css`
-            @media screen and (max-width: 1023px) {
-              display: none;
-            }
-          `}
-        >
-          <StaticImage
-            src="../resources/images/havamal_logo.png"
-            alt="Havamal logo"
-            placeholder="blurred"
-            layout="constrained"
-            css={css`
-              max-width: 400px;
-              height: auto;
-              z-index: 10;
-              margin-top: 36px;
-            `}
-          />
-        </div> */}
 
         <div id="hordes">
           <Horde />
