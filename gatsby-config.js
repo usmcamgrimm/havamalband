@@ -3,11 +3,9 @@ require('dotenv').config();
 module.exports = {
   siteMetadata: {
     title: `Havamal`,
-    author: {
-      name: `Adrian Grimm`,
-      summary: `Website for the Swedish band Havamal.`,
-      siteUrl: "https://www.havamalband.com",
-    },
+    author: `Adrian Grimm`,
+    summary: `Website for the Swedish band Havamal. The hymn-weavers spin tales of the Gods and of Vikings, set in crushing melodic death metal. Discography includes Call of the North, Tales From Yggdrasil, and The Shadow Chapter.`,
+    url: "https://www.havamalband.com",
   },
   plugins: [
     `gatsby-plugin-image`,
