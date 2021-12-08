@@ -21,4 +21,4 @@ What started as a project for the VetsWhoCode cohort is ever-evolving and is now
 
 I wasn't happy with the result and felt limited. I decided to re-write the project in Gatsby so I could work with React and incorporate some features from Gatsby. My goal was to learn different technologies while improving the speed and usability of the website.
 
-While upgrading the project to Gatsby version 3, I chose to use NetlifyCMS instead of Sanity and traded TailwindCSS for Emotion.
+While upgrading the project to Gatsby version 3, I chose to use NetlifyCMS instead of Sanity, dropped Tailwind, and added Emotion.
