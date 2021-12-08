@@ -1,5 +1,5 @@
 ---
-title: 8 December 2021
+title: 08 December 2021
 date: 2021-12-08T09:20:27.503Z
 author: Havamal
 thumbnail: 8dec2021.jpg
