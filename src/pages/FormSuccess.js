@@ -17,7 +17,7 @@ const SuccessBox = styled.div`
 `;
 const FormSent = styled.p`
   font-family: grenze;
-  color: #ffcd00;
+  color: #66add9;
   font-size: clamp(1.5rem, 5vw, 2.2rem);
   text-align: center;
 `;
