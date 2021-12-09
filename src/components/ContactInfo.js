@@ -30,7 +30,7 @@ export default function ContactInfo() {
         <p>Havamal Official on Facebook</p>
         </a>
         <a 
-          href="havamal@email.com"
+          href="mailto:havamal@email.com"
           aria-label="Havamal Email"
           css={css`
             text-decoration: none;
