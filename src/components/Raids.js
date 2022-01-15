@@ -70,26 +70,6 @@ export default function Raids() {
         }
       `}>Upcoming Raids</h1>
       <RaidWrapper>
-      <RaidContainer
-          as="a"
-          href="https://www.facebook.com/cernunnos.festival/"
-          target="_blank" 
-          rel="noreferrer"
-          css={css`
-            text-decoration: none;
-            &:hover {
-              color: #004b87;
-              transform: scale(1.01);
-            }
-          `}
-        >
-          <DateTitle>20 February 2022</DateTitle>
-          <EventTitle className="event">Cernunnos Pagan Fest</EventTitle>
-          <LocationTitle className="location">La Ferme du Buisson, Noisiel, France</LocationTitle>
-        </RaidContainer>
-
-        <Line />
-
         <RaidContainer
           as="a"
           href="https://www.facebook.com/2228032767282124/posts/3635924743159579/?sfnsn=mo"
@@ -106,6 +86,26 @@ export default function Raids() {
           <DateTitle>28 May 2022</DateTitle>
           <EventTitle className="event">Järfälla Metal Fest</EventTitle>
           <LocationTitle className="location">Fredagsmangel, Järfälla, Sweden</LocationTitle>
+        </RaidContainer>
+
+        <Line />
+
+        <RaidContainer
+          as="a"
+          href="https://www.facebook.com/cernunnos.festival/"
+          target="_blank" 
+          rel="noreferrer"
+          css={css`
+            text-decoration: none;
+            &:hover {
+              color: #004b87;
+              transform: scale(1.01);
+            }
+          `}
+        >
+          <DateTitle>2023</DateTitle>
+          <EventTitle className="event">Cernunnos Pagan Fest</EventTitle>
+          <LocationTitle className="location">La Ferme du Buisson, Noisiel, France</LocationTitle>
         </RaidContainer>
       </RaidWrapper>
     </>
