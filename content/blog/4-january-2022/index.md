@@ -22,8 +22,8 @@ Marbled vinyl editions limited to 100 copies each one! Also including:
 
 ![Exclusive Green Vinyl Edition](4jan2022.jpg)
 
-![▶](https://static.xx.fbcdn.net/images/emoji.php/v9/t40/1/16/25b6.png) Exclusive Blue Vinyl Edition: [https://artgatesrecords.com/.../havamal-the-shadow...](https://artgatesrecords.com/store/en/inicio/havamal-the-shadow-chapter-exclusive-blue-vinyl-edition-preorder?fbclid=IwAR3P_g_RBIYPD14LCdFW5Uiu-lQjj_dPeBXPyi4lwlm3jJqETducljSuaVY)
+![▶]()
 
-![▶](https://static.xx.fbcdn.net/images/emoji.php/v9/t40/1/16/25b6.png) Exclusive Bundle Vinyl Edition: [https://artgatesrecords.com/.../havamal-the-shadow...](https://artgatesrecords.com/store/en/inicio/havamal-the-shadow-chapter-exclusive-bundle-vinyl-edition-preorder?fbclid=IwAR0zJCdhyJQo3PZw4znYyIp4lSpYfvfu5onpohDvtE8L3u89MOt_MMT6ZkA)
+![]()
 
-[![May be an image of text](https://scontent.fpit1-1.fna.fbcdn.net/v/t39.30808-6/p526x296/271242876_344523234344895_6452544509916895071_n.jpg?_nc_cat=101&ccb=1-5&_nc_sid=730e14&_nc_ohc=AdSwlpLdBSYAX8dYR-D&_nc_oc=AQkQ0afyRbiyEB1SFm3qPtg4cd2soap6TR0q6K53cZOLKfC7qYlc04M9AwQ3NQ3py8w&_nc_ht=scontent.fpit1-1.fna&oh=00_AT_iv7ypwplyeQf-EgJUrYHio7oIDcfG5EVY-IRmhZx-4A&oe=61DB6653)](https://www.facebook.com/photo/?fbid=344523241011561&set=a.163914462405774&__cft__[0]=AZWlNBbyv7kvw3V2CvDNY1XDgyIvUawMF9thamawua--ONv9PWiOFtFDLgeN9VjQcA5LaDJ9ZwdX7ppmPbDdk_7mj4IMPvozmsrK2JT7hHtzsUPeuHW2kpI5OdXunF312gSyY-Rov_JXDUJFV74YD3tYYR7-6iW8d_NrD4K1e3RR2g&__tn__=EH-R)
+[](https://www.facebook.com/photo/?fbid=344523241011561&set=a.163914462405774&__cft__[0]=AZWlNBbyv7kvw3V2CvDNY1XDgyIvUawMF9thamawua--ONv9PWiOFtFDLgeN9VjQcA5LaDJ9ZwdX7ppmPbDdk_7mj4IMPvozmsrK2JT7hHtzsUPeuHW2kpI5OdXunF312gSyY-Rov_JXDUJFV74YD3tYYR7-6iW8d_NrD4K1e3RR2g&__tn__=EH-R)
