@@ -34,7 +34,7 @@ Follow the links below and take a look for yourself!
 
 [https://artgatesrecords.com/.../havamal-the-shadow...](https://artgatesrecords.com/store/en/inicio/havamal-the-shadow-chapter-exclusive-blue-vinyl-edition-preorder?fbclid=IwAR0Ahy4dqVwgZYEoruNh01-S-L3jFt0EsWGlM4RrQEyhLGirxQ9zIkWQGf0)
 
-![▶](https://static.xx.fbcdn.net/images/emoji.php/v9/t40/1/16/25b6.png) Exclusive Bundle Vinyl Edition: [https://artgatesrecords.com/.../havamal-the-shadow...](https://artgatesrecords.com/store/en/inicio/havamal-the-shadow-chapter-exclusive-bundle-vinyl-edition-preorder?fbclid=IwAR3kEHRRI-XbTEQYOBqou_DzuKAHxV24-ojZL5rREyU5oAuhivHNjH8x4Xg)
+![Exclusive Bundle Vinyl Edition](23jan2022.jpg)
 
 So hurry up and pick one up before you need to oath yourself into a Holmgang with your fellow heathen warrior to claim one of these beauties!
 
