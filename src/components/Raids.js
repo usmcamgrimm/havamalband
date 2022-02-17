@@ -72,6 +72,26 @@ export default function Raids() {
       <RaidWrapper>
         <RaidContainer
           as="a"
+          href="https://fb.me/e/1AFbddTuV"
+          target="_blank" 
+          rel="noreferrer"
+          css={css`
+            text-decoration: none;
+            &:hover {
+              color: #004b87;
+              transform: scale(1.01);
+            }
+          `}
+        >
+          <DateTitle>15 April 2022</DateTitle>
+          <EventTitle className="event">Live at Club Fredagsmangel</EventTitle>
+          <LocationTitle className="location">Fredagsmangel, Järfälla, Sweden</LocationTitle>
+        </RaidContainer>
+
+        <Line />
+
+        <RaidContainer
+          as="a"
           href="https://www.facebook.com/2228032767282124/posts/3635924743159579/?sfnsn=mo"
           target="_blank" 
           rel="noreferrer"
