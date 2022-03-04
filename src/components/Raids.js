@@ -123,9 +123,29 @@ export default function Raids() {
             }
           `}
         >
-          <DateTitle>23/24 Sept 2022</DateTitle>
+          <DateTitle>23 Sept 2022</DateTitle>
           <EventTitle className="event">Thorshammer Festival</EventTitle>
           <LocationTitle className="location">Glider airfield, 98527 Suhl-Goldlauter</LocationTitle>
+        </RaidContainer>
+
+        <Line />
+
+        <RaidContainer
+          as="a"
+          href="https://www.coastrock-festival.de/de/blog/2022/03/04/ahoi-havamal-sind-an-bord/"
+          target="_blank" 
+          rel="noreferrer"
+          css={css`
+            text-decoration: none;
+            &:hover {
+              color: #004b87;
+              transform: scale(1.01);
+            }
+          `}
+        >
+          <DateTitle>24 Sept 2022</DateTitle>
+          <EventTitle className="event">Coastrock Festival</EventTitle>
+          <LocationTitle className="location">Suurhusen, Emden, Germany</LocationTitle>
         </RaidContainer>
 
         <Line />
