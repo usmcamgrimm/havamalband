@@ -31,6 +31,7 @@
     "gatsby-remark-smartypants": "^5.3.0",
     "gatsby-source-cloudinary": "^0.1.14",
     "gatsby-source-filesystem": "^4.3.0",
+    "gatsby-transformer-json": "^4.9.0",
     "gatsby-transformer-remark": "^5.3.0",
     "gatsby-transformer-sharp": "^4.3.0",
     "netlify-cms-app": "^2.15.60",
