@@ -67,6 +67,7 @@ export default function Saga() {
             color: #66add9;
             text-align: center;
             margin-top: 4rem;
+            letter-spacing: 3px;
         `}>Hail Havamal!</h1>
         </SagaContainer>
       </section>
