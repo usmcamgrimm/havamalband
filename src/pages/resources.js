@@ -14,7 +14,7 @@ const ContactContainer = styled.div`
   align-items: center;
   background: rgba(0, 0, 0, 0.6);
   border-radius: 5px;
-  width: 60%;
+  width: 70%;
   margin: 0 auto;
   padding-top: 3rem;
   box-shadow: 6px 6px 12px #000000;
