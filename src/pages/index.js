@@ -2,7 +2,7 @@ import React from 'react'
 import { StaticImage } from 'gatsby-plugin-image'
 import Layout from "../components/layout"
 import LinkLayout from '../components/LinkLayout'
-import Raids from '../components/Raids'
+import Raids from '../components/Raids/Raids'
 import HavamalVideo from '../components/SingleVideo'
 
 import { css } from '@emotion/react'
