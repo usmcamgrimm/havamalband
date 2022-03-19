@@ -1,4 +1,5 @@
 import React from 'react'
+import JSONData from './raids.json'
 
 import { css } from '@emotion/react'
 import styled from '@emotion/styled'
@@ -69,105 +70,28 @@ export default function Raids() {
           margin-bottom: 32px;
         }
       `}>Upcoming Raids</h1>
-      <RaidWrapper>
-        <RaidContainer
-          as="a"
-          href="https://fb.me/e/1AFbddTuV"
-          target="_blank" 
-          rel="noreferrer"
-          css={css`
-            text-decoration: none;
-            &:hover {
-              color: #004b87;
-              transform: scale(1.01);
-            }
-          `}
-        >
-          <DateTitle>15 April 2022</DateTitle>
-          <EventTitle className="event">Live at Club Fredagsmangel</EventTitle>
-          <LocationTitle className="location">Fredagsmangel, Järfälla, Sweden</LocationTitle>
-        </RaidContainer>
-
-        <Line />
-
-        <RaidContainer
-          as="a"
-          href="https://www.facebook.com/2228032767282124/posts/3635924743159579/?sfnsn=mo"
-          target="_blank" 
-          rel="noreferrer"
-          css={css`
-            text-decoration: none;
-            &:hover {
-              color: #004b87;
-              transform: scale(1.01);
-            }
-          `}
-        >
-          <DateTitle>28 May 2022</DateTitle>
-          <EventTitle className="event">Järfälla Metal Fest</EventTitle>
-          <LocationTitle className="location">Fredagsmangel, Järfälla, Sweden</LocationTitle>
-        </RaidContainer>
-
-        <Line />
-
-        <RaidContainer
-          as="a"
-          href="https://www.all-for-you-events.com/thorshammer"
-          target="_blank" 
-          rel="noreferrer"
-          css={css`
-            text-decoration: none;
-            &:hover {
-              color: #004b87;
-              transform: scale(1.01);
-            }
-          `}
-        >
-          <DateTitle>23 Sept 2022</DateTitle>
-          <EventTitle className="event">Thorshammer Festival</EventTitle>
-          <LocationTitle className="location">Glider airfield, 98527 Suhl-Goldlauter</LocationTitle>
-        </RaidContainer>
-
-        <Line />
-
-        <RaidContainer
-          as="a"
-          href="https://www.coastrock-festival.de/de/blog/2022/03/04/ahoi-havamal-sind-an-bord/"
-          target="_blank" 
-          rel="noreferrer"
-          css={css`
-            text-decoration: none;
-            &:hover {
-              color: #004b87;
-              transform: scale(1.01);
-            }
-          `}
-        >
-          <DateTitle>24 Sept 2022</DateTitle>
-          <EventTitle className="event">Coastrock Festival</EventTitle>
-          <LocationTitle className="location">Suurhusen, Emden, Germany</LocationTitle>
-        </RaidContainer>
-
-        <Line />
-
-        <RaidContainer
-          as="a"
-          href="https://www.facebook.com/cernunnos.festival/"
-          target="_blank" 
-          rel="noreferrer"
-          css={css`
-            text-decoration: none;
-            &:hover {
-              color: #004b87;
-              transform: scale(1.01);
-            }
-          `}
-        >
-          <DateTitle>2023</DateTitle>
-          <EventTitle className="event">Cernunnos Pagan Fest</EventTitle>
-          <LocationTitle className="location">La Ferme du Buisson, Noisiel, France</LocationTitle>
-        </RaidContainer>
-      </RaidWrapper>
+      {JSONData.raids.map((raids, index) => {
+        return <RaidWrapper key={`raids_id_${index}`}>
+          <RaidContainer
+              as="a"
+              href={raids.link}
+              target="_blank" 
+              rel="noreferrer"
+              css={css`
+                text-decoration: none;
+                &:hover {
+                  color: #004b87;
+                  transform: scale(1.01);
+                }
+              `}
+            >
+              <DateTitle>{raids.date}</DateTitle>
+              <EventTitle className="event">{raids.event}</EventTitle>
+              <LocationTitle className="location">{raids.location}</LocationTitle>
+            </RaidContainer>
+            <Line />
+        </RaidWrapper>
+      })}
     </>
   )
 }

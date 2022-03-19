@@ -26,14 +26,6 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        name: `raids`,
-        path: `${__dirname}/src/components/Raids`,
-        typeName: `Json`,
-      }
-    },
-    {
       resolve: `gatsby-transformer-remark`,
       options: {
         plugins: [
