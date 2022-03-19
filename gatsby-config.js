@@ -11,6 +11,25 @@ module.exports = {
     `gatsby-plugin-image`,
     `gatsby-plugin-emotion`,
     `gatsby-plugin-netlify-cms`,
+    `gatsby-plugin-netlify`,
+    {
+      resolve: `gatsby-plugin-google-gtag`,
+      options: {
+        trackingIds: [
+          "GA_TRACKING_ID",
+        ],
+        gtagConfig: {
+          optimize_id: "OPT_CONTAINER_ID",
+          anonymize_ip: true,
+          cookie_expires: 0,
+        },
+        pluginConfig: {
+          head: false,
+          respectDNT: true,
+          exclude: ["/preview/**", "/do-not-track/me/too/"],
+        }
+      }
+    },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -49,12 +68,6 @@ module.exports = {
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
-    // {
-    //   resolve: `gatsby-plugin-google-analytics`,
-    //   options: {
-    //     trackingId: `ADD YOUR TRACKING ID HERE`,
-    //   },
-    // },
     {
       resolve: `gatsby-plugin-manifest`,
       options: {

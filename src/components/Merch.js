@@ -11,7 +11,7 @@ const MerchWrapper = styled.div`
 const MerchLink = styled.a`
   font-family: grenze;
   text-decoration: none;
-  font-size: 1.4rem;
+  font-size: 1.5rem;
   color: #ffffff;
   &:hover {
     color: #004b87;

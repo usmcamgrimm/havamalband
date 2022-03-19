@@ -59,7 +59,7 @@ export default function Saga() {
             Signed by Art Gates Records in 2019, the first full-length album, <strong>Tales From Yggdrasil</strong>, was released. Once again proving their musical prowess, Havamal unleashed many raids throughout their home country and spread their music. Hopefully we will soon see Havamal set sail on their longships, expanding their reach and raiding across the globe.
           </SagaText>
           <SagaText>
-            Havamal's second full-length album, <strong>The Shadow Chapter</strong>, was released in May 2021. Entering into a new alliance with Hell Frog Promotion, Havamal's musical raids are spreading anew! Having conducted a raid at <strong>Raise Your Horns</strong>, the hymn-weavers look to expand their influence even further!
+            Havamal's second full-length album, <strong>The Shadow Chapter</strong>, was released in May 2021. Entering into a new alliance with Hell Frog Promotion, Havamal's musical raids are spreading anew! Having conducted a raid at <strong>Raise Your Horns</strong>, the hymn-weavers look to expand their influence even further! Havamal will be invading Germany later this year, conducting a raid at <strong>Thorshammer Festival</strong>, followed the next day by an appearance at <strong>Coastrock Festival</strong>! 
           </SagaText>
           <h1 css={css`
             font-family: Norse;
@@ -67,6 +67,7 @@ export default function Saga() {
             color: #66add9;
             text-align: center;
             margin-top: 4rem;
+            letter-spacing: 3px;
         `}>Hail Havamal!</h1>
         </SagaContainer>
       </section>
