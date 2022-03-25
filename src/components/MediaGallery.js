@@ -40,8 +40,8 @@ const options = {
     showCaption: false,
   },
   progressBar: {
-    backgroundColor: '#004b87',
-    fillColor: '#ffcd00',
+    backgroundColor: '#005293',
+    fillColor: '#fecb00',
     height: '2px',
   }
 }

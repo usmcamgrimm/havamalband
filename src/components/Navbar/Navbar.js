@@ -41,11 +41,11 @@ const NavBar = styled.nav`
   justify-content: center;
   align-items: center;
   z-index: 2;
-  background-image: linear-gradient(to right, rgba(0, 75, 135,0), rgba(0, 75, 135,1), rgba(0, 75, 135,0));
+  background-image: linear-gradient(to right, rgba(0, 82, 147, 0), rgba(0, 82, 147, 1), rgba(0, 82, 147, 0));
   padding: 0.25rem 0 0.5rem 0;
   @media screen and (max-width: 768px) {
     background-image: none;
-    background-color: #002f54;
+    background-color: #005293;
     position: sticky;
     height: 4rem;
     top: 0;
@@ -75,7 +75,7 @@ const NavLinksContainer = styled.div`
     width: 100%;
     justify-content: flex-start;
     padding-top: 2rem;
-    background-color: #002f54;
+    background-color: #005293;
     transition: all 0.3s ease-in;
     top: 3.5rem;
     left: ${props => (props.open ? "-100%" : "0")};

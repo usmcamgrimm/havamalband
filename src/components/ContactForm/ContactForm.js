@@ -16,9 +16,9 @@ const FormWrapper = styled.div`
   }
 `;
 const SubmitBtn = styled.button`
-  background: #004b87;
+  background: #005293;
   font-family: grenze;
-  color: #ffcd00;
+  color: #fecb00;
   font-size: 1.1rem;
   tex-align: center;
   padding: 12px;
