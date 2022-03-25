@@ -12,7 +12,7 @@ export default function NavLinks() {
       <NavLink to="/saga">Saga</NavLink>
       <a href="../#raids"
         css={css`
-          color: #ffcd00;
+          color: #fecb00;
           font-family: grenze;
           font-size: 1.25rem;
           text-decoration: none;
@@ -36,7 +36,7 @@ export default function NavLinks() {
 }
 
 const NavLink = styled(Link)`
-  color: #ffcd00;
+  color: #fecb00;
   font-family: grenze;
   font-size: 1.25rem;
   text-decoration: none;

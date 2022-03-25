@@ -80,7 +80,7 @@ export default function Raids() {
               css={css`
                 text-decoration: none;
                 &:hover {
-                  color: #004b87;
+                  color: #005293;
                   transform: scale(1.01);
                 }
               `}

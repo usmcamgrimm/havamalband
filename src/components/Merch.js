@@ -14,7 +14,7 @@ const MerchLink = styled.a`
   font-size: 1.5rem;
   color: #ffffff;
   &:hover {
-    color: #004b87;
+    color: #005293;
     transform: scale(1.1);
   }
 `;

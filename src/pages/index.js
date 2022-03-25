@@ -73,7 +73,7 @@ export default function Index() {
           text-align: center;
           margin-top: 2rem;
           margin-bottom: 2rem;
-        `}>Follow Havamal:</h1>
+        `}>Follow Havamal</h1>
         <LinkLayout />
       </section>
 
