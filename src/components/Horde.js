@@ -28,13 +28,13 @@ export default function Horde() {
         target="_blank" 
         rel="noreferrer" 
         aria-label="Hordes of Havamal"
-        css={css`cursor: crosshair`}
       >
         <StaticImage
           src="../resources/icons/horde.png"
           alt="Hordes of Havamal banner link"
           layout="constrained"
           width={250}
+          css={css`border-radius: 5px;`}
         />
       </a>
     </JoinHorde>
