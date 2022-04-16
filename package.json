@@ -8,10 +8,10 @@
     "url": "https://github.com/gatsbyjs/gatsby/issues"
   },
   "dependencies": {
-    "@emotion/react": "^11.8.2",
+    "@emotion/react": "^11.9.0",
     "@emotion/styled": "^11.8.1",
-    "@fontsource/grenze": "^4.5.2",
-    "@fontsource/roboto": "^4.5.3",
+    "@fontsource/grenze": "^4.5.5",
+    "@fontsource/roboto": "^4.5.5",
     "dotenv": "^16.0.0",
     "formik": "^2.2.9",
     "gatsby": "^4.9.3",
@@ -45,7 +45,7 @@
   },
   "devDependencies": {
     "gatsby-plugin-netlify": "^4.1.0",
-    "prettier": "^2.6.0"
+    "prettier": "^2.6.2"
   },
   "homepage": "https://github.com/gatsbyjs/gatsby-starter-blog#readme",
   "keywords": [
