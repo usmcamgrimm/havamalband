@@ -12,4 +12,8 @@ Einherjars and Valkyries of Odin's wisdom, heed! Rave now brings even more whisp
 <https://youtu.be/3puwHUHXEd8>\
 (Empire of the Ashen Sun, filmed by Åke Tireland)
 
-Hail the camera warriors and the audience warriors! Hail Manglet! Hail the live shows! Hail Odin's infinite wisdom! Hail the hymn-weavers! Hail Havamal! Photos by  the eminent Åke Tireland!
+Hail the camera warriors and the audience warriors! Hail Manglet! Hail the live shows! Hail Odin's infinite wisdom! Hail the hymn-weavers! Hail Havamal! Photos by the eminent Åke Tireland!
+
+Link to photos:
+
+<https://m.facebook.com/story.php?story_fbid=10228288326252440&id=1207132206>
