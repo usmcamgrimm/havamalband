@@ -7,6 +7,18 @@ import Seo from "../components/seo"
 import { css } from '@emotion/react'
 import styled from '@emotion/styled'
 
+const SectionHeader = styled.dev`
+  font-family: Norse;
+  font-size: 3rem;
+  font-weight: normal;
+  color: #66add9;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+`;
+
 const PostDesc = styled.p`
   color: #ffffff;
   width: 80%;
@@ -32,6 +44,9 @@ const BlogIndex = ({ data, location }) => {
   return (
     <Layout location={location} title={siteTitle}>
       <Seo title="All posts" />
+      <SectionHeader>
+        Havamal Updates
+      </SectionHeader>
       <ol style={{ listStyle: `none` }}>
         {posts.map(post => {
           const title = post.frontmatter.title || post.fields.slug
