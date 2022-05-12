@@ -55,7 +55,7 @@ export default function Index() {
           videoTitle="Nidhöggr"
         />
       </VideoContainer>
-      
+
       <section id="raids"
         css={css`
             padding-bottom: 48px;
@@ -65,25 +65,19 @@ export default function Index() {
       </section>
 
       <section id="linksSection">
-        <h1 css={css`
-          font-family: Norse;
-          font-size: 3rem;
-          font-weight: normal;
-          color: #66add9;
-          text-align: center;
-          margin-top: 2rem;
-          margin-bottom: 2rem;
-        `}>Follow Havamal</h1>
+        <SectionHeader>
+          Follow Havamal
+        </SectionHeader>
         <LinkLayout />
       </section>
 
-    </Layout> 
+    </Layout>
   )
 }
 
 const Welcome = styled.h1`
   font-family: norse;
-  font-size: clamp(1.5rem, 4rem, 5rem);
+  font-size: clamp(3rem, 6vw, 5rem);
   font-weight: normal;
   text-align: center;
   color: #66add9;
@@ -99,3 +93,13 @@ const VideoContainer = styled.div`
   flex-direction: column;
   align-items: center;
 `;
+
+const SectionHeader = styled.h2`
+  font-family: Norse;
+  font-size: 3rem;
+  font-weight: normal;
+  color: #66add9;
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+`
