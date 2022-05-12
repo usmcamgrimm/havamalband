@@ -1,8 +1,18 @@
 import React from 'react'
 import Layout from '../components/layout'
 import HymnWeavers from '../components/HymnWeavers'
-import { css } from '@emotion/react'
+
 import styled from '@emotion/styled'
+
+const SectionHeader = styled.h1`
+  font-family: Norse;
+  font-size: 3rem;
+  font-weight: normal;
+  color: #66add9;
+  text-align: center;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+`;
 
 const SagaContainer = styled.div`
   display: flex;
@@ -15,6 +25,7 @@ const SagaContainer = styled.div`
     width: 90%;
   }
 `;
+
 const SagaText = styled.p`
   font-family: grenze;
   color: #ffffff;
@@ -24,30 +35,18 @@ const SagaText = styled.p`
 export default function Saga() {
   return (
     <Layout>
-      <h1 css={css`
-        font-family: Norse;
-        font-size: 3rem;
-        font-weight: normal;
-        color: #66add9;
-        text-align: center;
-        margin-top: 4rem;
-        margin-bottom: 4rem;
-      `}>The Hymn-Weavers</h1>
+      <SectionHeader>
+        The Hymn-Weavers
+      </SectionHeader>
 
       <section id="band-images">
         <HymnWeavers />
       </section>
 
       <section id="havamal-saga">
-        <h1 css={css`
-          font-family: Norse;
-          font-size: 3rem;
-          font-weight: normal;
-          color: #66add9;
-          text-align: center;
-          margin-top: 4rem;
-          margin-bottom: 2rem;
-        `}>The Havamal Saga</h1>
+        <SectionHeader>
+          The Havamal Saga
+        </SectionHeader>
         <SagaContainer>
           <SagaText>
             Kjell Gilliusson and Lennie Spetze are hailed as the founders of Havamal. They formed the band in Stockholm, Sweden in 2016 and soon invited Björn Larsson. Andreas Herlogsson would join later, after the departure of Rodrigo Valenzuela. Sandra Wallo took over for Pontus Knutsson, until her departure in 2020. Now hail Tino Vesanen on bass!
@@ -59,16 +58,11 @@ export default function Saga() {
             Signed by Art Gates Records in 2019, the first full-length album, <strong>Tales From Yggdrasil</strong>, was released. Once again proving their musical prowess, Havamal unleashed many raids throughout their home country and spread their music. Hopefully we will soon see Havamal set sail on their longships, expanding their reach and raiding across the globe.
           </SagaText>
           <SagaText>
-            Havamal's second full-length album, <strong>The Shadow Chapter</strong>, was released in May 2021. Entering into a new alliance with Hell Frog Promotion, Havamal's musical raids are spreading anew! Having conducted a raid at <strong>Raise Your Horns</strong>, the hymn-weavers look to expand their influence even further! Havamal will be invading Germany later this year, conducting a raid at <strong>Thorshammer Festival</strong>, followed the next day by an appearance at <strong>Coastrock Festival</strong>! 
+            Havamal's second full-length album, <strong>The Shadow Chapter</strong>, was released in May 2021. Entering into a new alliance with Hell Frog Promotion, Havamal's musical raids are spreading anew! Having conducted a raid at <strong>Raise Your Horns</strong>, the hymn-weavers look to expand their influence even further! Havamal will be invading Germany later this year, conducting a raid at <strong>Thorshammer Festival</strong>, followed the next day by an appearance at <strong>Coastrock Festival</strong>!
           </SagaText>
-          <h1 css={css`
-            font-family: Norse;
-            font-size: 3rem;
-            color: #66add9;
-            text-align: center;
-            margin-top: 4rem;
-            letter-spacing: 3px;
-        `}>Hail Havamal!</h1>
+          <SectionHeader>
+            Hail Havamal!
+          </SectionHeader>
         </SagaContainer>
       </section>
     </Layout>

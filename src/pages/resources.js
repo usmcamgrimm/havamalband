@@ -8,6 +8,16 @@ import Horde from '../components/Horde'
 import { css } from '@emotion/react'
 import styled from '@emotion/styled'
 
+const SectionHeader = styled.h1`
+  font-family: Norse;
+  font-size: 3rem;
+  font-weight: normal;
+  color: #66add9;
+  text-align: center;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+`
+
 const ContactContainer = styled.div`
   display: flex;
   flex-flow: row nowrap;
@@ -29,6 +39,16 @@ const ContactContainer = styled.div`
     width: 90%;
   }
 `;
+
+const ContactHeader = styled.p`
+  font-family: grenze;
+  font-size: clamp(1.5rem, 4vw, 2rem);
+  color: #66add9;
+  text-align: center;
+  padding: 12px 1rem;
+  margin-bottom: 12px;
+`;
+
 const ContactBox = styled.div`
   width: 50%;
   display: flex;
@@ -43,29 +63,14 @@ const ContactBox = styled.div`
 export default function resources() {
   return (
     <Layout>
-      <h1 css={css`
-        font-family: Norse;
-        font-size: 3rem;
-        font-weight: normal;
-        color: #66add9;
-        text-align: center;
-        margin-top: 4rem;
-        margin-bottom: 4rem;
-      `}>Contact Information</h1>
+      <SectionHeader>
+        Contact Information
+      </SectionHeader>
 
       <section id="contactArea">
-        <p
-          css={css`
-            font-family: grenze;
-            font-size: clamp(1.5rem, 4vw, 2rem);
-            color: #66add9;
-            text-align: center;
-            padding: 12px 1rem;
-            margin-bottom: 12px;
-          `}
-        >
+        <ContactHeader>
           Complete the form or use the link to send an email to Havamal
-        </p>
+        </ContactHeader>
         <ContactContainer>
           <ContactBox>
             <ContactForm />
@@ -76,7 +81,7 @@ export default function resources() {
         </ContactContainer>
       </section>
 
-      <section 
+      <section
         id="merch_horde"
         css={css`
           display: flex;

@@ -4,6 +4,16 @@ import { StaticImage } from 'gatsby-plugin-image'
 import { css } from '@emotion/react'
 import styled from '@emotion/styled'
 
+const SectionHeader = styled.h1`
+  font-family: Norse;
+  font-size: 3rem;
+  font-weight: normal;
+  color: #66add9;
+  text-align: center;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+`;
+
 const Line = styled.hr`
   width: 48%;
   margin: 0 auto;
@@ -11,12 +21,14 @@ const Line = styled.hr`
   margin-bottom: 2rem;
   border-bottom: 1px solid rgba(147, 147, 147, 0.4);
 `;
+
 const AlbumContainer = styled.div`
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
 `;
+
 const AlbumDetails = styled.div`
   display: flex;
   flex-direction: column;
@@ -25,6 +37,7 @@ const AlbumDetails = styled.div`
     margin-top: 1.5rem;
   }
 `;
+
 const AlbumTitle = styled.h3`
   font-family: grenze;
   color: #ffffff;
@@ -32,6 +45,7 @@ const AlbumTitle = styled.h3`
   margin: 0;
   font-weight: normal;
 `;
+
 const ReleaseInfo = styled.h4`
   font-family: grenze;
   color: #ffffff;
@@ -43,23 +57,17 @@ const ReleaseInfo = styled.h4`
 export default function MusicPage() {
   return (
     <Layout>
-      <h1 css={css`
-        font-family: Norse;
-        font-size: 3rem;
-        font-weight: normal;
-        color: #66add9;
-        text-align: center;
-        margin-top: 4rem;
-        margin-bottom: 4rem;
-      `}>The Hymns of Havamal</h1>
-    <section id="albumsList">
-      <AlbumContainer>
-        <StaticImage
-          src="../resources/albums/tsc.jpg"
-          alt="album cover for The Shadow Chapter"
-          layout="constrained"
-          placeholder="blurred"
-          css={css`
+      <SectionHeader>
+        The Hymns of Havamal
+      </SectionHeader>
+      <section id="albumsList">
+        <AlbumContainer>
+          <StaticImage
+            src="../resources/albums/tsc.jpg"
+            alt="album cover for The Shadow Chapter"
+            layout="constrained"
+            placeholder="blurred"
+            css={css`
             margin-right: 2rem;
             max-width: 500px;
             height: auto;
@@ -69,21 +77,21 @@ export default function MusicPage() {
               max-width: 90%;
             }
           `}
-        />
-        <AlbumDetails>
-          <AlbumTitle>The Shadow Chapter</AlbumTitle>
-          <ReleaseInfo>Art Gates Records | May 2021</ReleaseInfo>
-          <iframe 
-            title="The Shadow Chapter Sample on Spotify" 
-            src="https://open.spotify.com/embed/album/1I4MAMVeh0dqfe0tz1f5Gh" 
-            width="325" 
-            height="360" 
-            frameBorder="0" 
-            allowtransparency="true" 
-            allow="encrypted-media"
-          ></iframe>
-        </AlbumDetails>
-      </AlbumContainer>
+          />
+          <AlbumDetails>
+            <AlbumTitle>The Shadow Chapter</AlbumTitle>
+            <ReleaseInfo>Art Gates Records | May 2021</ReleaseInfo>
+            <iframe
+              title="The Shadow Chapter Sample on Spotify"
+              src="https://open.spotify.com/embed/album/1I4MAMVeh0dqfe0tz1f5Gh"
+              width="325"
+              height="360"
+              frameBorder="0"
+              allowtransparency="true"
+              allow="encrypted-media"
+            ></iframe>
+          </AlbumDetails>
+        </AlbumContainer>
 
         <Line />
 
@@ -107,13 +115,13 @@ export default function MusicPage() {
           <AlbumDetails>
             <AlbumTitle>Tales From Yggdrasil</AlbumTitle>
             <ReleaseInfo>Art Gates Records | June 2019</ReleaseInfo>
-            <iframe 
-              title="Tales From Yggdrasil Sample on Spotify" 
-              src="https://open.spotify.com/embed/album/6WIQW0JtBAgoKuUuuwclcP" 
-              width="325" 
-              height="360" 
-              frameBorder="0" 
-              allowtransparency="true" 
+            <iframe
+              title="Tales From Yggdrasil Sample on Spotify"
+              src="https://open.spotify.com/embed/album/6WIQW0JtBAgoKuUuuwclcP"
+              width="325"
+              height="360"
+              frameBorder="0"
+              allowtransparency="true"
               allow="encrypted-media"
             ></iframe>
           </AlbumDetails>
@@ -141,13 +149,13 @@ export default function MusicPage() {
           <AlbumDetails>
             <AlbumTitle>Call Of The North</AlbumTitle>
             <ReleaseInfo>Independent | June 2017</ReleaseInfo>
-            <iframe 
-              title="Call Of The North Sample on Spotify" 
-              src=" https://open.spotify.com/embed/album/2GrDVeDkYT0IEIHiwNeaQz" 
-              width="325" 
-              height="360" 
-              frameBorder="0" 
-              allowtransparency="true" 
+            <iframe
+              title="Call Of The North Sample on Spotify"
+              src=" https://open.spotify.com/embed/album/2GrDVeDkYT0IEIHiwNeaQz"
+              width="325"
+              height="360"
+              frameBorder="0"
+              allowtransparency="true"
               allow="encrypted-media"
             ></iframe>
           </AlbumDetails>

@@ -4,6 +4,16 @@ import { StaticImage } from 'gatsby-plugin-image'
 import { css } from '@emotion/react'
 import styled from '@emotion/styled'
 
+const SectionHeader = styled.h1`
+  font-family: Norse;
+  font-size: 3rem;
+  font-weight: normal;
+  color: #66add9;
+  text-align: center;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+`;
+
 const JoinHorde = styled.div`
   display: flex;
   flex-direction: column;
@@ -13,20 +23,14 @@ const JoinHorde = styled.div`
 export default function Horde() {
   return (
     <JoinHorde>
-      <h1 css={css`
-        font-family: Norse;
-        font-size: 3rem;
-        font-weight: normal;
-        color: #66add9;
-        text-align: center;
-        margin-top: 4rem;
-        margin-bottom: 4rem;
-      `}>Join the Hordes of Havamal</h1>
+      <SectionHeader>
+        Join the Hordes of Havamal
+      </SectionHeader>
 
-      <a 
-        href="https://www.facebook.com/groups/338634033565609" 
-        target="_blank" 
-        rel="noreferrer" 
+      <a
+        href="https://www.facebook.com/groups/338634033565609"
+        target="_blank"
+        rel="noreferrer"
         aria-label="Hordes of Havamal"
       >
         <StaticImage

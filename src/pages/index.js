@@ -82,12 +82,14 @@ const Welcome = styled.h1`
   text-align: center;
   color: #66add9;
   padding: 2rem;
-`
+`;
+
 const Container = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-`
+`;
+
 const VideoContainer = styled.div`
   display: flex;
   flex-direction: column;
@@ -102,4 +104,4 @@ const SectionHeader = styled.h2`
   text-align: center;
   margin-top: 2rem;
   margin-bottom: 2rem;
-`
+`;
