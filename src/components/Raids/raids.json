@@ -1,13 +1,6 @@
 {
   "raids": [
     {
-      "id": 2,
-      "link": "https://www.facebook.com/2228032767282124/posts/3635924743159579/?sfnsn=mo",
-      "date": "28 May 2022",
-      "event": "Järfälla Metal Fest",
-      "location": "Fredagsmangel, Järfälla, Sweden"
-    },
-    {
       "id": 3,
       "link": "https://www.all-for-you-events.com/thorshammer",
       "date": "23 Sept 2022",
@@ -27,6 +20,13 @@
       "date": "2023",
       "event": "Cernunnos Pagan Fest",
       "location": "La Ferme du Buisson, Noisiel, France"
+    },
+    {
+      "id": 6,
+      "link": "https://www.facebook.com/2228032767282124/posts/3635924743159579/?sfnsn=mo",
+      "date": "2023",
+      "event": "Järfälla Metal Fest",
+      "location": "Fredagsmangel, Järfälla, Sweden"
     }
   ]
 }
