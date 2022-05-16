@@ -48,13 +48,6 @@ const RaidContainer = styled.div`
     grid-template-columns: 200px 300px 400px;
   }
 `;
-const Line = styled.hr`
-  width: 50%;
-  margin: 0 auto;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-  border-bottom: 1px solid rgba(147, 147, 147, 0.4);
-`;
 
 export default function Raids() {
   return(
@@ -89,7 +82,6 @@ export default function Raids() {
               <EventTitle className="event">{raids.event}</EventTitle>
               <LocationTitle className="location">{raids.location}</LocationTitle>
             </RaidContainer>
-            <Line />
         </RaidWrapper>
       })}
     </>
