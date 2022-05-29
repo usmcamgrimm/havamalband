@@ -2,6 +2,13 @@ import Head from 'next/head'
 
 export default function FormSuccess() {
   return (
-    <h1>Your message has been sent to Havamal!</h1>
+    <>
+      <Head>
+        <title>
+          HAVAMAL | Success
+        </title>
+      </Head>
+      <h1>Your message has been sent to Havamal!</h1>
+    </>
   )
 }

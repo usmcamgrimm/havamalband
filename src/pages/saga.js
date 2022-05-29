@@ -2,6 +2,13 @@ import Head from 'next/head'
 
 export default function Saga() {
   return (
-    <h1>The Havamal Saga</h1>
+    <>
+      <Head>
+        <title>
+          HAVAMAL | Saga
+        </title>
+      </Head>
+      <h1>Saga</h1>
+    </>
   )
 }

@@ -2,6 +2,13 @@ import Head from 'next/head'
 
 export default function Resources() {
   return (
-    <h1>Resources</h1>
+    <>
+      <Head>
+        <title>
+          HAVAMAL | Resources
+        </title>
+      </Head>
+      <h1>Resources</h1>
+    </>
   )
 }
