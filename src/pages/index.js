@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import Layout from '../components/layout/Layout'
+import HavamalVideo from '../components/video/HavamalVideo'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
@@ -35,6 +36,13 @@ export default function Home() {
           <h1 className={styles.title}>
             Hail, Hordes of Havamal!
           </h1>
+
+          <section className={styles.VideoContainer}>
+            <HavamalVideo
+              videoURL="https://www.youtube.com/embed/w6Gy4ZGG5eg"
+              videoTitle="Nidhöggr"
+            />
+          </section>
         </main>
       </div>
     </Layout>
