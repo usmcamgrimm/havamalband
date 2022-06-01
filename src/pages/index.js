@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Layout from '../components/layout/Layout'
 import HavamalVideo from '../components/video/HavamalVideo'
+import Raids from '../components/raids/Raids'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
@@ -42,6 +43,13 @@ export default function Home() {
               videoURL="https://www.youtube.com/embed/w6Gy4ZGG5eg"
               videoTitle="Nidhöggr"
             />
+          </section>
+
+          <section className={styles.raids}>
+            <h2 className={styles.raidsTitle}>
+              Upcoming Raids
+            </h2>
+            <Raids />
           </section>
         </main>
       </div>

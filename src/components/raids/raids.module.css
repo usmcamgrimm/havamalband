@@ -1,0 +1,54 @@
+.RaidWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.RaidContainer {
+  margin: 0 auto;
+  display: grid;
+  place-items: center;
+  grid-template-columns: 200px 300px 300px;
+  grid-template-rows: auto;
+  grid-template-areas:
+    "date event location";
+  grid-gap: 12px;
+  font-family: grenze;
+  font-size: clamp(1.1rem, 5vw, 1.8rem);
+  color: #ffffff;
+}
+
+.DateTitle {
+  grid-area: date;
+  margin: 0;
+}
+
+.EventTitle {
+  grid-area: event;
+  margin: 0;
+}
+
+.LocationTitle {
+  grid-area: location;
+  margin: 0;
+}
+  
+@media screen and (max-width: 768px) {
+  .RaidContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+  }
+  .LocationTitle {
+    margin-top: -16px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .RaidContainer {
+    grid-template-columns: 200px 300px 400px;
+  }
+}
