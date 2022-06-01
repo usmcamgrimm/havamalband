@@ -14,14 +14,24 @@ export default function Home() {
         </Head>
 
         <main className={styles.main}>
-          <div className={styles.bandPhoto}>
-            <Image
-              src="/images/bandPhoto.jpg"
-              height={710}
-              width={1080}
-              alt="The members of Havamal"
-            />
-          </div>
+          <section id={styles.mainImage}>
+            <div className={styles.bandPhoto}>
+              <Image
+                src="/images/bandPhoto.jpg"
+                height={710}
+                width={1080}
+                alt="The members of Havamal"
+              />
+            </div>
+            <div className={styles.logo}>
+              <Image
+                src="/images/havamal.png"
+                height={539}
+                width={1024}
+                alt="The Havamal logo"
+              />
+            </div>
+          </section>
           <h1 className={styles.title}>
             Hail, Hordes of Havamal!
           </h1>
