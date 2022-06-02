@@ -17,6 +17,11 @@
   font-family: grenze;
   font-size: clamp(1.1rem, 5vw, 1.8rem);
   color: #ffffff;
+  text-decoration: none;
+}
+
+.RaidContainer:hover {
+  color: #005293;
 }
 
 .DateTitle {
