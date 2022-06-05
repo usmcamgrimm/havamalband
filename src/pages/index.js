@@ -3,6 +3,7 @@ import Image from 'next/image'
 import Layout from '../components/layout/Layout'
 import HavamalVideo from '../components/video/HavamalVideo'
 import Raids from '../components/raids/Raids'
+import HavamalLinks from '../components/linkLayout/HavamalLinks'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
@@ -50,6 +51,10 @@ export default function Home() {
               Upcoming Raids
             </h2>
             <Raids />
+          </section>
+
+          <section className={styles.links}>
+            <HavamalLinks />
           </section>
         </main>
       </div>
