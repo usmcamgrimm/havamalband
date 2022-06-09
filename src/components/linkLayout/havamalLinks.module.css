@@ -25,7 +25,7 @@
 }
 
 @media screen and (max-width: 500px) {
-  .linkGrid {
+  .linkContainer {
     padding-right: 4rem;
     padding-left: 4rem;
   }
