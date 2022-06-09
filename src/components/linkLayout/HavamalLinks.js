@@ -5,6 +5,24 @@ import { css } from '@emotion/css'
 export default function HavamalLinks() {
   return (
     <>
+      <div className={styles.linkContainer}>
+        <div className={styles.BannerLink}>
+          <a
+            href="https://artgatesrecords.com/artists/havamal" 
+            target="_blank" 
+            rel="noreferrer" 
+            aria-label="Art Gates Records"
+            className={css`margin-bottom: -4px`}
+          >
+            <Image
+              src="/images/icons/AGR.png"
+              alt="art gates records icon"
+              width={400}
+              height={120}
+            />
+          </a>
+        </div>
+      </div>
       <div className={styles.LinkContainer}>
         <div className={styles.LinkItem}>
           <a
@@ -12,14 +30,14 @@ export default function HavamalLinks() {
             target="_blank" 
             rel="noreferrer" 
             aria-label="Bandcamp"
-            className={css`margin-right: 12px`}
+            className={css`margin-right: 16px`}
           >
             <Image
               className={styles.LinkIcon}
               src="/images/icons/bandcamp.png"
               alt="bandcamp icon"
-              width={48}
-              height={48}
+              width={60}
+              height={60}
             />
           </a>
           <a
@@ -27,14 +45,14 @@ export default function HavamalLinks() {
             target="_blank" 
             rel="noreferrer" 
             aria-label="Bandbond"
-            className={css`margin-right: 12px`}
+            className={css`margin-right: 16px`}
           >
             <Image
               className={styles.LinkIcon}
               src="/images/icons/bandbond.png"
               alt="bandbond icon"
-              width={48}
-              height={48}
+              width={60}
+              height={60}
             />
           </a>
           <a
@@ -42,14 +60,14 @@ export default function HavamalLinks() {
             target="_blank" 
             rel="noreferrer" 
             aria-label="Facebook"
-            className={css`margin-right: 12px`}
+            className={css`margin-right: 16px`}
           >
             <Image
               className={styles.LinkIcon}
               src="/images/icons/facebook.png"
               alt="facebook icon"
-              width={48}
-              height={48}
+              width={60}
+              height={60}
             />
           </a>
           <a
@@ -57,14 +75,14 @@ export default function HavamalLinks() {
             target="_blank" 
             rel="noreferrer" 
             aria-label="Instagram"
-            className={css`margin-right: 12px`}
+            className={css`margin-right: 16px`}
           >
             <Image
               className={styles.LinkIcon}
               src="/images/icons/instagram.png"
               alt="instagram icon"
-              width={48}
-              height={48}
+              width={60}
+              height={60}
             />
           </a>
           <a
@@ -72,14 +90,14 @@ export default function HavamalLinks() {
             target="_blank" 
             rel="noreferrer" 
             aria-label="Havamal on Spotify"
-            className={css`margin-right: 12px`}
+            className={css`margin-right: 16px`}
           >
             <Image
               className={styles.LinkIcon}
               src="/images/icons/spotify.png"
               alt="spotify icon"
-              width={48}
-              height={48}
+              width={60}
+              height={60}
             />
           </a>
           <a
@@ -87,31 +105,14 @@ export default function HavamalLinks() {
             target="_blank" 
             rel="noreferrer" 
             aria-label="YouTube"
-            className={css`margin-right: 12px`}
+            className={css`margin-right: 16px`}
           >
             <Image
               className={styles.LinkIcon}
               src="/images/icons/youtube.png"
               alt="youtube icon"
-              width={48}
-              height={48}
-            />
-          </a>
-        </div>
-      </div>
-      <div className={styles.linkGrid}>
-        <div className={styles.BannerLink}>
-          <a
-            href="https://artgatesrecords.com/artists/havamal" 
-            target="_blank" 
-            rel="noreferrer" 
-            aria-label="Art Gates Records"
-          >
-            <Image
-              src="/images/icons/AGR.png"
-              alt="art gates records icon"
-              width={400}
-              height={128}
+              width={60}
+              height={60}
             />
           </a>
         </div>

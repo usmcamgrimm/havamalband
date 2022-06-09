@@ -15,6 +15,7 @@
   color: #66add9;
   font-size: clamp(3rem, 6vw, 5rem);
   text-align: center;
+  margin-top: 2rem;
 }
 
 .pageTitle {
@@ -54,13 +55,18 @@
   align-items: center;
 }
 
-.raidsTitle {
+.sectionTitle {
   margin-top: 4rem;
+  margin-bottom: 1rem;
   font-family: "norse", sans-serif;
   font-weight: normal;
   color: #66add9;
   font-size: clamp(3rem, 6vw, 4rem);
   text-align: center;
+}
+
+.links {
+  margin-top: 10rem;
 }
 
 @media screen and (max-width: 1025px) {

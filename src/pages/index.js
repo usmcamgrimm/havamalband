@@ -47,13 +47,16 @@ export default function Home() {
           </section>
 
           <section className={styles.raids}>
-            <h2 className={styles.raidsTitle}>
+            <h2 className={styles.sectionTitle}>
               Upcoming Raids
             </h2>
             <Raids />
           </section>
 
           <section className={styles.links}>
+            <h2 className={styles.sectionTitle}>
+              Follow Havamal
+            </h2>
             <HavamalLinks />
           </section>
         </main>
