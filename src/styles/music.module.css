@@ -1,0 +1,40 @@
+.pageTitle {
+  padding: 1rem 0 60px 0;
+  font-family: "norse", sans-serif;
+  font-weight: normal;
+  color: #66add9;
+  font-size: clamp(3rem, 6vw, 5rem);
+  text-align: center;
+}
+
+.albumContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.albumDetails {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.albumTitle {
+  font-family: grenze;
+  color: #ffffff;
+  font-size: 1.75rem;
+  margin: 0;
+  padding-bottom: 1rem;
+  font-weight: normal;
+  text-align: center;
+}
+
+.releaseInfo {
+  font-family: grenze;
+  color: #ffffff;
+  font-size: 1.25rem;
+  font-weight: normal;
+  padding-bottom: 1rem;
+  text-align: center;
+}
