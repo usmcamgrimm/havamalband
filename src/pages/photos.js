@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Layout from '../components/layout/Layout'
-import styles from '../styles/Home.module.css'
+import styles from '../styles/photos.module.css'
+import Image from 'next/image'
 
 export default function Gallery() {
   return (
