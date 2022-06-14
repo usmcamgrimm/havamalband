@@ -1,0 +1,30 @@
+.sectionHeader {
+  font-family: "norse";
+  font-size: 3rem;
+  font-weight: normal;
+  color: #66add9;
+  text-align: center;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+
+.sagaContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: start;
+  margin: 0 auto;
+  width: 80%;
+}
+
+.sagaText {
+  font-family: grenze;
+  color: #ffffff;
+  font-size: 1.5rem;
+}
+
+@media screen and (max-width: 500px) {
+  .sagaContainer {
+    width: 90%;
+  }
+}
