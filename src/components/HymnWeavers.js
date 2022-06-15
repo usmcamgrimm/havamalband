@@ -25,7 +25,7 @@ export default function HymnWeavers() {
     <Band>
       <StaticImage
         src="../resources/band-photos/lennie.jpg"
-        alt="Andreas Herlogsson"
+        alt="Lennie Spetze"
         placeholder="blurred"
         layout="constrained"
         css={css`
@@ -49,7 +49,7 @@ export default function HymnWeavers() {
 
       <StaticImage
         src="../resources/band-photos/bjorn.jpg"
-        alt="Andreas Herlogsson"
+        alt="Björn Larsson"
         placeholder="blurred"
         layout="constrained"
         css={css`
@@ -73,7 +73,7 @@ export default function HymnWeavers() {
 
       <StaticImage
         src="../resources/band-photos/tino.jpg"
-        alt="Andreas Herlogsson"
+        alt="Tino Vesanen"
         placeholder="blurred"
         layout="constrained"
         css={css`
