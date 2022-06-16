@@ -20,11 +20,21 @@
 .sagaText {
   font-family: grenze;
   color: #ffffff;
-  font-size: 1.5rem;
+  font-size: 1.75rem;
+  padding-bottom: 1rem;
 }
 
 @media screen and (max-width: 500px) {
   .sagaContainer {
     width: 90%;
   }
+}
+
+.hail {
+  padding: 1rem 0 60px 0;
+  font-family: "norse", sans-serif;
+  font-weight: normal;
+  color: #66add9;
+  font-size: 3rem;
+  text-align: center;
 }
