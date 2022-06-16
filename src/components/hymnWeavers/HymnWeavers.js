@@ -2,7 +2,7 @@ import Image from 'next/image'
 import styles from './hymnWeavers.module.css'
 import styled from '@emotion/styled'
 
-const hwImage = styled.span`
+const BandImage = styled.span`
   & > span {
     max-width: 500px;
     height: auto;
@@ -14,46 +14,46 @@ const hwImage = styled.span`
 export default function HymnWeavers() {
   return (
     <div className={styles.band}>
-      <hwImage>
+      <BandImage>
         <Image
           src="/images/band-photos/lennie.jpg"
           alt="Lennie Spetze"
           height={540}
           width={810}
         />
-      </hwImage>
-      <hwImage>
+      </BandImage>
+      <BandImage>
         <Image
           src="/images/band-photos/andreas.jpg"
           alt="Andreas Herlogsson"
           height={540}
           width={541}
         />
-      </hwImage>
-      <hwImage>
+      </BandImage>
+      <BandImage>
         <Image
           src="/images/band-photos/bjorn.jpg"
           alt="Björn Larsson"
           height={540}
           width={364}
         />
-      </hwImage>
-      <hwImage>
+      </BandImage>
+      <BandImage>
         <Image
           src="/images/band-photos/kjell.jpg"
           alt="Kjell Gilliusson"
           height={540}
           width={539}
         />
-      </hwImage>
-      <hwImage>
+      </BandImage>
+      <BandImage>
         <Image
           src="/images/band-photos/tino.jpg"
           alt="Tino Vesanen"
           height={540}
           width={810}
         />
-      </hwImage>
+      </BandImage>
     </div>
   )
 }
