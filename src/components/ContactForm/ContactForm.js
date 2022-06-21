@@ -90,6 +90,7 @@ export default function ContactForm() {
                 font-size: 1.1rem;
                 color: #ffffff;
                 margin-bottom: 0;
+                font-weight: normal;
               `}>Your Name</p>
             <ErrorMessage name="name" css={css`color: #ce1126;`} />
           </label>
@@ -116,6 +117,7 @@ export default function ContactForm() {
                 font-size: 1.1rem;
                 color: #ffffff;
                 margin-bottom: 0;
+                font-weight: normal;
               `}>Email Address</p>
             <ErrorMessage name="email" />
           </label>
@@ -142,6 +144,7 @@ export default function ContactForm() {
                 font-size: 1.1rem;
                 color: #ffffff;
                 margin-bottom: 0;
+                font-weight: normal;
               `}>Message</p>
             <ErrorMessage name="message" />
           </label>
