@@ -46,7 +46,7 @@ export default function Home() {
             />
           </section>
 
-          <section className={styles.raids}>
+          <section className={styles.raids} id="raids">
             <h2 className={styles.sectionTitle}>
               Upcoming Raids
             </h2>

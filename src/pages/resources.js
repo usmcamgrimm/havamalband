@@ -1,6 +1,8 @@
 import Head from 'next/head'
 import Layout from '../components/layout/Layout'
-import styles from '../styles/Home.module.css'
+import styles from '../styles/resources.module.css'
+import ContactForm from '../components/ContactForm/ContactForm'
+
 
 export default function Resources() {
   return (
@@ -10,7 +12,10 @@ export default function Resources() {
           HAVAMAL | Resources
         </title>
       </Head>
-      <h1 className={styles.pageTitle}>Resources</h1>
+      <h1 className={styles.pageTitle}>
+        Contact Information
+      </h1>
+      <ContactForm />
     </Layout>
   )
 }

@@ -1,0 +1,36 @@
+.formWrapper{
+  margin: 0 auto;
+  width: 70%;
+}
+
+.formLabel {
+  font-family: grenze;
+  font-size: 1.1rem;
+  color: #ffffff;
+  margin-bottom: 0;
+  font-weight: normal;
+}
+
+.submitBtn {
+  background: #005293;
+  font-family: grenze;
+  color: #fecb00;
+  font-size: 1.1rem;
+  text-align: center;
+  padding: 12px;
+  margin-bottom: 12px;
+  border-radius: 5px;
+  border: none;
+  width: 100%;
+}
+
+.submitBtn:hover {
+  background: #002f54;
+}
+
+@media (max-width: 768px) {
+  .formWrapper {
+    width: 100%;
+    padding: 12px;
+  }
+}

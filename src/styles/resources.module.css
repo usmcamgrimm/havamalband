@@ -1,0 +1,56 @@
+.pageTitle {
+  padding: 1rem 0 60px 0;
+  font-family: "norse", sans-serif;
+  font-weight: normal;
+  color: #66add9;
+  font-size: clamp(3rem, 6vw, 5rem);
+  text-align: center;
+}
+
+.contactContainer {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.6);
+  border-radius: 5px;
+  width: 70%;
+  margin: 0 auto;
+  padding-top: 3rem;
+  box-shadow: 6px 6px 12px #000000;
+}
+
+.contactHeader {
+  font-family: grenze;
+  font-size: clamp(1.5rem, 4vw, 2rem);
+  color: #66add9;
+  text-align: center;
+  padding: 12px 1rem;
+  margin-bottom: 12px;
+}
+
+.contactBox {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+  .contactContainer {
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    left: 0;
+    width: 90%;
+  }
+  .contactBox {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .contactContainer {
+    width: 90%;
+  }
+}
