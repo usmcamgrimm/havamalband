@@ -16,7 +16,7 @@
   width: 70%;
   margin: 0 auto;
   padding-top: 3rem;
-  box-shadow: 6px 6px 12px #000000;
+  box-shadow: 0 0 8px rgba(102, 173, 217, 0.1);
 }
 
 .contactHeader {
