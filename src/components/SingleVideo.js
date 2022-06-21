@@ -26,7 +26,7 @@ export default function HavamalVideo ({ videoURL, videoTitle, ...props }) {
       <iframe
         src={videoURL}
         title={videoTitle}
-        frameborder="0"
+        frameBorder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         allowFullScreen
         css={css`

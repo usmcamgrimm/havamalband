@@ -82,7 +82,7 @@ export default function ContactForm() {
           `}
         >
           <Field type="hidden" name="contactForm" />
-          <field type="hidden" name="bot-field" />
+          <Field type="hidden" name="bot-field" />
           <label htmlFor="name">
             <p
               css={css`

@@ -7,7 +7,7 @@ import Seo from "../components/seo"
 import { css } from '@emotion/react'
 import styled from '@emotion/styled'
 
-const SectionHeader = styled.dev`
+const SectionHeader = styled.div`
   font-family: Norse;
   font-size: 3rem;
   font-weight: normal;
