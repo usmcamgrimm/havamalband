@@ -1,0 +1,19 @@
+.contact {
+  padding: 8px 1rem;
+}
+
+.contactText {
+  font-family: grenze;
+  font-size: 1.6rem;
+  color: #ffffff;
+  margin-bottom: 6px;
+}
+
+.siteLinks {
+  cursor: crosshair;
+  text-decoration: none;
+}
+
+.messageLinks {
+  text-decoration: none;
+}
