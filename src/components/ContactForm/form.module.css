@@ -11,6 +11,35 @@
   font-weight: normal;
 }
 
+.label {
+  font-family: grenze;
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: #ce1126;
+}
+
+.formField {
+  border-radius: 5px;
+  padding: 8px;
+  margin: 8px 0 12px 0;
+  width: 100%;
+  font-family: grenze;
+}
+
+.formTextField {
+  width: 100%;
+  height: 6rem;
+  margin-top: 8px;
+  padding: 8px;
+  border-radius: 5px;
+  font-family: grenze;
+}
+
+.formField:focus,
+.formTextField:focus {
+  outline: 1px solid #66add9;
+}
+
 .submitBtn {
   background: #005293;
   font-family: grenze;
