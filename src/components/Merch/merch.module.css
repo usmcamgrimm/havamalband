@@ -1,0 +1,27 @@
+.sectionHeader {
+  font-family: Norse;
+  font-size: 2.5rem;
+  font-weight: normal;
+  color: #66add9;
+  text-align: center;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+
+.merchWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.merchLink {
+  font-family: grenze;
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: #ffffff;
+}
+
+.merchLink:hover {
+  color: #005293;
+  transform: scale(1.1);
+}
