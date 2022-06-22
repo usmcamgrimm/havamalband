@@ -3,6 +3,8 @@ import Layout from '../components/layout/Layout'
 import styles from '../styles/resources.module.css'
 import ContactForm from '../components/ContactForm/ContactForm'
 import ContactLinks from '../components/ContactLinks/ContactLinks'
+import Merch from '../components/Merch/Merch'
+import Horde from '../components/Horde/Horde'
 
 
 export default function Resources() {
@@ -29,6 +31,10 @@ export default function Resources() {
             <ContactLinks />
           </div>
         </div>
+      </section>
+
+      <section id="merch_horde">
+        <Horde />
       </section>
     </Layout>
   )
