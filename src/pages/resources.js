@@ -34,8 +34,10 @@ export default function Resources() {
       </section>
 
       <section id="merch_horde">
-        <Merch />
-        <Horde />
+        <div className={styles.merchHorde}>
+          <Merch />
+          <Horde />
+        </div>
       </section>
     </Layout>
   )

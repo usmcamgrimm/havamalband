@@ -4,7 +4,7 @@ export default function Merch () {
   return(
     <div className={styles.merchWrapper}>
       <h2 className={styles.sectionHeader}>
-        Havamal Official Merch
+        Official Havamal Merch
       </h2>
 
       <a className={styles.merchLink}
