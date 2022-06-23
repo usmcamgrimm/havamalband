@@ -3,6 +3,6 @@
   font-family: "norse", sans-serif;
   font-weight: normal;
   color: #66add9;
-  font-size: clamp(3rem, 6vw, 5rem);
+  font-size: clamp(3rem, 6vw, 4rem);
   text-align: center;
 }
