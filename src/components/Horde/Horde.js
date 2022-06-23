@@ -17,8 +17,8 @@ export default function Horde() {
       >
         <Image
           src="/images/icons/horde.png"
-          width={283}
-          height={90}
+          width={213}
+          height={68}
           alt="Hordes of Havamal Facebook banner"
         />
       </a>

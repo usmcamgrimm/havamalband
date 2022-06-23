@@ -34,6 +34,7 @@ export default function Resources() {
       </section>
 
       <section id="merch_horde">
+        <Merch />
         <Horde />
       </section>
     </Layout>
