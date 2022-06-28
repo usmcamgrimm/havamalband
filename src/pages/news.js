@@ -1,9 +1,8 @@
 import Head from 'next/head'
-import styles from '../styles/Home.module.css'
+import styles from '../styles/news.module.css'
 import fs from 'fs'
 import matter from 'gray-matter'
 import Link from 'next/link'
-import Image from 'next/image'
 
 export default function News({ posts }) {
   return (

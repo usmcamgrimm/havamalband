@@ -1,0 +1,8 @@
+.pageTitle {
+  padding: 1rem 0;
+  font-family: "norse", sans-serif;
+  font-weight: normal;
+  color: #66add9;
+  font-size: clamp(3rem, 6vw, 4rem);
+  text-align: center;
+}
