@@ -1,5 +1,4 @@
 import Head from 'next/head'
-import Layout from '../components/layout/Layout'
 import styles from '../styles/resources.module.css'
 import ContactForm from '../components/ContactForm/ContactForm'
 import ContactLinks from '../components/ContactLinks/ContactLinks'
@@ -9,7 +8,7 @@ import Horde from '../components/Horde/Horde'
 
 export default function Resources() {
   return (
-    <Layout>
+    <>
       <Head>
         <title>
           HAVAMAL | Resources
@@ -39,6 +38,6 @@ export default function Resources() {
           <Horde />
         </div>
       </section>
-    </Layout>
+    </>
   )
 }

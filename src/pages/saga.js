@@ -1,11 +1,10 @@
 import Head from 'next/head'
-import Layout from '../components/layout/Layout'
 import styles from '../styles/saga.module.css'
 import HymnWeavers from '../components/hymnWeavers/HymnWeavers'
 
 export default function Saga() {
   return (
-    <Layout>
+    <>
       <Head>
         <title>
           HAVAMAL | Saga
@@ -43,6 +42,6 @@ export default function Saga() {
           Hail Havamal!
         </p>
       </section>
-    </Layout>
+    </>
   )
 }

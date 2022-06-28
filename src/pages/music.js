@@ -1,6 +1,5 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import Layout from '../components/layout/Layout'
 import styles from '../styles/music.module.css'
 import styled from '@emotion/styled'
 import { css } from '@emotion/css'
@@ -26,7 +25,7 @@ const Line = styled.hr`
 
 export default function Music() {
   return (
-    <Layout>
+    <>
       <Head>
         <title>
           HAVAMAL | Music
@@ -147,6 +146,6 @@ export default function Music() {
           </div>
         </div>
       </section>
-    </Layout>
+    </>
   )
 }
