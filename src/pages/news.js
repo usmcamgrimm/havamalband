@@ -21,9 +21,9 @@ export default function News({ posts }) {
 
           return <article key={title}>
             <Link href={`/posts/${slug}`}>
-              <h2>{title}</h2>
+              <h2 className={styles.postTitle}>{title}</h2>
             </Link>
-              <h3>By: {author}</h3>
+              <h3 className={styles.postAuthor}>By: {author}</h3>
           </article>
         })}
       </main>

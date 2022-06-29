@@ -6,3 +6,15 @@
   font-size: clamp(3rem, 6vw, 4rem);
   text-align: center;
 }
+
+.postTitle {
+  color: #005b99;
+  font-family: 'grenze';
+  font-size: 2.5rem;
+}
+
+.postAuthor {
+  color: #ffffff;
+  font-family: 'grenze';
+  font-size: 1.52rem;
+}
