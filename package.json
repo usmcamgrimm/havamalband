@@ -11,8 +11,8 @@
     "@emotion/react": "^11.9.0",
     "@emotion/styled": "^11.8.1",
     "@fontsource/grenze": "^4.5.5",
-    "@fontsource/roboto": "^4.5.7",
-    "dotenv": "^16.0.1",
+    "@fontsource/roboto": "^4.5.5",
+    "dotenv": "^16.0.0",
     "formik": "^2.2.9",
     "gatsby": "^4.9.3",
     "gatsby-cli": "^4.17.1",
@@ -22,7 +22,6 @@
     "gatsby-plugin-manifest": "^4.9.1",
     "gatsby-plugin-netlify-cms": "^6.9.0",
     "gatsby-plugin-offline": "^5.9.1",
-    "gatsby-plugin-react-helmet": "^5.9.0",
     "gatsby-plugin-sharp": "^4.9.1",
     "gatsby-remark-copy-linked-files": "^5.9.0",
     "gatsby-remark-images": "^6.9.1",
@@ -35,8 +34,8 @@
     "gatsby-transformer-sharp": "^4.9.0",
     "netlify-cms-app": "^2.15.69",
     "prismjs": "^1.27.0",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
     "react-helmet": "^6.1.0",
     "react-icons": "^4.3.1",
     "react-lite-yt-embed": "^1.2.7",
@@ -44,7 +43,7 @@
     "yup": "^0.32.11"
   },
   "devDependencies": {
-    "gatsby-plugin-netlify": "^5.0.0",
+    "gatsby-plugin-netlify": "^4.1.0",
     "prettier": "^2.6.2"
   },
   "homepage": "https://github.com/gatsbyjs/gatsby-starter-blog#readme",
