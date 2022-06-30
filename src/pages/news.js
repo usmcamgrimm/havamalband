@@ -20,11 +20,13 @@ export default function News({ posts }) {
           const { title, author } = frontmatter
 
           return (
-            <article className={styles.postLink} key={title}>
-              <Link href={`/posts/${slug}`}>
-                <h2 className={styles.postTitle}>{title}</h2>
-              </Link>
+            <article className={styles.postGrid} key={title}>
+              <div className={styles.postLink}>
+                <Link href={`/posts/${slug}`}>
+                  <h2 className={styles.postTitle}>{title}</h2>
+                </Link>
                 <h3 className={styles.postAuthor}>By: {author}</h3>
+              </div>
             </article>
           )
         })}
