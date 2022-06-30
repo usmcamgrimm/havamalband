@@ -17,14 +17,16 @@ export default function News({ posts }) {
       <main>
         {posts.map(post => {
           const { slug, frontmatter } = post
-          const { title, author, date, image } = frontmatter
+          const { title, author } = frontmatter
 
-          return <article key={title}>
-            <Link href={`/posts/${slug}`}>
-              <h2 className={styles.postTitle}>{title}</h2>
-            </Link>
-              <h3 className={styles.postAuthor}>By: {author}</h3>
-          </article>
+          return (
+            <article className={styles.postLink} key={title}>
+              <Link href={`/posts/${slug}`}>
+                <h2 className={styles.postTitle}>{title}</h2>
+              </Link>
+                <h3 className={styles.postAuthor}>By: {author}</h3>
+            </article>
+          )
         })}
       </main>
     </>
