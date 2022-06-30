@@ -8,17 +8,19 @@ export default function Post({ frontmatter, content }) {
   const {title, author, date, image} = frontmatter
 
   return (
-    <main className={styles.postBody}>
-      <Image
-        src={`/${image}`}
-        alt="This is the alt text"
-        height={225}
-        width={225}
-      />
-      <h1>{title}</h1>
-      <h2>By: {author}</h2>
-      <h2>{date}</h2>
-      <div dangerouslySetInnerHTML={{ __html: md().render(content) }} />
+    <main>
+      <div className={styles.postBody}>
+        <Image
+          src={`/${image}`}
+          alt="This is the alt text"
+          height={225}
+          width={225}
+        />
+        <h1 className={styles.postTitle}>{title}</h1>
+        <h2 className={styles.postAuthor}>By: {author}</h2>
+        <h2 className={styles.postDate}>{date}</h2>
+        <div className={styles.postContent} dangerouslySetInnerHTML={{ __html: md().render(content) }} />
+      </div>
     </main>
   )
 }

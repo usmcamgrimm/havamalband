@@ -1,5 +1,31 @@
 .postBody {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  align-items: center;
+}
+
+.postTitle {
+  color: #005b99;
+  font-family: 'grenze';
+  font-size: 3rem;
+}
+
+.postAuthor {
+  color: #ffffff;
+  font-family: 'grenze';
+  font-size: 2rem;
+}
+
+.postDate {
+  color: #ffffff;
+  font-family: 'grenze';
+  font-size: 2rem;
+}
+
+.postContent {
+  color: #ffffff;
+  font-family: 'grenze';
+  font-size: 2rem;
+  text-align: center;
+  margin-top: 2rem;
 }
