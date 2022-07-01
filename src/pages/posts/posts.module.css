@@ -29,3 +29,9 @@
   text-align: center;
   margin-top: 2rem;
 }
+
+.imageWrapper {
+  display: block;
+  width: 500px;
+  height: auto;
+}

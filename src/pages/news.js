@@ -3,6 +3,7 @@ import styles from '../styles/news.module.css'
 import fs from 'fs'
 import matter from 'gray-matter'
 import Link from 'next/link'
+import Image from 'next/image'
 
 export default function News({ posts }) {
   return (
@@ -27,6 +28,14 @@ export default function News({ posts }) {
                     <h2 className={styles.postTitle}>{title}</h2>
                   </Link>
                   <h3 className={styles.postAuthor}>By: {author}</h3>
+                  <Image 
+                    src={post.frontmatter.image}
+                    layout="responsive"
+                    objectFit="contain"
+                    alt="Image from post"
+                    height="100%"
+                    width="100%"
+                  />
                 </div>
               </article>
             )

@@ -2,7 +2,7 @@
 title: "28 June 2022"
 author: "Havamal"
 date: "2022-06-28"
-image: "url-to-image.png"
+image: "/images/posts/havamal_logo.png"
 ---
 
 Valkyries and Einherjers, heed!

@@ -10,16 +10,20 @@ export default function Post({ frontmatter, content }) {
   return (
     <main>
       <div className={styles.postBody}>
-        <Image
-          src={`/${image}`}
-          alt="This is the alt text"
-          height={225}
-          width={225}
-        />
         <h1 className={styles.postTitle}>{title}</h1>
         <h2 className={styles.postAuthor}>By: {author}</h2>
         <h2 className={styles.postDate}>{date}</h2>
         <div className={styles.postContent} dangerouslySetInnerHTML={{ __html: md().render(content) }} />
+        <div className={styles.imageWrapper}>
+          <Image
+            src={image}
+            alt="This is the alt text"
+            layout="responsive"
+            objectFit="contain"
+            height="100%"
+            width="100%"
+          />
+        </div>
       </div>
     </main>
   )

@@ -2,7 +2,7 @@
 title: "30 June 2022"
 author: "Adrian Grimm"
 date: "2022-06-30"
-image: "url-to-image.png"
+image: "/images/posts/havamal_logo.png"
 ---
 
 Valkyries and Einherjers, heed!
