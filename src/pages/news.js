@@ -15,21 +15,23 @@ export default function News({ posts }) {
       <h1 className={styles.pageTitle}>Havamal Updates</h1>
 
       <main>
-        {posts.map(post => {
-          const { slug, frontmatter } = post
-          const { title, author } = frontmatter
+        <div className={styles.postGrid}>
+          {posts.map(post => {
+            const { slug, frontmatter } = post
+            const { title, author, image } = frontmatter
 
-          return (
-            <article className={styles.postGrid} key={title}>
-              <div className={styles.postLink}>
-                <Link href={`/posts/${slug}`}>
-                  <h2 className={styles.postTitle}>{title}</h2>
-                </Link>
-                <h3 className={styles.postAuthor}>By: {author}</h3>
-              </div>
-            </article>
-          )
-        })}
+            return (
+              <article key={title}>
+                <div className={styles.postLink}>
+                  <Link href={`/posts/${slug}`}>
+                    <h2 className={styles.postTitle}>{title}</h2>
+                  </Link>
+                  <h3 className={styles.postAuthor}>By: {author}</h3>
+                </div>
+              </article>
+            )
+          })}
+        </div>
       </main>
     </>
   )
