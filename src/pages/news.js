@@ -4,8 +4,14 @@ import fs from 'fs'
 import matter from 'gray-matter'
 import Link from 'next/link'
 import Image from 'next/image'
+import { DateTime } from 'luxon'
 
 export default function News({ posts }) {
+  const sortPostsByDate = posts.sort((a, b) => {
+    const beforeDate = DateTime.fromFormat(a.frontmatter.date, 'm-d-yyyy')
+    const afterDate = DateTime.fromFormat(b.frontmatter.date, 'm-d-yyyy')
+    return afterDate - beforeDate
+  })
   return (
     <>
       <Head>
@@ -17,7 +23,7 @@ export default function News({ posts }) {
 
       <main>
         <div className={styles.postGrid}>
-          {posts.map(post => {
+          {posts && sortPostsByDate.map(post => {
             const { slug, frontmatter } = post
             const { title, author, image } = frontmatter
 
