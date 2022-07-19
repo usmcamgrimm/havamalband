@@ -20,18 +20,18 @@ Thank you all for your support from us in the band!
 
 **Message from Art Gates Records:**
 
-`Dear `[`HAVAMAL`](https://www.facebook.com/Havamalofficial?__cft__[0]=AZVaLMqJWfNYy1T6Hfxi7-EevlZRVvx2gD0pFUPRGXmgfeVUPZvsE2BmlVS3jaAWIO9LgmnphZTwTGB_fJC6Ckdijc6yFSQHvRS6ouUOv9gYUZo8Zg9TSIuxMNa5aIth8YNVoG14pqYBH9l7VAkJeot4QcQSY2BOOIhk1ADSe8WPCGcOL12swprqakbyt0BCGvuWP2nbR4l8g9B0Uhs7S_DdW0i3xtQem35nRkAaKIFRi0RWXAX80n5l4aisU1VlFEo&__tn__=-]K-y-R)` followers and customers of our store,`
+Dear [](https://www.facebook.com/Havamalofficial?__cft__[0]=AZVaLMqJWfNYy1T6Hfxi7-EevlZRVvx2gD0pFUPRGXmgfeVUPZvsE2BmlVS3jaAWIO9LgmnphZTwTGB_fJC6Ckdijc6yFSQHvRS6ouUOv9gYUZo8Zg9TSIuxMNa5aIth8YNVoG14pqYBH9l7VAkJeot4QcQSY2BOOIhk1ADSe8WPCGcOL12swprqakbyt0BCGvuWP2nbR4l8g9B0Uhs7S_DdW0i3xtQem35nRkAaKIFRi0RWXAX80n5l4aisU1VlFEo&__tn__=-]K-y-R)HAVAMAL followers and customers of our store,
 
-`We are sorry to let you know the vinyl edition of Havamal - "The Shadow Chapter" includes a mistake with its master.`
+We are sorry to let you know the vinyl edition of Havamal - "The Shadow Chapter" includes a mistake with its master.
 
-`Another audio master was recorded in the manufacture process and now we are in the path to solve this problem ASAP with the manufacture company.`
+Another audio master was recorded in the manufacture process and now we are in the path to solve this problem ASAP with the manufacture company.
 
-`For the moment you can expect news from us very soon as we will keep in touch and contact soon regarding this matter.`
+For the moment you can expect news from us very soon as we will keep in touch and contact soon regarding this matter.
 
-`No need to say we will replace/ send you a new vinyl when the mistake is corrected. We expect this problem to be solved as soon as possible.`
+No need to say we will replace/ send you a new vinyl when the mistake is corrected. We expect this problem to be solved as soon as possible.
 
-`Thanks a lot for your patience and consideration.`
+Thanks a lot for your patience and consideration.
 
-`Yours truly.`
+Yours truly.
 
-`Iván Magdalena & the AGR Team`
+Iván Magdalena & the AGR Team
