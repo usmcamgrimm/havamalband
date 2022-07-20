@@ -3,6 +3,14 @@
   width: 70%;
 }
 
+.sentMessage {
+  font-family: grenze;
+  font-size: 1.5rem;
+  color: #fecb00;
+  margin-bottom: 0;
+  font-weight: boold;
+}
+
 .formLabel {
   font-family: grenze;
   font-size: 1.1rem;
