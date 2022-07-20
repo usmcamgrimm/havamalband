@@ -27,8 +27,6 @@
 }
 
 .postLink {
-  border: 2px solid #005b99;
-  border-radius: 6px;
   padding: 8px;
   cursor: pointer;
   text-align: center;
