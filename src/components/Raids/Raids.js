@@ -28,7 +28,7 @@ const LocationTitle = styled.p`
 const RaidContainer = styled.div`
   margin: 0 auto;
   display: grid;
-  place-items: center;
+  place-items: center start;
   grid-template-columns: 200px 300px 300px;
   grid-template-rows: auto;
   grid-template-areas:
@@ -46,6 +46,9 @@ const RaidContainer = styled.div`
   }
   @media screen and (min-width: 1024px) {
     grid-template-columns: 200px 300px 400px;
+  }
+  @media screen and (min-width: 1200px) {
+    grid-template-columns: 200px 400px 400px;
   }
 `;
 
