@@ -14,24 +14,26 @@ export default function Gallery({ photos }) {
       <h1 className={styles.pageTitle}>Gallery</h1>
 
       <section id="gallery">
-        <ul className={styles.photos}>
-          {photos.map(photo => {
-            return (
-              <li key={photo.id}>
-                <a href={photo.link} rel="noreferrer">
-                  <div className={styles.havamalPhoto}>
-                    <Image
-                      src={photo.photo}
-                      width={photo.width} 
-                      height={photo.height}  
-                      alt="Havamal photos"
-                    />
-                  </div>
-                </a>
-              </li>
-            )
-          })}
-        </ul>
+        <div className={styles.container}>
+          <ul className={styles.photos}>
+            {photos.map(photo => {
+              return (
+                <li key={photo.id}>
+                  <a href={photo.link} rel="noreferrer">
+                    <div className={styles.havamalPhoto}>
+                      <Image
+                        src={photo.photo}
+                        width={photo.width} 
+                        height={photo.height}  
+                        alt="Havamal photos"
+                      />
+                    </div>
+                  </a>
+                </li>
+              )
+            })}
+          </ul>
+        </div>
       </section>
     </>
   )
