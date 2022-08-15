@@ -14,10 +14,29 @@
 
 .photos {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
-  grid-gap:16px;
+  align-items: center;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1rem;
+  padding: 2rem 4rem;
+}
+
+.havamalPhoto {
+  width: 100%;
+  height: auto;
+  padding: 6px;
 }
 
 .havamalPhoto:hover {
   transform: scale(1.05);
+}
+
+@media screen and (max-width: 500px) {
+  .container {
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  .photos {
+    padding: 1rem 12px;
+  }
 }

@@ -19,16 +19,14 @@ export default function Gallery({ photos }) {
             {photos.map(photo => {
               return (
                 <li key={photo.id}>
-                  <a href={photo.link} rel="noreferrer">
-                    <div className={styles.havamalPhoto}>
-                      <Image
-                        src={photo.photo}
-                        width={photo.width} 
-                        height={photo.height}  
-                        alt="Havamal photos"
-                      />
-                    </div>
-                  </a>
+                  <div className={styles.havamalPhoto}>
+                    <Image
+                      src={photo.photo}
+                      width={photo.width} 
+                      height={photo.height}  
+                      alt="Havamal photos"
+                    />
+                  </div>
                 </li>
               )
             })}
