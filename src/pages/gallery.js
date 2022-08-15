@@ -3,7 +3,6 @@ import styles from '../styles/gallery.module.css'
 import Image from 'next/image'
 
 export default function Gallery({ photos }) {
-  console.log('photos', photos)
   return (
     <>
       <Head>
