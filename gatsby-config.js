@@ -88,7 +88,7 @@ module.exports = {
         apiSecret: process.env.CLOUDINARY_API_SECRET,
         resourceType: `image`,
         prefix: `havamal/`,
-        maxResults: 50,
+        maxResults: 150,
       }
     },
   ],
