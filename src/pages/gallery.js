@@ -1,8 +1,16 @@
 import Head from 'next/head'
 import styles from '../styles/gallery.module.css'
 import Image from 'next/image'
+import Masonry from 'react-masonry-css'
 
 export default function Gallery({ photos }) {
+
+  const breakpointColumnsObj = {
+    default: 4,
+    1100: 3,
+    700: 2,
+    500: 1
+  }
   return (
     <>
       <Head>
@@ -13,11 +21,15 @@ export default function Gallery({ photos }) {
       <h1 className={styles.pageTitle}>Gallery</h1>
 
       <section id="gallery">
-        <div className={styles.container}>
-          <ul className={styles.photos}>
-            {photos.map(photo => {
-              return (
-                <li key={photo.id}>
+        <ul className={styles.photos}>
+          {photos.map(photo => {
+            return (
+              <li key={photo.id}>
+                <Masonry
+                  breakpointCols={breakpointColumnsObj}
+                  className={styles.myMasonryGrid}
+                  columnClassName={styles.myMasonryGridColumn}
+                >
                   <div className={styles.havamalPhoto}>
                     <Image
                       src={photo.photo}
@@ -25,12 +37,12 @@ export default function Gallery({ photos }) {
                       height={photo.height}  
                       alt="Havamal photos"
                     />
-                  </div>
-                </li>
-              )
-            })}
-          </ul>
-        </div>
+                </div>
+                </Masonry>
+              </li>
+            )
+          })}
+        </ul>
       </section>
     </>
   )

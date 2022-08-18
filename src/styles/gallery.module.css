@@ -7,36 +7,22 @@
   text-align: center;
 }
 
-.container {
-  max-width: 90vw;
-  margin: 0 auto;
-}
-
-.photos {
-  display: grid;
-  align-items: center;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 1rem;
-  padding: 2rem 4rem;
-}
-
-.havamalPhoto {
-  width: 100%;
-  height: auto;
-  padding: 6px;
-}
-
 .havamalPhoto:hover {
   transform: scale(1.05);
 }
 
-@media screen and (max-width: 500px) {
-  .container {
-    max-width: 100%;
-    margin: 0;
-    padding: 0;
-  }
-  .photos {
-    padding: 1rem 12px;
-  }
+.myMasonryGrid {
+  display: flex;
+  flex-wrap: wrap;
+  width: auto;
+}
+
+.myMasonryGridColumn {
+  padding-left: 30px; /* gutter size */
+  background-clip: padding-box;
+}
+
+/* Style your items */
+.myMasonryGridColumn > div {
+  margin-bottom: 1rem;
 }
