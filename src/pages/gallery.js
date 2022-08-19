@@ -2,6 +2,16 @@ import Head from 'next/head'
 import styles from '../styles/gallery.module.css'
 import Image from 'next/image'
 import Masonry from 'react-smart-masonry'
+import styled from '@emotion/styled'
+
+const HavamalPhoto = styled.span`
+  & > span {
+    border-radius: 4px;
+  }
+  & : hover {
+    transform: scale(1.1);
+  }
+`;
 
 export default function Gallery({ photos }) {
   return (
@@ -19,14 +29,14 @@ export default function Gallery({ photos }) {
             {photos.map(photo => {
               return (
                 <li key={photo.id}>
-                  <div className={styles.havamalPhoto}>
+                  <HavamalPhoto>
                     <Image
                       src={photo.photo}
                       width={photo.width} 
                       height={photo.height}  
                       alt="Havamal photos"
                     />
-                  </div>
+                  </HavamalPhoto>
                 </li>
               )
             })}
