@@ -7,22 +7,12 @@
   text-align: center;
 }
 
+.photos {
+  width: 90%;
+  margin: 0 auto;
+  padding: 0;
+}
+
 .havamalPhoto:hover {
-  transform: scale(1.05);
-}
-
-.myMasonryGrid {
-  display: flex;
-  flex-wrap: wrap;
-  width: auto;
-}
-
-.myMasonryGridColumn {
-  padding-left: 30px; /* gutter size */
-  background-clip: padding-box;
-}
-
-/* Style your items */
-.myMasonryGridColumn > div {
-  margin-bottom: 1rem;
+  transform: scale(1.1);
 }

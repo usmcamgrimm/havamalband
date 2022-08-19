@@ -1,16 +1,9 @@
 import Head from 'next/head'
 import styles from '../styles/gallery.module.css'
 import Image from 'next/image'
-import Masonry from 'react-masonry-css'
+import Masonry from 'react-smart-masonry'
 
 export default function Gallery({ photos }) {
-
-  const breakpointColumnsObj = {
-    default: 4,
-    1100: 3,
-    700: 2,
-    500: 1
-  }
   return (
     <>
       <Head>
@@ -22,14 +15,10 @@ export default function Gallery({ photos }) {
 
       <section id="gallery">
         <ul className={styles.photos}>
-          {photos.map(photo => {
-            return (
-              <li key={photo.id}>
-                <Masonry
-                  breakpointCols={breakpointColumnsObj}
-                  className={styles.myMasonryGrid}
-                  columnClassName={styles.myMasonryGridColumn}
-                >
+          <Masonry columns={5} gap={20}>
+            {photos.map(photo => {
+              return (
+                <li key={photo.id}>
                   <div className={styles.havamalPhoto}>
                     <Image
                       src={photo.photo}
@@ -37,11 +26,12 @@ export default function Gallery({ photos }) {
                       height={photo.height}  
                       alt="Havamal photos"
                     />
-                </div>
-                </Masonry>
-              </li>
-            )
-          })}
+                  </div>
+                </li>
+              )
+            })}
+          </Masonry>
+          
         </ul>
       </section>
     </>
