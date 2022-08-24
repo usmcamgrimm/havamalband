@@ -17,8 +17,8 @@ export default function HavamalLinks() {
             <Image
               src="/images/icons/AGR.png"
               alt="art gates records icon"
-              width={400}
-              height={120}
+              width={300}
+              height={90}
             />
           </a>
         </div>
@@ -36,8 +36,8 @@ export default function HavamalLinks() {
               className={styles.LinkIcon}
               src="/images/icons/bandcamp.png"
               alt="bandcamp icon"
-              width={60}
-              height={60}
+              width={32}
+              height={32}
             />
           </a>
           <a
@@ -51,8 +51,8 @@ export default function HavamalLinks() {
               className={styles.LinkIcon}
               src="/images/icons/bandbond.png"
               alt="bandbond icon"
-              width={60}
-              height={60}
+              width={32}
+              height={32}
             />
           </a>
           <a
@@ -66,8 +66,8 @@ export default function HavamalLinks() {
               className={styles.LinkIcon}
               src="/images/icons/facebook.png"
               alt="facebook icon"
-              width={60}
-              height={60}
+              width={32}
+              height={32}
             />
           </a>
           <a
@@ -81,8 +81,8 @@ export default function HavamalLinks() {
               className={styles.LinkIcon}
               src="/images/icons/instagram.png"
               alt="instagram icon"
-              width={60}
-              height={60}
+              width={32}
+              height={32}
             />
           </a>
           <a
@@ -96,8 +96,8 @@ export default function HavamalLinks() {
               className={styles.LinkIcon}
               src="/images/icons/spotify.png"
               alt="spotify icon"
-              width={60}
-              height={60}
+              width={32}
+              height={32}
             />
           </a>
           <a
@@ -111,8 +111,8 @@ export default function HavamalLinks() {
               className={styles.LinkIcon}
               src="/images/icons/youtube.png"
               alt="youtube icon"
-              width={60}
-              height={60}
+              width={32}
+              height={32}
             />
           </a>
         </div>
