@@ -30,7 +30,7 @@ export default function HavamalLinks() {
             target="_blank" 
             rel="noreferrer" 
             aria-label="Bandcamp"
-            className={css`margin-right: 16px`}
+            className={styles.IconLink}
           >
             <Image
               className={styles.LinkIcon}
@@ -45,7 +45,7 @@ export default function HavamalLinks() {
             target="_blank" 
             rel="noreferrer" 
             aria-label="Bandbond"
-            className={css`margin-right: 16px`}
+            className={styles.IconLink}
           >
             <Image
               className={styles.LinkIcon}
@@ -60,7 +60,7 @@ export default function HavamalLinks() {
             target="_blank" 
             rel="noreferrer" 
             aria-label="Facebook"
-            className={css`margin-right: 16px`}
+            className={styles.IconLink}
           >
             <Image
               className={styles.LinkIcon}
@@ -75,7 +75,7 @@ export default function HavamalLinks() {
             target="_blank" 
             rel="noreferrer" 
             aria-label="Instagram"
-            className={css`margin-right: 16px`}
+            className={styles.IconLink}
           >
             <Image
               className={styles.LinkIcon}
@@ -90,7 +90,7 @@ export default function HavamalLinks() {
             target="_blank" 
             rel="noreferrer" 
             aria-label="Havamal on Spotify"
-            className={css`margin-right: 16px`}
+            className={styles.IconLink}
           >
             <Image
               className={styles.LinkIcon}
@@ -105,7 +105,7 @@ export default function HavamalLinks() {
             target="_blank" 
             rel="noreferrer" 
             aria-label="YouTube"
-            className={css`margin-right: 16px`}
+            className={styles.IconLinkYT}
           >
             <Image
               className={styles.LinkIcon}

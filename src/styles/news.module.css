@@ -17,6 +17,8 @@
   color: #ffffff;
   font-family: 'grenze';
   font-size: 1.52rem;
+  font-weight: normal;
+  margin-bottom: 12px;
 }
 
 .postGrid {
@@ -30,4 +32,18 @@
   padding: 8px;
   cursor: pointer;
   text-align: center;
+}
+
+@media screen and (max-width: 500px) {
+  .postGrid {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .postTitle {
+    font-size: 2rem;
+  }
+  .postAuthor {
+    font-size: 1.25rem;
+  }
 }
