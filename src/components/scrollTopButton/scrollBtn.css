@@ -1,0 +1,38 @@
+.top {
+  position: relative;
+}
+
+.scroll-icon {
+  position: fixed;
+  bottom: 40px;
+  right: 25px;
+  z-index: 99;
+  color: #66add9;
+  height: 48px;
+  width:36px;
+  animation: scrollbtn 3s ease-in-out infinite;
+  transition: all .5s ease-in-out;
+}
+
+.scroll-icon:hover {
+  animation: none;
+  color: #fecb00;
+}
+
+@keyframes scrollbtn {
+  0%{
+    transform: translateY(0px);
+  }
+  25%{
+    transform: translateY(20px);
+  }
+  50%{
+    transform: translateY(0px);
+  }
+  75%{
+    transform: translateY(-20px);
+  }
+  100%{
+    transform: translateY(0px);
+  }
+}
