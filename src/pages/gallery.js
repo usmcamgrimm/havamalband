@@ -1,5 +1,4 @@
 import Head from 'next/head'
-import ScrollToTop from '../components/scrollTopButton'
 import styles from '../styles/gallery.module.css'
 import Image from 'next/image'
 import styled from '@emotion/styled'
@@ -41,7 +40,6 @@ export default function Gallery({ photos }) {
           })}
         </div>
       </section>
-      <ScrollToTop />
     </>
   )
 }
