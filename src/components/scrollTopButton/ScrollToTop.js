@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import { BsArrowUp } from 'react-icons/bs'
-import './scrollBtn.css'
+import styles from './scrollBtn.module.css'
 
 export default function ScrollToTop () {
   const [showScrollBtn, setShowScrollBtn] = useState(false)
@@ -22,11 +22,11 @@ export default function ScrollToTop () {
     })
   }
   return (
-    <div clasName="top">
+    <div className={styles.top}>
       {" "}
       {showScrollBtn && (
         <BsArrowUp
-          className="scroll-icon"
+          className={styles.scrollIcon}
           onClick={scrollTop}
         />
       )}
