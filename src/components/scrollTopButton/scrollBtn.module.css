@@ -13,7 +13,6 @@
 }
 
 .scrollIcon:hover {
-  animation: none;
   color: #fecb00;
   cursor: pointer;
 }
