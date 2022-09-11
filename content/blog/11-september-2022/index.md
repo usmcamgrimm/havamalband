@@ -4,7 +4,7 @@ date: 2022-09-11T16:22:32.623Z
 author: Havamal
 thumbnail: 11sep2022.jpg
 ---
-Post-tour show at home
+Post-tour show at home!
 
 [H﻿ellFrog Promotion](https://www.facebook.com/HellFrogPromotion)
 
