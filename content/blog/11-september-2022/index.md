@@ -6,8 +6,6 @@ thumbnail: 11sep2022.jpg
 ---
 Post-tour show at home
 
-
-
-[H﻿ellfrog Promotion](https://www.facebook.com/HellFrogPromotion)
+[H﻿ellFrog Promotion](https://www.facebook.com/HellFrogPromotion)
 
 ![Havamal live at Harry B James](11sep2022.jpg)
