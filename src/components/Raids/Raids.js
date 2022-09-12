@@ -13,6 +13,10 @@ const RaidWrapper = styled.div`
 const DateTitle = styled.p`
   grid-area: date;
   margin: 0;
+  @media screen and (max-width: 768px) {
+    margin-bottom: -16px;
+    color: #66add9;
+  }
 `;
 const EventTitle = styled.p`
   grid-area: event;
@@ -23,6 +27,7 @@ const LocationTitle = styled.p`
   margin: 0;
   @media screen and (max-width: 768px) {
     margin-top: -16px;
+    margin-bottom: 1rem;
   }
 `
 const RaidContainer = styled.div`
@@ -45,10 +50,7 @@ const RaidContainer = styled.div`
     padding: 0;
   }
   @media screen and (min-width: 1024px) {
-    grid-template-columns: 200px 300px 400px;
-  }
-  @media screen and (min-width: 1200px) {
-    grid-template-columns: 200px 400px 400px;
+    grid-template-columns: 160px 250px 400px;
   }
 `;
 
