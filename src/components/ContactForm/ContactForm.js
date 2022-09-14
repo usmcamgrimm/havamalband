@@ -56,7 +56,7 @@ export default function ContactForm() {
           id="message"
           name="message"
           className={styles.formTextField}
-          placeholder="Type your message to havamal..."
+          placeholder="Type your message to Havamal..."
         />
         <ValidationError 
           prefix="Message" 

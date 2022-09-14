@@ -30,11 +30,11 @@ export default function Saga() {
           </p>
                   
           <p className={styles.sagaText}>
-            Signed by Art Gates Records in 2019, the first full-length album, <strong>Tales From Yggdrasil</strong>, was released. Once again proving their musical prowess, Havamal unleashed many raids throughout their home country and spread their music. 
+            Signed by Art Gates Records in 2019, Havamal&apos;s first full-length album, <strong>Tales From Yggdrasil</strong>, was released. Once again proving their musical prowess, Havamal unleashed many raids throughout their home country and spread their music. 
           </p>
 
           <p className={styles.sagaText}>
-            Havamal signed once more with Art Gates Records, and their second full-length album, <strong>The Shadow Chapter</strong>, was released in May 2021. Entering into a new alliance with Hell Frog Promotion, Havamal raided at <strong>Raise Your Horns</strong>. Now, the hymn-weavers look to expand their influence even further! Havamal will be invading Europe later this year, starting with Germany, raiding at <strong>Thorshammer Festival</strong>, followed the next day by an appearance at <strong>Coastrock Festival</strong>! These shows will be followed by more shows across Europe, and hopefully we will soon see Havamal set sail on their longships, expanding their reach and raiding across the globe!
+            Havamal signed once more with Art Gates Records, and their second full-length album, <strong>The Shadow Chapter</strong>, was released in May 2021. Entering into a new alliance with HellFrog Promotion, Havamal raided at <strong>Raise Your Horns</strong>. Now, the hymn-weavers look to expand their influence even further! Havamal will be invading Europe later this year, starting with Germany, raiding at <strong>Thorshammer Festival</strong>, followed the next day by an appearance at <strong>Coastrock Festival</strong>! These shows will be followed by more shows across Europe, and hopefully we will soon see Havamal set sail on their longships, expanding their reach and raiding across the globe!
           </p>
         </div>
 
