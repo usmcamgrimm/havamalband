@@ -8,11 +8,11 @@
       "location": "Glider airfield, 98527 Suhl-Goldlauter"
     },
     {
-      "id": 2,
-      "link": "https://www.coastrock-festival.de/de/blog/2022/03/04/ahoi-havamal-sind-an-bord/",
+      "id": 12,
+      "link": "https://www.facebook.com/Havamalofficial",
       "date": "24 Sept 2022",
-      "event": "Coastrock Festival",
-      "location": "Suurhusen, Emden, Germany"
+      "event": "Club Flowerpower",
+      "location": "Magdeburg, Germany"
     },
     {
       "id": 3,
@@ -76,6 +76,13 @@
       "date": "18-19 Feb 2023",
       "event": "Cernunnos Pagan Fest",
       "location": "La Ferme du Buisson, Noisiel, France"
+    },
+    {
+      "id": 11,
+      "link": "https://www.coastrock-festival.de/de/blog/2022/03/04/ahoi-havamal-sind-an-bord/",
+      "date": "2023",
+      "event": "Coastrock Festival",
+      "location": "Suurhusen, Emden, Germany"
     }
   ]
 }
