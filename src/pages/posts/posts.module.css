@@ -32,8 +32,22 @@
   padding: 0 12px;
 }
 
+.postContent a {
+  color: #ffffff;
+}
+
 .imageWrapper {
   display: block;
   width: 400px;
   height: auto;
+}
+
+@media screen and (min-width: 1024px) {
+  .imageWrapper {
+    width: 800px;
+    height: auto;
+  }
+  .postContent {
+    padding: 0 4rem;
+  }
 }
