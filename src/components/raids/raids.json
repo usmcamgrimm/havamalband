@@ -1,69 +1,6 @@
 {
   "raids": [
     {
-      "id": 1,
-      "link": "https://www.all-for-you-events.com/thorshammer",
-      "date": "23 Sept 2022",
-      "event": "Thorshammer Festival",
-      "location": "Glider airfield, 98527 Suhl-Goldlauter"
-    },
-    {
-      "id": 12,
-      "link": "https://www.facebook.com/Havamalofficial",
-      "date": "24 Sept 2022",
-      "event": "Club Flowerpower",
-      "location": "Magdeburg, Germany"
-    },
-    {
-      "id": 3,
-      "link": "https://demeister.nl/",
-      "date": "25 Sept 2022",
-      "event": "Café de Meister",
-      "location": "Geleen, Netherlands"
-    },
-    {
-      "id": 4,
-      "link": "https://www.facebook.com/leklubparis/",
-      "date": "26 Sept 2022",
-      "event": "Le Klub",
-      "location": "Paris, France"
-    },
-    {
-      "id": 5,
-      "link": "https://www.facebook.com/LaBratCave",
-      "date": "27 Sept 2022",
-      "event": "La Brat Cave",
-      "location": "Lille, France"
-    },
-    {
-      "id": 6,
-      "link": "https://www.facebook.com/ragnarokmetalandrockbar/",
-      "date": "28 Sept 2022",
-      "event": "Ragnarok Live Club",
-      "location": "Bree, Belgium"
-    },
-    {
-      "id": 7,
-      "link": "https://www.facebook.com/Alternative.Rockcafe.Mukkes",
-      "date": "29 Sept 2022",
-      "event": "Mukkes",
-      "location": "Leeuwarden, Netherlands"
-    },
-    {
-      "id": 8,
-      "link": "https://www.facebook.com/muggefug",
-      "date": "30 Sept 2022",
-      "event": "Muggefug",
-      "location": "Cottbus, Germany"
-    },
-    {
-      "id": 9,
-      "link": "https://www.facebook.com/The-Scotsman-Pub-406075316492803/",
-      "date": "01 Oct 2022",
-      "event": "The Scotsman",
-      "location": "Schwerin, Germany"
-    },
-    {
       "id": 11,
       "link": "https://fb.me/e/2QWBjvoBL",
       "date": "19 Nov 2022",
