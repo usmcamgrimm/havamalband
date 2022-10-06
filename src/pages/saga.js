@@ -34,7 +34,7 @@ export default function Saga() {
           </p>
 
           <p className={styles.sagaText}>
-            Havamal signed once more with Art Gates Records, and their second full-length album, <strong>The Shadow Chapter</strong>, was released in May 2021. Entering into a new alliance with Hell Frog Promotion, Havamal raided at <strong>Raise Your Horns</strong>. Following many successful raids throughout Europe, the hymn-weavers returned to the shores of their native Sweden.
+            Havamal signed once more with Art Gates Records, and their second full-length album, <strong>The Shadow Chapter</strong>, was released in May 2021. Entering into a new alliance with Hell Frog Promotion, Havamal raided at <strong>Raise Your Horns</strong>. Following the successful European <strong>Shadow ChapTour</strong>, the hymn-weavers returned to the shores of their native Sweden to enjopy the spoils of the raids.
           </p>
 
           <p className={styles.sagaText}>
