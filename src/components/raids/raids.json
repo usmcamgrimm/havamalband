@@ -15,11 +15,18 @@
       "location": "La Ferme du Buisson, Noisiel, France"
     },
     {
-      "id": 11,
+      "id": 12,
       "link": "https://www.coastrock-festival.de/de/blog/2022/03/04/ahoi-havamal-sind-an-bord/",
       "date": "2023",
       "event": "Coastrock Festival",
       "location": "Suurhusen, Emden, Germany"
+    },
+    {
+      "id": 13,
+      "link": "https://palatset.nu/",
+      "date": "29 Apr 2023",
+      "event": "Palatset",
+      "location": "Linköping, Sweden"
     }
   ]
 }
