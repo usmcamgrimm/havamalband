@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import Image from 'next/image'
+import Image from "next/legacy/image";
 import NavLinks from './NavLinks'
 import styled from '@emotion/styled'
 

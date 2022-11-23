@@ -1,7 +1,7 @@
 import fs from 'fs'
 import matter from 'gray-matter'
 import md from 'markdown-it'
-import Image from 'next/image'
+import Image from "next/legacy/image";
 import styles from './posts.module.css'
 
 export default function Post({ frontmatter, content }) {

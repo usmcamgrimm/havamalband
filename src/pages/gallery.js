@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import styles from '../styles/gallery.module.css'
-import Image from 'next/image'
+import Image from "next/legacy/image";
 import styled from '@emotion/styled'
 
 const HavamalPhoto = styled.span`
