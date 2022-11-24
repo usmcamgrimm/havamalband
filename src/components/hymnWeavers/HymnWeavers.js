@@ -1,4 +1,4 @@
-import Image from 'next/image'
+import Image from "next/legacy/image";
 import styles from './hymnWeavers.module.css'
 import styled from '@emotion/styled'
 

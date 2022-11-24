@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import Image from 'next/image'
+import Image from "next/legacy/image";
 import styles from '../styles/music.module.css'
 import styled from '@emotion/styled'
 import { css } from '@emotion/css'

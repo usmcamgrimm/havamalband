@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import Image from 'next/image'
+import Image from "next/legacy/image";
 import HavamalVideo from '../components/video/HavamalVideo'
 import Raids from '../components/raids/Raids'
 import HavamalLinks from '../components/linkLayout/HavamalLinks'
