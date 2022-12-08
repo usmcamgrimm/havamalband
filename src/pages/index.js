@@ -10,7 +10,7 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>HAVAMAL | Home</title>
-        <meta name="description" content="Website for the Swedish band Havamalp" />
+        <meta name="description" content="Website for the Swedish band Havamal" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
