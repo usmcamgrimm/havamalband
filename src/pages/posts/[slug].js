@@ -17,7 +17,7 @@ export default function Post({ frontmatter, content }) {
         <div className={styles.imageWrapper}>
           <Image
             src={image}
-            alt="This is the alt text"
+            alt="Havamal updates"
             layout="responsive"
             objectFit="contain"
             height="100%"

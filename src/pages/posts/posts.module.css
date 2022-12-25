@@ -44,8 +44,9 @@
 
 @media screen and (min-width: 1024px) {
   .imageWrapper {
-    width: 800px;
+    max-width: 500px;
     height: auto;
+    margin-top: 2rem;
   }
   .postContent {
     padding: 0 4rem;
