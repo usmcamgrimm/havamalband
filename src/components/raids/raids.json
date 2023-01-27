@@ -1,6 +1,13 @@
 {
   "raids": [
     {
+      "id": 15,
+      "link": "https://www.facebook.com/profile.php?id=100086991661271",
+      "date": "28 Jan 2023",
+      "event": "PoW WoW Rock Fest",
+      "location": "Vällingby, Stockholm, Sweden"
+    },
+    {
       "id": 10,
       "link": "https://www.facebook.com/cernunnos.festival/",
       "date": "18-19 Feb 2023",
