@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import Image from "next/legacy/image";
+import Image from "next/image";
 import HavamalVideo from '../components/video/HavamalVideo'
 import Raids from '../components/raids/Raids'
 import HavamalLinks from '../components/linkLayout/HavamalLinks'
@@ -27,7 +27,7 @@ export default function Home() {
           <div className={styles.logo}>
             <Image
               src="/images/havamal.png"
-              height={539}
+              height={425}
               width={1024}
               alt="The Havamal logo"
             />
