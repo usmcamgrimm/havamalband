@@ -1,6 +1,5 @@
-import Image from "next/legacy/image";
+import Image from "next/image";
 import styles from './horde.module.css'
-import { css } from '@emotion/css'
 
 export default function Horde() {
   return(
@@ -17,8 +16,8 @@ export default function Horde() {
       >
         <Image
           src="/images/icons/horde.png"
-          width={213}
-          height={68}
+          width={225}
+          height={75}
           alt="Hordes of Havamal Facebook banner"
         />
       </a>

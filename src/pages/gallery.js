@@ -1,16 +1,6 @@
 import Head from 'next/head'
+import Image from "next/image"
 import styles from '../styles/gallery.module.css'
-import Image from "next/legacy/image";
-import styled from '@emotion/styled'
-
-const HavamalPhoto = styled.span`
-  & > span {
-    border-radius: 4px;
-  }
-  & : hover {
-    transform: scale(1.07);
-  }
-`;
 
 export default function Gallery({ photos }) {
   return (
@@ -27,14 +17,13 @@ export default function Gallery({ photos }) {
           {photos.map(photo => {
             return (
               <div key={photo.id} className={styles.gridPhotos}>
-                <HavamalPhoto>
-                  <Image
-                    src={photo.photo}
-                    width={photo.width} 
-                    height={photo.height}  
-                    alt="Havamal photos"
-                  />
-                </HavamalPhoto>
+                <Image
+                  src={photo.photo}
+                  width={photo.width} 
+                  height={photo.height}  
+                  alt="Havamal photos"
+                  className={styles.havamalImg}
+                />
               </div>
             )
           })}

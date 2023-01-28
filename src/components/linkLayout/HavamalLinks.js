@@ -1,6 +1,5 @@
-import Image from "next/legacy/image";
+import Image from "next/image";
 import styles from './havamalLinks.module.css'
-import { css } from '@emotion/css'
 
 export default function HavamalLinks() {
   return (
@@ -12,7 +11,6 @@ export default function HavamalLinks() {
             target="_blank" 
             rel="noreferrer" 
             aria-label="Art Gates Records"
-            className={css`margin-bottom: -4px`}
           >
             <Image
               src="/images/icons/AGR.png"

@@ -30,6 +30,7 @@
 .BannerLink {
   display: flex;
   justify-content: center;
+  margin-bottom: -4px
 }
 
 @media screen and (max-width: 500px) {
