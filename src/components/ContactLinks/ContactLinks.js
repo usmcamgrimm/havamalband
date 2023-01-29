@@ -8,14 +8,14 @@ export default function ContactLinks() {
         target="_blank" 
         rel="noreferrer" 
         aria-label="Official Facebook page of Havamal"
-        className={styles.siteLinks}
+        className={styles.contactsLinks}
       >
         <p className={styles.contactText}>Havamal Official on Facebook</p>
       </a>
       <a
         href="mailto:havamal@email.com"
         aria-label="Havamal Email"
-        className={styles.messageLinks}
+        className={styles.contactsLinks}
       >
         <p className={styles.contactText}>havamal[at]email.com</p>
       </a>
@@ -25,14 +25,14 @@ export default function ContactLinks() {
         target="_blank" 
         rel="noreferrer" 
         aria-label="Art Gates Records website"
-        className={styles.siteLinks}
+        className={styles.contactsLinks}
       >
         <p className={styles.contactText}>Art Gates Records</p>
       </a>
       <a
         href="mailto:info@artgatesrecords.com"
         aria-label="Email Art gates Records"
-        className={styles.messageLinks}
+        className={styles.contactsLinks}
       >
         <p className={styles.contactText}>info[at]artgatesrecords.com</p>
       </a>
@@ -42,14 +42,14 @@ export default function ContactLinks() {
         target="_blank" 
         rel="noreferrer" 
         aria-label="Official Facebook page of Hell Frog Promotion"
-        className={styles.siteLinks}
+        className={styles.contactsLinks}
       >
         <p className={styles.contactText}>Hell Frog Promotion</p>
       </a>
       <a
         href="mailto:hellfrog.prom@hotmail.com"
         aria-label="Email Hell Frog Promotion"
-        className={styles.messageLinks}
+        className={styles.contactsLinks}
       >
         <p className={styles.contactText}>hellfrog.prom[at]hotmail.com</p>
       </a>

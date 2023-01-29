@@ -9,11 +9,10 @@
   margin-bottom: 6px;
 }
 
-.siteLinks {
-  cursor: crosshair;
-  text-decoration: none;
+.contactText:hover {
+  color: #005293;
 }
 
-.messageLinks {
+.contactsLinks {
   text-decoration: none;
 }
