@@ -62,3 +62,9 @@
     grid-template-columns: 160px 250px 400px;
   }
 }
+
+@media screen and (min-width: 1025px) {
+  .RaidContainer {
+    grid-template-columns: 300px 400px 500px;
+  }
+}
