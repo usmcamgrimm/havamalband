@@ -8,6 +8,7 @@
 ### This website is built using these resources and technologies:
 
 - Next.JS
+- Vercel
 - Cloudinary
 - Emotion
 
