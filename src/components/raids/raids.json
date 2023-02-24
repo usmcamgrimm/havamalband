@@ -1,11 +1,18 @@
 {
   "raids": [
     {
-      "id": 12,
-      "link": "https://www.coastrock-festival.de/de/blog/2022/03/04/ahoi-havamal-sind-an-bord/",
-      "date": "2023",
-      "event": "Coastrock Festival",
-      "location": "Suurhusen, Emden, Germany"
+      "id": 16,
+      "link": "https://www.facebook.com/events/556335176461764/",
+      "date": "8 April 2023",
+      "event": "Havamal / Thy Kingdom Will Burn",
+      "location": "Tampere, Finland"
+    },
+    {
+      "id": 17,
+      "link": "https://www.facebook.com/events/582012113835749/",
+      "date": "9 April 2023",
+      "event": "Havamal / Thy Kingdom Will Burn / Khiral",
+      "location": "Helsinki, Finland"
     },
     {
       "id": 13,
@@ -20,6 +27,13 @@
       "date": "27 May 2023",
       "event": "Järfälla Metal Fest",
       "location": "Klubb Fredagsmangel, Jakobsberg, Sweden"
+    },
+    {
+      "id": 12,
+      "link": "https://www.coastrock-festival.de/de/blog/2022/03/04/ahoi-havamal-sind-an-bord/",
+      "date": "2023",
+      "event": "Coastrock Festival",
+      "location": "Suurhusen, Emden, Germany"
     }
   ]
 }
