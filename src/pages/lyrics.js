@@ -15,6 +15,9 @@ export default function Lyrics() {
       </h1>
 
       <section id="Album1">
+        <h2 className={styles.albumTitle}>
+          Call of The North
+        </h2>
         <CallOfTheNorth />
       </section>
     </>
