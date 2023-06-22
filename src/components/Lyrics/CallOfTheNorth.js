@@ -14,7 +14,7 @@ export default function CallOfTheNorth() {
           border: 'none',
           fontFamily: 'Norse',
           color: '#66add9',
-          fontSize: '2.5rem',
+          fontSize: '2rem',
           fontWeight: 'bold'
         }}
         onClick={decoratedOnClick}
@@ -24,7 +24,7 @@ export default function CallOfTheNorth() {
     )
   }
   return (
-    <Accordion defaultActiveKey="0">
+    <Accordion>
       <Card
         style={{ backgroundColor: '#070707' }}
       >
