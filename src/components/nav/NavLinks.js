@@ -21,6 +21,7 @@ export default function NavLinks() {
     <>
       <NavLink href="/">Home</NavLink>
       <NavLink href="/music">Music</NavLink>
+      <NavLink href="/lyrics">Lyrics</NavLink>
       <NavLink href="/gallery">Gallery</NavLink>
       <NavLink href="/saga">Saga</NavLink>
       <NavLink href="../#raids">Raids</NavLink>
