@@ -12,10 +12,9 @@ export default function TheShadowChapter() {
         style={{
           backgroundColor: '#070707',
           border: 'none',
-          fontFamily: 'Norse',
+          fontFamily: 'grenze',
           color: '#66add9',
-          fontSize: '2rem',
-          fontWeight: 'bold'
+          fontSize: '2rem'
         }}
         onClick={decoratedOnClick}
       >
@@ -29,7 +28,7 @@ export default function TheShadowChapter() {
         style={{ backgroundColor: '#070707' }}
       >
         <Card.Header>
-          <CustomToggle eventKey="0">The NOrth Awakens</CustomToggle>
+          <CustomToggle eventKey="0">The North Awakens</CustomToggle>
         </Card.Header>
         <Accordion.Collapse eventKey="0">
           <Card.Body

@@ -12,10 +12,9 @@ export default function TalesFromYggdrasil() {
         style={{
           backgroundColor: '#070707',
           border: 'none',
-          fontFamily: 'Norse',
+          fontFamily: 'grenze',
           color: '#66add9',
-          fontSize: '2rem',
-          fontWeight: 'bold'
+          fontSize: '2rem'
         }}
         onClick={decoratedOnClick}
       >

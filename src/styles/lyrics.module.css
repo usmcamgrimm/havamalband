@@ -7,11 +7,11 @@
   text-align: center;
 }
 .albumTitle {
-  font-family: grenze;
+  font-family: 'Norse';
   color: #ffffff;
   font-size: 2.5rem;
   margin: 0;
   padding-bottom: 1rem;
   font-weight: normal;
-  text-align: center;
+  text-align: left;
 }
