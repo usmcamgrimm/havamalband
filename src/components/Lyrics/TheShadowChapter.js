@@ -410,9 +410,9 @@ export default function TheShadowChapter() {
         style={{ backgroundColor: '#070707' }}
       >
         <Card.Header>
-          <CustomToggle eventKey="5">Jormungandr</CustomToggle>
+          <CustomToggle eventKey="6">Jormungandr</CustomToggle>
         </Card.Header>
-        <Accordion.Collapse eventKey="5">
+        <Accordion.Collapse eventKey="6">
           <Card.Body
             style={{
               backgroundColor: '#070707',
@@ -481,9 +481,9 @@ export default function TheShadowChapter() {
         style={{ backgroundColor: '#070707' }}
       >
         <Card.Header>
-          <CustomToggle eventKey="5">Hel</CustomToggle>
+          <CustomToggle eventKey="7">Hel</CustomToggle>
         </Card.Header>
-        <Accordion.Collapse eventKey="5">
+        <Accordion.Collapse eventKey="7">
           <Card.Body
             style={{
               backgroundColor: '#070707',
@@ -559,9 +559,9 @@ export default function TheShadowChapter() {
         style={{ backgroundColor: '#070707' }}
       >
         <Card.Header>
-          <CustomToggle eventKey="5">The Curse of Grendel</CustomToggle>
+          <CustomToggle eventKey="8">The Curse of Grendel</CustomToggle>
         </Card.Header>
-        <Accordion.Collapse eventKey="5">
+        <Accordion.Collapse eventKey="8">
           <Card.Body
             style={{
               backgroundColor: '#070707',

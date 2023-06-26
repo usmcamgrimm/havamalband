@@ -340,7 +340,7 @@ export default function TalesFromYggdrasil() {
             Down to halls of drowned eternally.<br />
             <br />
             Claims your death and life beyond all time.<br />
-            Ran do lure and guide your final climb.<br />
+            Ran do lure and guide your final climb.
           </Card.Body>
         </Accordion.Collapse>
       </Card>
@@ -348,9 +348,9 @@ export default function TalesFromYggdrasil() {
         style={{ backgroundColor: '#070707' }}
       >
         <Card.Header>
-          <CustomToggle eventKey="5">Death of Balder</CustomToggle>
+          <CustomToggle eventKey="6">Death of Balder</CustomToggle>
         </Card.Header>
-        <Accordion.Collapse eventKey="5">
+        <Accordion.Collapse eventKey="6">
           <Card.Body
             style={{
               backgroundColor: '#070707',
@@ -426,9 +426,9 @@ export default function TalesFromYggdrasil() {
         style={{ backgroundColor: '#070707' }}
       >
         <Card.Header>
-          <CustomToggle eventKey="5">Hail Havamal</CustomToggle>
+          <CustomToggle eventKey="7">Hail Havamal</CustomToggle>
         </Card.Header>
-        <Accordion.Collapse eventKey="5">
+        <Accordion.Collapse eventKey="7">
           <Card.Body
             style={{
               backgroundColor: '#070707',
@@ -468,9 +468,9 @@ export default function TalesFromYggdrasil() {
         style={{ backgroundColor: '#070707' }}
       >
         <Card.Header>
-          <CustomToggle eventKey="5">Ginnungagap</CustomToggle>
+          <CustomToggle eventKey="8">Ginnungagap</CustomToggle>
         </Card.Header>
-        <Accordion.Collapse eventKey="5">
+        <Accordion.Collapse eventKey="8">
           <Card.Body
             style={{
               backgroundColor: '#070707',
