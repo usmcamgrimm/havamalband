@@ -33,7 +33,9 @@
   justify-content: center;
 }
 
-.bandPhoto {
+.havamalPhoto {
+  width: 90%;
+  height: 700px;
   margin: 0 auto;
   margin-top: 2rem;
   border-radius: 8px;
@@ -43,7 +45,7 @@
 .logo {
   max-width: 800px;
   margin: 0 auto;
-  margin-top: -400px;
+  margin-top: -350px;
   z-index: 1;
 }
 
@@ -74,6 +76,9 @@
 }
 
 @media screen and (max-width: 1025px) {
+  .havamalPhoto {
+    height: 90%;
+  }
   .logo {
     margin-top: -200px;
   }
@@ -83,6 +88,12 @@
 }
 
 @media screen and (max-width: 820px) {
+  .havamalPhoto {
+    margin: 0 auto;
+    width: 600px;
+    height: auto;
+    margin-top: 2rem;
+  }
   .logo {
     margin-top: -125px;
   }
@@ -92,6 +103,12 @@
 }
 
 @media screen and (max-width: 500px) {
+  .havamalPhoto {
+    margin: 0 auto;
+    width: 400px;
+    height: auto;
+    margin-top: 2rem;
+  }
   .logo {
     margin-top: -100px;
   }

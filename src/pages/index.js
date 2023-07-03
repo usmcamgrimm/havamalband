@@ -18,18 +18,13 @@ export default function Home() {
 
       <main className={styles.main}>
         <section id={styles.mainImage}>
-          <div className={styles.bandPhoto}>
-            <Image
-              src={havamalPhoto}
-              sizes="100vw"
-              alt="The members of Havamal"
-              priority
-              style={{
-                width: '80vw',
-                height: '40vw',
-              }}
-            />
-          </div>
+          <Image
+            src={havamalPhoto}
+            alt="The members of Havamal"
+            quality={100}
+            priority={true}
+            className={styles.havamalPhoto}
+          />
           <div className={styles.logo}>
             <Image
               src={havamalLogo}
