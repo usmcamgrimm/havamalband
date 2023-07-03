@@ -1,9 +1,11 @@
 import Head from 'next/head'
-import Image from "next/legacy/image";
+import Image from 'next/image'
 import HavamalVideo from '../components/video/HavamalVideo'
 import Raids from '../components/raids/Raids'
 import HavamalLinks from '../components/linkLayout/HavamalLinks'
 import styles from '../styles/Home.module.css'
+import havamalPhoto from '../../public/images/bandPhoto.jpg'
+import havamalLogo from '../../public/images/havamal.png'
 
 export default function Home() {
   return (
@@ -18,19 +20,21 @@ export default function Home() {
         <section id={styles.mainImage}>
           <div className={styles.bandPhoto}>
             <Image
-              src="/images/bandPhoto.jpg"
-              height={710}
-              width={1080}
+              src={havamalPhoto}
+              sizes="100vw"
               alt="The members of Havamal"
               priority
+              style={{
+                width: '80vw',
+                height: '40vw',
+              }}
             />
           </div>
           <div className={styles.logo}>
             <Image
-              src="/images/havamal.png"
-              height={425}
-              width={1024}
+              src={havamalLogo}
               alt="The Havamal logo"
+              className={styles.havamalLogo}
             />
           </div>
         </section>

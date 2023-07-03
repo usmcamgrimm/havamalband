@@ -47,6 +47,11 @@
   z-index: 1;
 }
 
+.havamalLogo {
+  max-width: 800px;
+  height: auto;
+}
+
 .VideoContainer {
   margin-top: 4rem;
   display: flex;
@@ -70,18 +75,27 @@
 
 @media screen and (max-width: 1025px) {
   .logo {
-    margin-top: -300px;
+    margin-top: -200px;
+  }
+  .havamalLogo {
+    max-width: 600px;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 820px) {
   .logo {
-    margin-top: -350px;
-  }    
+    margin-top: -125px;
+  }
+  .havamalLogo {
+    max-width: 450px;
+  }  
 }
 
 @media screen and (max-width: 500px) {
   .logo {
     margin-top: -100px;
+  }
+  .havamalLogo {
+    max-width: 300px;
   }
 }
