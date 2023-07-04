@@ -19,7 +19,7 @@ export default function Lyrics() {
         Havamal Lyrics
       </h1>
 
-      <Container fluid>
+      <Container>
         <Row>
           <Col sm={12} lg={4}>
             <h2 className={styles.albumTitle}>
