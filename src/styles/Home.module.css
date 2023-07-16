@@ -75,6 +75,13 @@
   margin-top: 10rem;
 }
 
+@media screen and (min-width: 1441px) {
+  .havamalPhoto {
+    width: 1200px;
+    height: 675px;
+  }
+}
+
 @media screen and (max-width: 1025px) {
   .havamalPhoto {
     height: 90%;
