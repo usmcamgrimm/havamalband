@@ -4,7 +4,12 @@ import styles from './raids.module.css'
 export default function Raids() {
   return (
     <>
-      {JSONData.raids.map((raids, index) => {
+      <div className={styles.EmptyRaidContainer}>
+              <p className={styles.NoRaids}>
+                Currently no raids are scheduled. Check back soon!
+              </p>
+            </div>
+      {/* {JSONData.raids.map((raids, index) => {
         return (
           <div
             key={`raids_id_${index}`}
@@ -24,7 +29,7 @@ export default function Raids() {
             </div>
           </div>
         )
-      })}
+      })} */}
     </>
   )
 }
