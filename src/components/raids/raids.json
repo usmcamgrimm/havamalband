@@ -8,18 +8,18 @@
       "location": "Billstedt, Germany"
     },
     {
+      "id": 20,
+      "link": "https://www.coastrock-festival.de/",
+      "date": "30 Sept 2023",
+      "event": "Coastrock Festival",
+      "location": "Hinte, Germany"
+    },
+    {
       "id": 19,
       "link": "https://www.arvranfest.fr/",
       "date": "6 April 2024",
       "event": "Ar' Vran Prod'",
       "location": "Baguer-Pican, France"
-    },
-    {
-      "id": 20,
-      "link": "https://www.coastrock-festival.de/",
-      "date": "29 Sept 2023",
-      "event": "Coastrock Festival",
-      "location": "Hinte, Germany"
     }
   ]
 }
