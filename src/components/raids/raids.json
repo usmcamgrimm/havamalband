@@ -15,11 +15,18 @@
       "location": "Hinte, Germany"
     },
     {
+      "id": 21,
+      "link": "https://www.facebook.com/profile.php?id=100086991661271",
+      "date": "25 Nov 2023",
+      "event": "PoW WoW Rock Fest",
+      "location": "Baguer-Pican, France"
+    },
+    {
       "id": 19,
       "link": "https://www.arvranfest.fr/",
       "date": "6 April 2024",
       "event": "Ar' Vran Prod'",
-      "location": "Baguer-Pican, France"
+      "location": "ällingby, Sweden"
     }
   ]
 }
