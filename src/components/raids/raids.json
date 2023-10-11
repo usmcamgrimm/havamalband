@@ -5,14 +5,21 @@
       "link": "https://www.facebook.com/profile.php?id=100086991661271",
       "date": "25 Nov 2023",
       "event": "PoW WoW Rock Fest",
-      "location": "Baguer-Pican, France"
+      "location": "Vällingby, Sweden"
     },
     {
       "id": 19,
       "link": "https://www.arvranfest.fr/",
       "date": "6 April 2024",
       "event": "Ar' Vran Prod'",
-      "location": "ällingby, Sweden"
+      "location": "Baguer-Pican, France"
+    },
+    {
+      "id": 22,
+      "link": "https://www.facebook.com/events/2519568584882563/",
+      "date": "21-24 June 2024",
+      "event": "Mittsommernächte Bärenstein",
+      "location": "Bärenstein, Germany"
     }
   ]
 }
