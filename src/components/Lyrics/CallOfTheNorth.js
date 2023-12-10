@@ -87,7 +87,7 @@ export default function CallOfTheNorth() {
             <br />
             Lost inside a vortex, of never-ending pain.<br />
             The age of man shall end, tonight.<br />
-
+            <br />
             Now, stand proud, the dead army marches, and we will hold fast or,<br />
             Fall, if we die, Valhalla will greet us to battle once more!<br /> 
             <br />

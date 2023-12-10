@@ -209,12 +209,12 @@ export default function TheShadowChapter() {
             On a frozen, blackened sea<br />
             There a ship drifts alone<br />
             Where gods won&apos;t hear their plea<br />
-
+            <br />
             From the bow comes a hopeful shout<br />
             &quot;My captain, I see land&quot;<br />
             We turn our heads to realize<br />
             That something&apos;s not as planned<br />
-
+            <br />
             Fear the unknown of this realm<br />
             The dead will tell ye all of its tales<br />
             Oh underneath the waves<br />
@@ -229,12 +229,12 @@ export default function TheShadowChapter() {
             And pray to Odin our lord!&quot;<br />
             The crew will fight against all odds<br />
             Or it will drag us overboard<br />
-
+            <br />
             Fear the unknown of this realm<br />
             The dead will tell ye all of its tales<br />
             Underneath the waves<br />
             An ancient monster awakes<br />
-
+            <br />
             From a time that even the Aesirs fear<br />
             Deep below where Hel is near<br />
             A watery death awaits whomever comes there<br />
@@ -256,7 +256,7 @@ export default function TheShadowChapter() {
             Now we dead will tell ye its tales<br />
             Underneath the waves<br />
             The drowned lost crews awaits<br />
-
+            <br />
             From a time that even the Aesirs fear<br />
             Deep below where Hel is near<br />
             A watery death awaits whomever comes there<br />
@@ -364,7 +364,7 @@ export default function TheShadowChapter() {
             To evade their mortal rule<br />
             You will jump their ledge<br />
             By a scissor&apos;s edge<br />
-            They will play you like a mindless fool;
+            They will play you like a mindless fool<br />
             <br />
             The first of three is Urd<br />
             The eldest of her kind<br />
@@ -578,7 +578,7 @@ export default function TheShadowChapter() {
             This Heorot, I&apos;ve built for you&quot;<br />
             The walls were shaking from the songs of drunken tales<br />
             A grand feast our Hrothgar threw<br />
-
+            <br />
             Suddenly all lights went out and silence rose<br />
             As the warriors drew their swords<br />
             Through the gates I smashed my way into their hall<br />
@@ -586,7 +586,7 @@ export default function TheShadowChapter() {
             Crushing bones and drinking blood of fallen foes<br />
             Thirsty souls were lost in pain<br />
             The morning after Hrothgar said<br />
-            &quot;Now seal this hall, no joy will echo again&quot;
+            &quot;Now seal this hall, no joy will echo again&quot;<br />
             <br />
             The curse of Grendel&apos;s fate<br />
             A path of vengeful hate<br />
