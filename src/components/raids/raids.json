@@ -2,6 +2,13 @@
   "raids": [
     {
       "id": 19,
+      "link": "https://demonology.rocks/collections/tickets/products/demonology-vol-xxi-havamal-sekoria-frostgrab",
+      "date": "5 April 2024",
+      "event": "Demonology Fest April",
+      "location": "Valhalla Metal Pub, Köln, Germany"
+    },
+    {
+      "id": 19,
       "link": "https://www.arvranfest.fr/",
       "date": "6 April 2024",
       "event": "Ar' Vran Prod'",
