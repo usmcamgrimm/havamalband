@@ -79,6 +79,6 @@
 
 @media screen and (min-width: 1025px) {
   .RaidContainer {
-    grid-template-columns: 300px 600px 500px;
+    grid-template-columns: 300px 400px 400px;
   }
 }
