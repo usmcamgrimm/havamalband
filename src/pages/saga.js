@@ -38,7 +38,11 @@ export default function Saga() {
           </p>
 
           <p className={styles.sagaText}>
-            Hopefully we will soon see Havamal set sail on their longships, expanding their reach and raiding across the globe!
+            Not content to rest, the hymn-weavers set their sails once more and embarked on more musical raids across France and Germany. Once again upon their native soil, Havamal entered the studio to begin work on a new album. <strong>The Storm King</strong> releases March 1, 2024 and <strong>Song of Nine</strong> releases March 29, 2024.
+          </p>
+
+          <p className={styles.sagaText}>
+            The saga continues...
           </p>
         </div>
 
