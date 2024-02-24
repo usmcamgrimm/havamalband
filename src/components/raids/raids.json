@@ -8,11 +8,41 @@
       "location": "Valhalla Metal Pub, Köln, Germany"
     },
     {
+      "id": 25,
+      "date": "6 April 2024",
+      "event": "Hel Over Europe",
+      "location": "Asgaard, Gent, Belgium"
+    },
+    {
       "id": 19,
       "link": "https://www.arvranfest.fr/",
       "date": "7 April 2024",
       "event": "Ar' Vran Prod'",
       "location": "Baguer-Pican, France"
+    },
+    {
+      "id": 26,
+      "date": "9 April 2024",
+      "event": "Hel Over Europe",
+      "location": "Le Klub, Paris, France"
+    },
+    {
+      "id": 27,
+      "date": "10 April 2024",
+      "event": "Hel Over Europe",
+      "location": "La Bratcave, Lille, France"
+    },
+    {
+      "id": 28,
+      "date": "12 April 2024",
+      "event": "Hel Over Europe",
+      "location": "Le Grillen, Colmar, France"
+    },
+    {
+      "id": 29,
+      "date": "13 April 2024",
+      "event": "Hel Over Europe",
+      "location": "Tir Fest, Bree, Belgium"
     },
     {
       "id": 22,
