@@ -39,8 +39,8 @@ export default function Home() {
 
         <section className={styles.VideoContainer}>
           <HavamalVideo
-            videoURL="https://www.youtube.com/embed/w6Gy4ZGG5eg"
-            videoTitle="Nidhöggr"
+            videoURL="https://www.youtube.com/embed/cX9duzn8BaM"
+            videoTitle="The Storm King"
           />
         </section>
 
