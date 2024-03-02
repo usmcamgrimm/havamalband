@@ -35,6 +35,43 @@ export default function Music() {
         The Hymns of Havamal
       </h1>
 
+      <section id="singleStormKing">
+        <div className={styles.albumContainer}>
+          <AlbumImage>
+            <Image
+              src="/images/albums/tsk.jpg"
+              height={500}
+              width={500}
+              alt="The Storm King single image"
+            />
+          </AlbumImage>
+          <div className="albumDetails">
+            <h2 className={styles.albumTitle}>
+              The Storm King
+            </h2>
+            <h3 className={styles.releaseInfo}>
+              Art Gates Records | March 2024
+            </h3>
+            <iframe
+              title="The Storm King Sample on Spotify"
+              src="https://open.spotify.com/embed/album/119RbrOHLYst3nCOW87eWa"
+              width="325"
+              height="360"
+              allowtransparency="true"
+              allow="encrypted-media"
+              className={css`
+                margin-left: 2rem;
+                @media screen and (max-width: 768px){
+                  margin-left: 0;
+                }
+              `}
+            ></iframe>
+          </div>
+        </div>
+
+        <Line />
+      </section>
+
       <section id="albumTSC">
         <div className={styles.albumContainer}>
           <AlbumImage>
