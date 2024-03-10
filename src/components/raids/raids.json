@@ -4,44 +4,50 @@
       "id": 24,
       "link": "https://demonology.rocks/collections/tickets/products/demonology-vol-xxi-havamal-sekoria-frostgrab",
       "date": "5 April 2024",
-      "event": "Demonology Fest April",
+      "event": "Demonology Fest",
       "location": "Valhalla Metal Pub, Köln, Germany"
     },
     {
       "id": 25,
       "date": "6 April 2024",
-      "event": "Hel Over Europe",
+      "event": "Hel Over Europe Tour",
       "location": "Asgaard, Gent, Belgium"
     },
     {
       "id": 19,
       "link": "https://www.arvranfest.fr/",
       "date": "7 April 2024",
-      "event": "Ar' Vran Prod'",
+      "event": "Ar' Vran Fest II",
       "location": "Baguer-Pican, France"
     },
     {
       "id": 26,
       "date": "9 April 2024",
-      "event": "Hel Over Europe",
+      "event": "Hel Over Europe Tour",
       "location": "Le Klub, Paris, France"
     },
     {
       "id": 27,
       "date": "10 April 2024",
-      "event": "Hel Over Europe",
+      "event": "Hel Over Europe Tour",
       "location": "La Bratcave, Lille, France"
+    },
+    {
+      "id": 30,
+      "date": "11 April 2024",
+      "event": "Hel Over Europe Tour",
+      "location": "Schöppche Keller, Frankfurt, Germany"
     },
     {
       "id": 28,
       "date": "12 April 2024",
-      "event": "Hel Over Europe",
+      "event": "Hel Over Europe Tour",
       "location": "Le Grillen, Colmar, France"
     },
     {
       "id": 29,
       "date": "13 April 2024",
-      "event": "Hel Over Europe",
+      "event": "Hel Over Europe Tour",
       "location": "Tir Fest, Bree, Belgium"
     },
     {
@@ -50,6 +56,13 @@
       "date": "22 June 2024",
       "event": "Mittsommernächte Bärenstein",
       "location": "Bärenstein, Germany"
+    },
+    {
+      "id": 31,
+      "link": "https://www.facebook.com/events/914866740215165/",
+      "date": "19 July 2024",
+      "event": "Heavy Load Festival 2024",
+      "location": "Norrköping, Sweden"
     },
     {
       "id": 23,
