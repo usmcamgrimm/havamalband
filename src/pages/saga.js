@@ -42,6 +42,10 @@ export default function Saga() {
           </p>
 
           <p className={styles.sagaText}>
+            The thundering release of <strong>The Storm King</strong> on March 1, the announcement of the <strong>Hel Over Europe</strong> tour, and the upcoming March 29 release of <strong>Song of Nine</strong>, the Havamal saga grows and they continue to garner renown worldwide. There was also sad news from the Havamal camp, when Andreas announced he will be departing the band. The search for a new drummer will be arduous but in the end, Havamal will find the perfect addition!
+          </p>
+
+          <p className={styles.sagaText}>
             The saga continues...
           </p>
         </div>
