@@ -42,7 +42,7 @@ export default function Saga() {
           </p>
 
           <p className={styles.sagaText}>
-            The thundering release of <strong>The Storm King</strong> on March 1, announcement of the <strong>Hel Over Europe</strong> tour, and the upcoming March 29 release of <strong>Song of Nine</strong> show the Havamal saga grows and they continue to garner renown worldwide. There was also sad news from the Havamal camp, when Andreas announced he will be departing the band. The search for a new drummer will be arduous but in the end, Havamal will find the perfect addition!
+            The release of new singles in March 2024, <strong>The Storm King</strong> and <strong>Song of Nine</strong>, and the announcing of the <strong>Hel Over Europe</strong> tour show the Havamal saga grows and they continue to garner renown worldwide. There was also sad news from the Havamal camp, when Andreas announced he will be departing the band. The search for a new drummer will be arduous but in the end, Havamal will find the perfect addition!
           </p>
 
           <p className={styles.sagaText}>
