@@ -1,38 +1,6 @@
 {
   "raids": [
     {
-      "id": 24,
-      "link": "https://demonology.rocks/collections/tickets/products/demonology-vol-xxi-havamal-sekoria-frostgrab",
-      "date": "5 April 2024",
-      "event": "Demonology Fest",
-      "location": "Valhalla Metal Pub, Köln, Germany"
-    },
-    {
-      "id": 25,
-      "date": "6 April 2024",
-      "event": "Hel Over Europe Tour",
-      "location": "Asgaard, Gent, Belgium"
-    },
-    {
-      "id": 19,
-      "link": "https://www.arvranfest.fr/",
-      "date": "7 April 2024",
-      "event": "Ar' Vran Fest II",
-      "location": "Baguer-Pican, France"
-    },
-    {
-      "id": 26,
-      "date": "9 April 2024",
-      "event": "Hel Over Europe Tour",
-      "location": "Le Klub, Paris, France"
-    },
-    {
-      "id": 27,
-      "date": "10 April 2024",
-      "event": "Hel Over Europe Tour",
-      "location": "La Bratcave, Lille, France"
-    },
-    {
       "id": 30,
       "date": "11 April 2024",
       "event": "Hel Over Europe Tour",
