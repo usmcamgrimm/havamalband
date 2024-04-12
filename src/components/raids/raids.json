@@ -1,12 +1,6 @@
 {
   "raids": [
     {
-      "id": 30,
-      "date": "11 April 2024",
-      "event": "Hel Over Europe Tour",
-      "location": "Schöppche Keller, Frankfurt, Germany"
-    },
-    {
       "id": 28,
       "date": "12 April 2024",
       "event": "Hel Over Europe Tour",
