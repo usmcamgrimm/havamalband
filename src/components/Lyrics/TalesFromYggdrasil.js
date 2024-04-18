@@ -27,7 +27,11 @@ export default function TalesFromYggdrasil() {
       <Card
         style={{ backgroundColor: '#070707' }}
       >
-        <Card.Header>
+        <Card.Header
+          style={{
+            backgroundColor: '#070707'
+          }}
+        >
           <CustomToggle eventKey="0">Harken The Shadows</CustomToggle>
         </Card.Header>
         <Accordion.Collapse eventKey="0">
@@ -52,7 +56,11 @@ export default function TalesFromYggdrasil() {
       <Card
         style={{ backgroundColor: '#070707' }}
       >
-        <Card.Header>
+        <Card.Header
+          style={{
+            backgroundColor: '#070707'
+          }}
+        >
           <CustomToggle eventKey="1">Draugers March</CustomToggle>
         </Card.Header>
         <Accordion.Collapse eventKey="1">
@@ -112,7 +120,11 @@ export default function TalesFromYggdrasil() {
       <Card
         style={{ backgroundColor: '#070707' }}
       >
-        <Card.Header>
+        <Card.Header
+          style={{
+            backgroundColor: '#070707'
+          }}
+        >
           <CustomToggle eventKey="2">Berserker</CustomToggle>
         </Card.Header>
         <Accordion.Collapse eventKey="2">
@@ -192,7 +204,11 @@ export default function TalesFromYggdrasil() {
       <Card
         style={{ backgroundColor: '#070707' }}
       >
-        <Card.Header>
+        <Card.Header
+          style={{
+            backgroundColor: '#070707'
+          }}
+        >
           <CustomToggle eventKey="3">Dawn of the Frost Giants</CustomToggle>
         </Card.Header>
         <Accordion.Collapse eventKey="3">
@@ -243,7 +259,11 @@ export default function TalesFromYggdrasil() {
       <Card
         style={{ backgroundColor: '#070707' }}
       >
-        <Card.Header>
+        <Card.Header
+          style={{
+            backgroundColor: '#070707'
+          }}
+        >
           <CustomToggle eventKey="4">Blood Oath</CustomToggle>
         </Card.Header>
         <Accordion.Collapse eventKey="4">
@@ -307,7 +327,11 @@ export default function TalesFromYggdrasil() {
       <Card
         style={{ backgroundColor: '#070707' }}
       >
-        <Card.Header>
+        <Card.Header
+          style={{
+            backgroundColor: '#070707'
+          }}
+        >
           <CustomToggle eventKey="5">Net of Ran</CustomToggle>
         </Card.Header>
         <Accordion.Collapse eventKey="5">
@@ -346,7 +370,11 @@ export default function TalesFromYggdrasil() {
       <Card
         style={{ backgroundColor: '#070707' }}
       >
-        <Card.Header>
+        <Card.Header
+          style={{
+            backgroundColor: '#070707'
+          }}
+        >
           <CustomToggle eventKey="6">Death of Balder</CustomToggle>
         </Card.Header>
         <Accordion.Collapse eventKey="6">
@@ -424,7 +452,11 @@ export default function TalesFromYggdrasil() {
       <Card
         style={{ backgroundColor: '#070707' }}
       >
-        <Card.Header>
+        <Card.Header
+          style={{
+            backgroundColor: '#070707'
+          }}
+        >
           <CustomToggle eventKey="7">Hail Havamal</CustomToggle>
         </Card.Header>
         <Accordion.Collapse eventKey="7">
@@ -466,7 +498,11 @@ export default function TalesFromYggdrasil() {
       <Card
         style={{ backgroundColor: '#070707' }}
       >
-        <Card.Header>
+        <Card.Header
+          style={{
+            backgroundColor: '#070707'
+          }}
+        >
           <CustomToggle eventKey="8">Ginnungagap</CustomToggle>
         </Card.Header>
         <Accordion.Collapse eventKey="8">

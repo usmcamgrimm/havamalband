@@ -27,7 +27,11 @@ export default function CallOfTheNorth() {
       <Card
         style={{ backgroundColor: '#070707' }}
       >
-        <Card.Header>
+        <Card.Header
+          style={{
+            backgroundColor: '#070707'
+          }}
+        >
           <CustomToggle eventKey="0">Havamal</CustomToggle>
         </Card.Header>
         <Accordion.Collapse eventKey="0">
@@ -52,7 +56,11 @@ export default function CallOfTheNorth() {
       <Card
         style={{ backgroundColor: '#070707' }}
       >
-        <Card.Header>
+        <Card.Header
+          style={{
+            backgroundColor: '#070707'
+          }}
+        >
           <CustomToggle eventKey="1">Dread Age</CustomToggle>
         </Card.Header>
         <Accordion.Collapse eventKey="1">
@@ -101,7 +109,11 @@ export default function CallOfTheNorth() {
       <Card
         style={{ backgroundColor: '#070707' }}
       >
-        <Card.Header>
+        <Card.Header
+          style={{
+            backgroundColor: '#070707'
+          }}
+        >
           <CustomToggle eventKey="2">Jotun War</CustomToggle>
         </Card.Header>
         <Accordion.Collapse eventKey="2">
@@ -171,7 +183,11 @@ export default function CallOfTheNorth() {
       <Card
         style={{ backgroundColor: '#070707' }}
       >
-        <Card.Header>
+        <Card.Header
+          style={{
+            backgroundColor: '#070707'
+          }}
+        >
           <CustomToggle eventKey="3">Ragnarok</CustomToggle>
         </Card.Header>
         <Accordion.Collapse eventKey="3">
@@ -224,7 +240,11 @@ export default function CallOfTheNorth() {
       <Card
         style={{ backgroundColor: '#070707' }}
       >
-        <Card.Header>
+        <Card.Header
+          style={{
+            backgroundColor: '#070707'
+          }}
+        >
           <CustomToggle eventKey="4">Call For Revenge</CustomToggle>
         </Card.Header>
         <Accordion.Collapse eventKey="4">
@@ -279,7 +299,11 @@ export default function CallOfTheNorth() {
       <Card
         style={{ backgroundColor: '#070707' }}
       >
-        <Card.Header>
+        <Card.Header
+          style={{
+            backgroundColor: '#070707'
+          }}
+        >
           <CustomToggle eventKey="5">Force of Judgement</CustomToggle>
         </Card.Header>
         <Accordion.Collapse eventKey="5">

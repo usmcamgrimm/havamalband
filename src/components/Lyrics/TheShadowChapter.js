@@ -27,7 +27,11 @@ export default function TheShadowChapter() {
       <Card
         style={{ backgroundColor: '#070707' }}
       >
-        <Card.Header>
+        <Card.Header
+          style={{
+            backgroundColor: '#070707'
+          }}
+        >
           <CustomToggle eventKey="0">The North Awakens</CustomToggle>
         </Card.Header>
         <Accordion.Collapse eventKey="0">
@@ -65,7 +69,11 @@ export default function TheShadowChapter() {
       <Card
         style={{ backgroundColor: '#070707' }}
       >
-        <Card.Header>
+        <Card.Header
+          style={{
+            backgroundColor: '#070707'
+          }}
+        >
           <CustomToggle eventKey="1">Fenris</CustomToggle>
         </Card.Header>
         <Accordion.Collapse eventKey="1">
@@ -134,7 +142,11 @@ export default function TheShadowChapter() {
       <Card
         style={{ backgroundColor: '#070707' }}
       >
-        <Card.Header>
+        <Card.Header
+          style={{
+            backgroundColor: '#070707'
+          }}
+        >
           <CustomToggle eventKey="2">Nidhoggr</CustomToggle>
         </Card.Header>
         <Accordion.Collapse eventKey="2">
@@ -192,7 +204,11 @@ export default function TheShadowChapter() {
       <Card
         style={{ backgroundColor: '#070707' }}
       >
-        <Card.Header>
+        <Card.Header
+          style={{
+            backgroundColor: '#070707'
+          }}
+        >
           <CustomToggle eventKey="3">Kraken</CustomToggle>
         </Card.Header>
         <Accordion.Collapse eventKey="3">
@@ -276,7 +292,11 @@ export default function TheShadowChapter() {
       <Card
         style={{ backgroundColor: '#070707' }}
       >
-        <Card.Header>
+        <Card.Header
+          style={{
+            backgroundColor: '#070707'
+          }}
+        >
           <CustomToggle eventKey="4">Empire of the Ashen Sun</CustomToggle>
         </Card.Header>
         <Accordion.Collapse eventKey="4">
@@ -330,7 +350,11 @@ export default function TheShadowChapter() {
       <Card
         style={{ backgroundColor: '#070707' }}
       >
-        <Card.Header>
+        <Card.Header
+          style={{
+            backgroundColor: '#070707'
+          }}
+        >
           <CustomToggle eventKey="5">Nornir&apos;s Call</CustomToggle>
         </Card.Header>
         <Accordion.Collapse eventKey="5">
@@ -408,7 +432,11 @@ export default function TheShadowChapter() {
       <Card
         style={{ backgroundColor: '#070707' }}
       >
-        <Card.Header>
+        <Card.Header
+          style={{
+            backgroundColor: '#070707'
+          }}
+        >
           <CustomToggle eventKey="6">Jormungandr</CustomToggle>
         </Card.Header>
         <Accordion.Collapse eventKey="6">
@@ -479,7 +507,11 @@ export default function TheShadowChapter() {
       <Card
         style={{ backgroundColor: '#070707' }}
       >
-        <Card.Header>
+        <Card.Header
+          style={{
+            backgroundColor: '#070707'
+          }}
+        >
           <CustomToggle eventKey="7">Hel</CustomToggle>
         </Card.Header>
         <Accordion.Collapse eventKey="7">
@@ -557,7 +589,11 @@ export default function TheShadowChapter() {
       <Card
         style={{ backgroundColor: '#070707' }}
       >
-        <Card.Header>
+        <Card.Header
+          style={{
+            backgroundColor: '#070707'
+          }}
+        >
           <CustomToggle eventKey="8">The Curse of Grendel</CustomToggle>
         </Card.Header>
         <Accordion.Collapse eventKey="8">
