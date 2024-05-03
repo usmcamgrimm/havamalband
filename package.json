@@ -12,24 +12,23 @@
     "@emotion/css": "^11.11.2",
     "@emotion/react": "^11.11.4",
     "@emotion/styled": "^11.11.5",
-    "@fontsource/grenze": "^5.0.19",
-    "@fontsource/inter": "^5.0.17",
+    "@fontsource/grenze": "^5.0.20",
+    "@fontsource/inter": "^5.0.18",
     "@formspree/react": "^2.5.1",
     "bootstrap": "^5.3.3",
     "dotenv": "^16.4.5",
-    "formik": "^2.4.5",
+    "formik": "^2.4.6",
     "gray-matter": "^4.0.3",
     "luxon": "^3.4.4",
     "markdown-it": "^14.1.0",
-    "next": "^14.1.4",
-    "react": "^18.2.0",
+    "next": "^14.2.3",
+    "react": "^18.3.1",
     "react-bootstrap": "^2.10.2",
-    "react-dom": "^18.2.0",
-    "react-icons": "^5.0.1",
+    "react-dom": "^18.3.1",
+    "react-icons": "^5.2.0",
     "yup": "^1.4.0"
   },
   "devDependencies": {
-    "eslint": "^8.57.0",
-    "eslint-config-next": "^14.1.4"
+    "eslint-config-next": "^14.2.3"
   }
 }
