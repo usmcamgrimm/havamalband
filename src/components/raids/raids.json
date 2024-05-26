@@ -1,6 +1,13 @@
 {
   "raids": [
     {
+      "id": 32,
+      "link": "https://www.facebook.com/events/474109185127435",
+      "date": "21 June 2024",
+      "event": "Midsommar",
+      "location": "Hamburg, Germany"
+    },
+    {
       "id": 22,
       "link": "https://www.facebook.com/events/2519568584882563/",
       "date": "22 June 2024",
