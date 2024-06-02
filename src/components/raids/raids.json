@@ -4,7 +4,7 @@
       "id": 32,
       "link": "https://www.facebook.com/events/474109185127435",
       "date": "21 June 2024",
-      "event": "Midsommar",
+      "event": "Bambi Galore",
       "location": "Hamburg, Germany"
     },
     {
@@ -24,9 +24,16 @@
     {
       "id": 23,
       "link": "https://www.facebook.com/manegarmopenair",
-      "date": "24 August 2024",
+      "date": "24 Aug 2024",
       "event": "Månegarm Open Air",
       "location": "Norrtälje, Sweden"
+    },
+    {
+      "id": 33,
+      "link": "https://www.facebook.com/events/1453926291913409",
+      "date": "07 Sept 2024",
+      "event": "Palatset",
+      "location": "Linköping, Sweden"
     }
   ]
 }
