@@ -29,7 +29,9 @@ export default function TheShadowChapter() {
       >
         <Card.Header
           style={{
-            backgroundColor: '#070707'
+            backgroundColor: '#070707',
+            padding: '0',
+            paddingLeft: '16px'
           }}
         >
           <CustomToggle eventKey="0">The North Awakens</CustomToggle>
@@ -41,7 +43,7 @@ export default function TheShadowChapter() {
               color: '#ffffff',
               fontFamily: 'grenze',
               fontSize: '1.5rem',
-              fontWeight: 'normal',
+              fontWeight: 'normal'
             }}
           >
             Förd av skugga, blek och grå<br />
@@ -71,7 +73,9 @@ export default function TheShadowChapter() {
       >
         <Card.Header
           style={{
-            backgroundColor: '#070707'
+            backgroundColor: '#070707',
+            padding: '0',
+            paddingLeft: '16px'
           }}
         >
           <CustomToggle eventKey="1">Fenris</CustomToggle>
@@ -83,7 +87,7 @@ export default function TheShadowChapter() {
               color: '#ffffff',
               fontFamily: 'grenze',
               fontSize: '1.5rem',
-              fontWeight: 'normal',
+              fontWeight: 'normal'
             }}
           >
             Far from the god&apos;s light<br />
@@ -144,7 +148,9 @@ export default function TheShadowChapter() {
       >
         <Card.Header
           style={{
-            backgroundColor: '#070707'
+            backgroundColor: '#070707',
+            padding: '0',
+            paddingLeft: '16px'
           }}
         >
           <CustomToggle eventKey="2">Nidhoggr</CustomToggle>
@@ -156,7 +162,7 @@ export default function TheShadowChapter() {
               color: '#ffffff',
               fontFamily: 'grenze',
               fontSize: '1.5rem',
-              fontWeight: 'normal',
+              fontWeight: 'normal'
             }}
           >
             Deep below through a sea of mist<br />
@@ -206,7 +212,9 @@ export default function TheShadowChapter() {
       >
         <Card.Header
           style={{
-            backgroundColor: '#070707'
+            backgroundColor: '#070707',
+            padding: '0',
+            paddingLeft: '16px'
           }}
         >
           <CustomToggle eventKey="3">Kraken</CustomToggle>
@@ -218,7 +226,7 @@ export default function TheShadowChapter() {
               color: '#ffffff',
               fontFamily: 'grenze',
               fontSize: '1.5rem',
-              fontWeight: 'normal',
+              fontWeight: 'normal'
             }}
           >
             All alone in the darkest of night<br />
@@ -294,7 +302,9 @@ export default function TheShadowChapter() {
       >
         <Card.Header
           style={{
-            backgroundColor: '#070707'
+            backgroundColor: '#070707',
+            padding: '0',
+            paddingLeft: '16px'
           }}
         >
           <CustomToggle eventKey="4">Empire of the Ashen Sun</CustomToggle>
@@ -306,7 +316,7 @@ export default function TheShadowChapter() {
               color: '#ffffff',
               fontFamily: 'grenze',
               fontSize: '1.5rem',
-              fontWeight: 'normal',
+              fontWeight: 'normal'
             }}
           >
             Stormclouds gathers from the North<br />
@@ -352,7 +362,9 @@ export default function TheShadowChapter() {
       >
         <Card.Header
           style={{
-            backgroundColor: '#070707'
+            backgroundColor: '#070707',
+            padding: '0',
+            paddingLeft: '16px'
           }}
         >
           <CustomToggle eventKey="5">Nornir&apos;s Call</CustomToggle>
@@ -364,7 +376,7 @@ export default function TheShadowChapter() {
               color: '#ffffff',
               fontFamily: 'grenze',
               fontSize: '1.5rem',
-              fontWeight: 'normal',
+              fontWeight: 'normal'
             }}
           >
             In the depths of Yggdrasil<br />
@@ -434,7 +446,9 @@ export default function TheShadowChapter() {
       >
         <Card.Header
           style={{
-            backgroundColor: '#070707'
+            backgroundColor: '#070707',
+            padding: '0',
+            paddingLeft: '16px'
           }}
         >
           <CustomToggle eventKey="6">Jormungandr</CustomToggle>
@@ -446,7 +460,7 @@ export default function TheShadowChapter() {
               color: '#ffffff',
               fontFamily: 'grenze',
               fontSize: '1.5rem',
-              fontWeight: 'normal',
+              fontWeight: 'normal'
             }}
           >
             In the world of old<br />
@@ -509,7 +523,9 @@ export default function TheShadowChapter() {
       >
         <Card.Header
           style={{
-            backgroundColor: '#070707'
+            backgroundColor: '#070707',
+            padding: '0',
+            paddingLeft: '16px'
           }}
         >
           <CustomToggle eventKey="7">Hel</CustomToggle>
@@ -521,7 +537,7 @@ export default function TheShadowChapter() {
               color: '#ffffff',
               fontFamily: 'grenze',
               fontSize: '1.5rem',
-              fontWeight: 'normal',
+              fontWeight: 'normal'
             }}
           >
             Judgement comes for all of us<br />
@@ -591,7 +607,9 @@ export default function TheShadowChapter() {
       >
         <Card.Header
           style={{
-            backgroundColor: '#070707'
+            backgroundColor: '#070707',
+            padding: '0',
+            paddingLeft: '16px'
           }}
         >
           <CustomToggle eventKey="8">The Curse of Grendel</CustomToggle>
@@ -603,7 +621,7 @@ export default function TheShadowChapter() {
               color: '#ffffff',
               fontFamily: 'grenze',
               fontSize: '1.5rem',
-              fontWeight: 'normal',
+              fontWeight: 'normal'
             }}
           >
             Our story dwells in pagan times<br />

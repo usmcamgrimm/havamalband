@@ -29,7 +29,9 @@ export default function TalesFromYggdrasil() {
       >
         <Card.Header
           style={{
-            backgroundColor: '#070707'
+            backgroundColor: '#070707',
+            padding: '0',
+            paddingLeft: '16px'
           }}
         >
           <CustomToggle eventKey="0">Harken The Shadows</CustomToggle>
@@ -41,7 +43,7 @@ export default function TalesFromYggdrasil() {
               color: '#ffffff',
               fontFamily: 'grenze',
               fontSize: '1.5rem',
-              fontWeight: 'normal',
+              fontWeight: 'normal'
             }}
           >
             Träd ej över din tröskel in,<br />
@@ -58,7 +60,9 @@ export default function TalesFromYggdrasil() {
       >
         <Card.Header
           style={{
-            backgroundColor: '#070707'
+            backgroundColor: '#070707',
+            padding: '0',
+            paddingLeft: '16px'
           }}
         >
           <CustomToggle eventKey="1">Draugers March</CustomToggle>
@@ -70,7 +74,7 @@ export default function TalesFromYggdrasil() {
               color: '#ffffff',
               fontFamily: 'grenze',
               fontSize: '1.5rem',
-              fontWeight: 'normal',
+              fontWeight: 'normal'
             }}
           >
             Long ago in Aesir times our heritage was strong.<br />
@@ -122,7 +126,9 @@ export default function TalesFromYggdrasil() {
       >
         <Card.Header
           style={{
-            backgroundColor: '#070707'
+            backgroundColor: '#070707',
+            padding: '0',
+            paddingLeft: '16px'
           }}
         >
           <CustomToggle eventKey="2">Berserker</CustomToggle>
@@ -134,7 +140,7 @@ export default function TalesFromYggdrasil() {
               color: '#ffffff',
               fontFamily: 'grenze',
               fontSize: '1.5rem',
-              fontWeight: 'normal',
+              fontWeight: 'normal'
             }}
           >
             Born for war and reaping of lives<br />
@@ -206,7 +212,9 @@ export default function TalesFromYggdrasil() {
       >
         <Card.Header
           style={{
-            backgroundColor: '#070707'
+            backgroundColor: '#070707',
+            padding: '0',
+            paddingLeft: '16px'
           }}
         >
           <CustomToggle eventKey="3">Dawn of the Frost Giants</CustomToggle>
@@ -218,7 +226,7 @@ export default function TalesFromYggdrasil() {
               color: '#ffffff',
               fontFamily: 'grenze',
               fontSize: '1.5rem',
-              fontWeight: 'normal',
+              fontWeight: 'normal'
             }}
           >
             Can you feel it in the air? The smell of death tonight.<br />
@@ -261,7 +269,9 @@ export default function TalesFromYggdrasil() {
       >
         <Card.Header
           style={{
-            backgroundColor: '#070707'
+            backgroundColor: '#070707',
+            padding: '0',
+            paddingLeft: '16px'
           }}
         >
           <CustomToggle eventKey="4">Blood Oath</CustomToggle>
@@ -273,7 +283,7 @@ export default function TalesFromYggdrasil() {
               color: '#ffffff',
               fontFamily: 'grenze',
               fontSize: '1.5rem',
-              fontWeight: 'normal',
+              fontWeight: 'normal'
             }}
           >
             Dawn of shade awakes, a new threat arrives.<br />
@@ -329,7 +339,9 @@ export default function TalesFromYggdrasil() {
       >
         <Card.Header
           style={{
-            backgroundColor: '#070707'
+            backgroundColor: '#070707',
+            padding: '0',
+            paddingLeft: '16px'
           }}
         >
           <CustomToggle eventKey="5">Net of Ran</CustomToggle>
@@ -341,7 +353,7 @@ export default function TalesFromYggdrasil() {
               color: '#ffffff',
               fontFamily: 'grenze',
               fontSize: '1.5rem',
-              fontWeight: 'normal',
+              fontWeight: 'normal'
             }}
           >
             Beyond the ocean&apos;s cold mighty roars,<br />
@@ -372,7 +384,9 @@ export default function TalesFromYggdrasil() {
       >
         <Card.Header
           style={{
-            backgroundColor: '#070707'
+            backgroundColor: '#070707',
+            padding: '0',
+            paddingLeft: '16px'
           }}
         >
           <CustomToggle eventKey="6">Death of Balder</CustomToggle>
@@ -384,7 +398,7 @@ export default function TalesFromYggdrasil() {
               color: '#ffffff',
               fontFamily: 'grenze',
               fontSize: '1.5rem',
-              fontWeight: 'normal',
+              fontWeight: 'normal'
             }}
           >
             This dire tale I bring to you<br />
@@ -454,7 +468,9 @@ export default function TalesFromYggdrasil() {
       >
         <Card.Header
           style={{
-            backgroundColor: '#070707'
+            backgroundColor: '#070707',
+            padding: '0',
+            paddingLeft: '16px'
           }}
         >
           <CustomToggle eventKey="7">Hail Havamal</CustomToggle>
@@ -466,7 +482,7 @@ export default function TalesFromYggdrasil() {
               color: '#ffffff',
               fontFamily: 'grenze',
               fontSize: '1.5rem',
-              fontWeight: 'normal',
+              fontWeight: 'normal'
             }}
           >
             Warriors standing still.<br />
@@ -500,7 +516,9 @@ export default function TalesFromYggdrasil() {
       >
         <Card.Header
           style={{
-            backgroundColor: '#070707'
+            backgroundColor: '#070707',
+            padding: '0',
+            paddingLeft: '16px'
           }}
         >
           <CustomToggle eventKey="8">Ginnungagap</CustomToggle>
@@ -512,7 +530,7 @@ export default function TalesFromYggdrasil() {
               color: '#ffffff',
               fontFamily: 'grenze',
               fontSize: '1.5rem',
-              fontWeight: 'normal',
+              fontWeight: 'normal'
             }}
           >
             Long before time of times,<br />

@@ -29,7 +29,9 @@ export default function CallOfTheNorth() {
       >
         <Card.Header
           style={{
-            backgroundColor: '#070707'
+            backgroundColor: '#070707',
+            padding: '0',
+            paddingLeft: '16px'
           }}
         >
           <CustomToggle eventKey="0">Havamal</CustomToggle>
@@ -41,7 +43,7 @@ export default function CallOfTheNorth() {
               color: '#ffffff',
               fontFamily: 'grenze',
               fontSize: '1.5rem',
-              fontWeight: 'normal',
+              fontWeight: 'normal'
             }}
           >
             Träd ej över din tröskel in,<br />
@@ -58,7 +60,9 @@ export default function CallOfTheNorth() {
       >
         <Card.Header
           style={{
-            backgroundColor: '#070707'
+            backgroundColor: '#070707',
+            padding: '0',
+            paddingLeft: '16px'
           }}
         >
           <CustomToggle eventKey="1">Dread Age</CustomToggle>
@@ -70,7 +74,7 @@ export default function CallOfTheNorth() {
               color: '#ffffff',
               fontFamily: 'grenze',
               fontSize: '1.5rem',
-              fontWeight: 'normal',
+              fontWeight: 'normal'
             }}
           >
             The skies slowly turns to red, as prophecies fortold.<br />
@@ -111,7 +115,9 @@ export default function CallOfTheNorth() {
       >
         <Card.Header
           style={{
-            backgroundColor: '#070707'
+            backgroundColor: '#070707',
+            padding: '0',
+            paddingLeft: '16px'
           }}
         >
           <CustomToggle eventKey="2">Jotun War</CustomToggle>
@@ -123,7 +129,7 @@ export default function CallOfTheNorth() {
               color: '#ffffff',
               fontFamily: 'grenze',
               fontSize: '1.5rem',
-              fontWeight: 'normal',
+              fontWeight: 'normal'
             }}
           >
             Drenched away from sunlight&apos;s eye,<br /> 
@@ -185,7 +191,9 @@ export default function CallOfTheNorth() {
       >
         <Card.Header
           style={{
-            backgroundColor: '#070707'
+            backgroundColor: '#070707',
+            padding: '0',
+            paddingLeft: '16px'
           }}
         >
           <CustomToggle eventKey="3">Ragnarok</CustomToggle>
@@ -197,7 +205,7 @@ export default function CallOfTheNorth() {
               color: '#ffffff',
               fontFamily: 'grenze',
               fontSize: '1.5rem',
-              fontWeight: 'normal',
+              fontWeight: 'normal'
             }}
           >
             The twilight of the Aesir faith is nigh,<br />  
@@ -242,7 +250,9 @@ export default function CallOfTheNorth() {
       >
         <Card.Header
           style={{
-            backgroundColor: '#070707'
+            backgroundColor: '#070707',
+            padding: '0',
+            paddingLeft: '16px'
           }}
         >
           <CustomToggle eventKey="4">Call For Revenge</CustomToggle>
@@ -254,7 +264,7 @@ export default function CallOfTheNorth() {
               color: '#ffffff',
               fontFamily: 'grenze',
               fontSize: '1.5rem',
-              fontWeight: 'normal',
+              fontWeight: 'normal'
             }}
           >
             Our story will lead to a gloom-filled descent,<br />
@@ -301,7 +311,9 @@ export default function CallOfTheNorth() {
       >
         <Card.Header
           style={{
-            backgroundColor: '#070707'
+            backgroundColor: '#070707',
+            padding: '0',
+            paddingLeft: '16px'
           }}
         >
           <CustomToggle eventKey="5">Force of Judgement</CustomToggle>
@@ -313,7 +325,7 @@ export default function CallOfTheNorth() {
               color: '#ffffff',
               fontFamily: 'grenze',
               fontSize: '1.5rem',
-              fontWeight: 'normal',
+              fontWeight: 'normal'
             }}
           >
             Ever since the universe was born,<br />  
