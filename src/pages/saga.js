@@ -42,7 +42,11 @@ export default function Saga() {
           </p>
 
           <p className={styles.sagaText}>
-            The release of new singles in March 2024, <strong>The Storm King</strong> and <strong>Song of Nine</strong>, and the announcing of the <strong>Hel Over Europe</strong> tour show the Havamal saga grows and they continue to garner renown worldwide. There was also sad news from the Havamal camp, when Andreas announced he will be departing the band. The search for a new drummer will be arduous but in the end, Havamal will find the perfect addition!
+            The release of new singles in March 2024, <strong>The Storm King</strong> and <strong>Song of Nine</strong>, and the announcing of the <strong>Hel Over Europe</strong> tour show the Havamal saga grows and they continue to garner renown worldwide. There was also sad news from the Havamal camp, when Andreas announced he will be departing the band. Conducting musical raids throughout Sweden, the hymn-weavers playeed at MMånegarm Open Air and Palatset in Linköping, which was their last raid with Andreeas. 
+          </p>
+
+          <p className={styles.sagaText}>
+            Join the hymn-weavers as they welcome the new drumserker, <strong>Stefan Peltonen</strong>!
           </p>
 
           <p className={styles.sagaText}>
