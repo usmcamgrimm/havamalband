@@ -24,10 +24,10 @@ export default function HymnWeavers() {
       </BandImage>
       <BandImage>
         <Image
-          src="/images/band-photos/andreas.jpg"
-          alt="Andreas Herlogsson"
+          src="/images/band-photos/stefan.jpg"
+          alt="Stefan Peltonen"
           height={540}
-          width={541}
+          width={540}
         />
       </BandImage>
       <BandImage>
