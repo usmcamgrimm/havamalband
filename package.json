@@ -9,11 +9,11 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@emotion/css": "^11.13.0",
+    "@emotion/css": "^11.13.4",
     "@emotion/react": "^11.13.3",
     "@emotion/styled": "^11.13.0",
-    "@fontsource/grenze": "^5.0.21",
-    "@fontsource/inter": "^5.0.20",
+    "@fontsource/grenze": "^5.1.0",
+    "@fontsource/inter": "^5.1.0",
     "@formspree/react": "^2.5.1",
     "bootstrap": "^5.3.3",
     "dotenv": "^16.4.5",
@@ -21,7 +21,7 @@
     "gray-matter": "^4.0.3",
     "luxon": "^3.5.0",
     "markdown-it": "^14.1.0",
-    "next": "^14.2.7",
+    "next": "^14.2.14",
     "react": "^18.3.1",
     "react-bootstrap": "^2.10.4",
     "react-dom": "^18.3.1",
@@ -29,6 +29,6 @@
     "yup": "^1.4.0"
   },
   "devDependencies": {
-    "eslint-config-next": "^14.2.7"
+    "eslint-config-next": "^14.2.14"
   }
 }
