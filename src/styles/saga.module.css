@@ -17,6 +17,15 @@
   width: 80%;
 }
 
+.sagaChapter {
+  font-family: "norse";
+  font-weight: bold;
+  color: #ffffff;
+  font-size: 2.5rem;
+  text-decoration: underline;
+  padding-bottom: 1rem;
+}
+
 .sagaText {
   font-family: grenze;
   color: #ffffff;

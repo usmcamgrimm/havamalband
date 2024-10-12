@@ -18,39 +18,56 @@ export default function Saga() {
 
       <section id="HavamalSaga">
         <h2 className={styles.sectionHeader}>
-          The Saga of Havamal
+          Forging Legends: The Thunderous Saga of Havamal
         </h2>
         <div className={styles.sagaContainer}>
+          <h3 className={styles.sagaChapter}>The Birth of Legends</h3>
           <p className={styles.sagaText}>
-            Kjell Gilliusson and Lennie Spetze are hailed as the founders of Havamal. They formed the band in Stockholm, Sweden in 2016 and soon invited Björn Larsson. Andreas Herlogsson would join later, after the departure of Rodrigo Valenzuela. Sandra Wallo took over for Pontus Knutsson, until her departure in 2020. Now hail Tino Vesanen on bass!
+            In the hallowed halls of Stockholm, Sweden, 2016 witnessed the cosmic alignment that brought forth <strong>Havamal</strong>. Visionary warriors <strong>Kjell Gilliusson</strong> and <strong>Lennie Spetze</strong> joined forces, their creative energies colliding like Mjölnir striking Jörmungandr! As if summoned by the Allfather himself, the mighty <strong>Björn Larsson</strong> soon answered their call to arms. The saga grew even more epic as <strong>Andreas Herlogsson</strong> stormed into their ranks, his drumming a force of nature that shook the very roots of Yggdrasil!
           </p>
 
           <p className={styles.sagaText}>
-            The unique sound of Havamal is derived from their wide and varying musical influences. Their mix of symphonic, brutal, melodic death metal is unique and makes themn stand out as masters of their craft. Their first release, an EP titled <strong>Call of The North</strong>, was released independently in 2017, and was an overwhelming success. Conducting raids throughout Sweden, Havamal was invited to play at Northern Blasphemy and the Wacken Metal Battle.
+            But the tale of <strong>Havamal</strong> is one of constant evolution, a shape-shifting beast that grows ever stronger. <strong>Sandra Wallo</strong>'s fierce presence graced their lineup, her bass lines rumbling like Thor's chariot across storm-wracked skies. And now, as if blessed by the Norns themselves, <strong>Tino Vesanen</strong> wields the bass, his thunderous tones the very heartbeat of Havamal's unstoppable sonic onslaught!
           </p>
-                  
+
+          <h3 className={styles.sagaChapter}>A Sound Forged in Valhalla</h3>  
           <p className={styles.sagaText}>
-            Signed by Art Gates Records in 2019, Havamal&apos;s first full-length album, <strong>Tales From Yggdrasil</strong>, was released. Once again proving their musical prowess, Havamal unleashed many raids throughout their home country and spread their music. 
+            Odin himself would weep with joy at the glorious racket <strong>Havamal</strong> conjures! Their sound is a maelstrom of metal mastery, drawing power from the very essence of Norse mythology and fusing it with modern brutality. Symphonic grandeur crashes against crushing riffs, while melodies soar like Valkyries across blood-soaked battlefields. <strong>Havamal</strong> doesn't just play metal – they summon the very spirit of Viking warfare through their instruments!
+          </p>
+
+          <h3 className={styles.sagaChapter}>The Saga Unfolds</h3> 
+          <p className={styles.sagaText}>
+            The year 2017 saw <strong>Havamal</strong>'s battle cry first echo across the frozen North. Their EP, "<strong>Call of the North</strong>," burst forth like wildfire, an irresistible clarion call that set the metal world ablaze! Armies of fans flocked to their banner as Havamal carved a path of glory across Sweden, laying waste to stages at Northern Blasphemy and earning the right to test their mettle at the legendary <strong>Wacken Metal Battle</strong>!
           </p>
 
           <p className={styles.sagaText}>
-            Havamal signed once more with Art Gates Records, and their second full-length album, <strong>The Shadow Chapter</strong>, was released in May 2021. Entering into a new alliance with Hell Frog Promotion, Havamal raided at <strong>Raise Your Horns</strong>. Following the successful European <strong>Shadow ChapTour</strong>, the hymn-weavers returned to the shores of their native Sweden to enjopy the spoils of the raids.
+            Victory begets victory, and in 2019, the mighty Art Gates Records recognized Havamal's unstoppable potential. Under this new alliance, "<strong>Tales from Yggdrasil</strong>" was unleashed – a full-length opus that shook the foundations of Midgard itself! The hymn-weavers' fame spread like Odin's wisdom through the cosmos, their music a triumphant war cry that echoed across their homeland and beyond, igniting the souls of all who heard it. Like a glorious tidal wave of pure Viking spirit, <strong>Havamal</strong>'s renown swept across the land, leaving legions of awestruck fans in its wake!
           </p>
 
           <p className={styles.sagaText}>
-            Not content to rest, the hymn-weavers set their sails once more and embarked on more musical raids across France and Germany. Once again upon their native soil, Havamal entered the studio to begin work on a new album. <strong>The Storm King</strong> releases March 1, 2024 and <strong>Song of Nine</strong> releases March 29, 2024.
+            But <strong>Havamal</strong>'s hunger for conquest knows no bounds! 2021 saw the emergence of "<strong>The Shadow Chapter</strong>," a darkness given form through blasting beats and scorching riffs. <strong>Hell Frog Promotion</strong> joined their hordes, leading to a triumphant raid upon the <strong>Raise Your Horns</strong> festival – truly, no stage is safe from <strong>Havamal</strong>'s sonic domination!
           </p>
 
           <p className={styles.sagaText}>
-            The release of new singles in March 2024, <strong>The Storm King</strong> and <strong>Song of Nine</strong>, and the announcing of the <strong>Hel Over Europe</strong> tour show the Havamal saga grows and they continue to garner renown worldwide. There was also sad news from the Havamal camp, when Andreas announced he will be departing the band. Conducting musical raids throughout Sweden, the hymn-weavers playeed at MMånegarm Open Air and Palatset in Linköping, which was their last raid with Andreeas. 
+            The European <strong>Shadow ChapTour</strong> followed, a Viking longship of pure metal sailing across the continent, leaving audiences spellbound in their wake. France and Germany trembled before <strong>Havamal</strong>'s might, as new legions of fans swore fealty to these masters of melodic death metal!
+          </p>
+
+          <h3 className={styles.sagaChapter}>The Storm Approaches</h3> 
+          <p className={styles.sagaText}>
+            Ragnarök itself seems to approach as <strong>Havamal</strong>'s power grows ever stronger! March 2024 will see twin hammers fall – "<strong>The Storm King</strong>" and "<strong>Song of Nine</strong>" shall crash upon mortal ears like the war horns of the Æsir! And as if that weren't enough to make the heavens quake, the <strong>Hel Over Europe</strong> tour looms on the horizon, promising to reduce the continent to a smoldering crater of headbanging ecstasy!
+          </p>
+
+          <h3 className={styles.sagaChapter}>A Warrior's Farewell and a New Dawn</h3> 
+          <p className={styles.sagaText}>
+            Even legends must face change, and so it is with heavy hearts but unbowed spirits that Havamal bids farewell to their brother-in-arms, Andreas. His final battle alongside the band shall be etched in the annals of metal history – the <strong>Månegarm Open Air</strong> and <strong>Palatset</strong> in Linköping will bear witness to his last stand, a performance that will shake Valhalla's very gates!
           </p>
 
           <p className={styles.sagaText}>
-            Join the hymn-weavers as they welcome the new drumserker, <strong>Stefan Peltonen</strong>!
+            But from this glorious end springs a new beginning! Raise your horns and roar a welcome to <strong>Stefan Peltonen</strong>, the new drumserker whose thunderous beats shall drive <strong>Havamal</strong> to even greater heights of metal madness!
           </p>
 
           <p className={styles.sagaText}>
-            The saga continues...
+            Raise your horns, mortal listeners, for <strong>Havamal</strong>'s journey has only just begun! The nine worlds will tremble, the World Tree will shake, and the halls of Valhalla will echo with their battle hymns for eternity!
           </p>
         </div>
 
