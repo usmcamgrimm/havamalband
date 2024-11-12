@@ -4,7 +4,7 @@ import styles from './havamalVideo.module.css'
 const VideoContainer = styled.div`
   overflow: hidden;
   position: relative;
-  width: 60%;
+  width: 10%;
   margin-bottom: 2rem;
   ::after {
     padding-top: 56.25%;
@@ -16,6 +16,9 @@ const VideoContainer = styled.div`
   }
   @media screen and (max-width: 1024px) {
     width: 80%;
+  }
+  @media screen and (max-width: 600px) {
+    width: 100%;
   } 
 `;
 

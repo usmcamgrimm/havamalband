@@ -12,7 +12,7 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>HAVAMAL | Home</title>
-        <meta name="description" content="Website for the Swedish band Havamal" />
+        <meta name="description" content="The Swedish melodic death metal band Havamal is in the studio compiling their 3rd full-length album." />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
