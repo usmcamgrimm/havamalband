@@ -6,12 +6,12 @@ import Merch from '../components/Merch/Merch'
 import Horde from '../components/Horde/Horde'
 
 
-export default function Resources() {
+export default function Contact() {
   return (
     <>
       <Head>
         <title>
-          HAVAMAL | Resources
+          HAVAMAL | Contact
         </title>
       </Head>
       <h1 className={styles.pageTitle}>
