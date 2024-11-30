@@ -1,9 +1,10 @@
 import Head from 'next/head'
-import styles from '../styles/resources.module.css'
+import styles from '../styles/contact.module.css'
 import ContactForm from '../components/ContactForm/ContactForm'
 import ContactLinks from '../components/ContactLinks/ContactLinks'
 import Merch from '../components/Merch/Merch'
 import Horde from '../components/Horde/Horde'
+import HavamalLinks from '../components/linkLayout/HavamalLinks'
 
 
 export default function Contact() {
@@ -37,6 +38,10 @@ export default function Contact() {
           <Merch />
           <Horde />
         </div>
+      </section>
+
+      <section className={styles.links}>
+        <HavamalLinks />
       </section>
     </>
   )

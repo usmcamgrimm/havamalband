@@ -5,6 +5,9 @@ export default function HavamalLinks() {
   return (
     <>
       <div className={styles.linkContainer}>
+        <h2 className={styles.sectionHeader}>
+          Follow Havamal
+        </h2>
         <div className={styles.BannerLink}>
           <a
             href="https://artgatesrecords.com/artists/havamal" 

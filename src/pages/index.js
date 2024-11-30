@@ -2,7 +2,6 @@ import Head from 'next/head'
 import Image from 'next/image'
 import HavamalVideo from '../components/video/HavamalVideo'
 import Raids from '../components/raids/Raids'
-import HavamalLinks from '../components/linkLayout/HavamalLinks'
 import styles from '../styles/Home.module.css'
 import havamalPhoto from '../../public/images/bandPhoto.jpg'
 import havamalLogo from '../../public/images/havamal.png'
@@ -49,13 +48,6 @@ export default function Home() {
             Upcoming Raids
           </h2>
           <Raids />
-        </section>
-
-        <section className={styles.links}>
-          <h2 className={styles.sectionTitle}>
-            Follow Havamal
-          </h2>
-          <HavamalLinks />
         </section>
       </main>
     </div>

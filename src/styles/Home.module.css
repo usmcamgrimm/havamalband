@@ -71,10 +71,6 @@
   text-align: center;
 }
 
-.links {
-  margin-top: 10rem;
-}
-
 @media screen and (min-width: 1441px) {
   .havamalPhoto {
     width: 1200px;
