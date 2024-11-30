@@ -63,6 +63,7 @@
 
 .submitBtn:hover {
   background: #002f54;
+  color: #fff;
 }
 
 @media (max-width: 768px) {
