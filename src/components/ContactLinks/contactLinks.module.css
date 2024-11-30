@@ -2,15 +2,26 @@
   padding: 8px 1rem;
 }
 
-.contactText {
+.contactText,
+.contactTextHF {
   font-family: grenze;
   font-size: 1.6rem;
-  color: #ffffff;
+  color: #66add9;
   margin-bottom: 6px;
 }
 
-.contactText:hover {
-  color: #005293;
+.contactTextHF:hover {
+  text-decoration: underline;
+}
+
+.contactTextLink {
+  font-family: grenze;
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+.contactTextLink:hover {
+  text-decoration: underline;
 }
 
 .contactsLinks {

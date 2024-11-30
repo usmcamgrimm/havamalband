@@ -20,9 +20,6 @@ export default function Contact() {
       </h1>
 
       <section id="contactArea">
-        <p className={styles.contactHeader}>
-          Submit the form or click a link to send a message to Havamal!
-        </p>
         <div className={styles.contactContainer}>
           <div className={styles.contactBox}>
             <ContactForm />

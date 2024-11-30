@@ -15,7 +15,7 @@ export default function ContactForm() {
       <form onSubmit={handleSubmit}>
         <label htmlFor="name" className={styles.label}>
           <p className={styles.formLabel}>
-            First & Last Name
+            Your Name
           </p>
         </label>
         <input
