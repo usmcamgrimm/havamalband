@@ -1,7 +1,11 @@
 {
   "raids": [
     {
-      "_comment": "Next ID is 35"
+      "id": 35,
+      "link": "https://www.facebook.com/events/1453926291913409",
+      "date": "10 May 2025",
+      "event": "Pure Fucking Metal Festival",
+      "location": "Dorfen, Germany"
     }
   ]
 }
