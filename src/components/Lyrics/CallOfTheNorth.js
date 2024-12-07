@@ -31,10 +31,21 @@ export default function CallOfTheNorth() {
           style={{
             backgroundColor: '#070707',
             padding: '0',
-            paddingLeft: '16px'
+            paddingLeft: '16px',
+            transition: 'transform 0.3s ease',
           }}
+          onMouseEnter={(e) => e.currentTarget.style.transform = 'scale(1.02)'}
+          onMouseLeave={(e) => e.currentTarget.style.transform = 'scale(1)'}
         >
-          <CustomToggle eventKey="0">Havamal</CustomToggle>
+          <span
+            style={{
+              display: 'inline-block',
+              transition: 'transform 0.3s ease',
+              transformOrigin: 'center center',
+            }}
+          >
+            <CustomToggle eventKey="1">Havamal</CustomToggle>
+          </span>
         </Card.Header>
         <Accordion.Collapse eventKey="0">
           <Card.Body
@@ -62,10 +73,21 @@ export default function CallOfTheNorth() {
           style={{
             backgroundColor: '#070707',
             padding: '0',
-            paddingLeft: '16px'
+            paddingLeft: '16px',
+            transition: 'transform 0.3s ease',
           }}
+          onMouseEnter={(e) => e.currentTarget.style.transform = 'scale(1.02)'}
+          onMouseLeave={(e) => e.currentTarget.style.transform = 'scale(1)'}
         >
-          <CustomToggle eventKey="1">Dread Age</CustomToggle>
+          <span
+            style={{
+              display: 'inline-block',
+              transition: 'transform 0.3s ease',
+              transformOrigin: 'center center',
+            }}
+          >
+            <CustomToggle eventKey="1">Dread Age</CustomToggle>
+          </span>
         </Card.Header>
         <Accordion.Collapse eventKey="1">
           <Card.Body
@@ -117,10 +139,21 @@ export default function CallOfTheNorth() {
           style={{
             backgroundColor: '#070707',
             padding: '0',
-            paddingLeft: '16px'
+            paddingLeft: '16px',
+            transition: 'transform 0.3s ease',
           }}
+          onMouseEnter={(e) => e.currentTarget.style.transform = 'scale(1.02)'}
+          onMouseLeave={(e) => e.currentTarget.style.transform = 'scale(1)'}
         >
-          <CustomToggle eventKey="2">Jotun War</CustomToggle>
+          <span
+            style={{
+              display: 'inline-block',
+              transition: 'transform 0.3s ease',
+              transformOrigin: 'center center',
+            }}
+          >
+            <CustomToggle eventKey="1">Jotun War</CustomToggle>
+          </span>
         </Card.Header>
         <Accordion.Collapse eventKey="2">
           <Card.Body
@@ -193,10 +226,21 @@ export default function CallOfTheNorth() {
           style={{
             backgroundColor: '#070707',
             padding: '0',
-            paddingLeft: '16px'
+            paddingLeft: '16px',
+            transition: 'transform 0.3s ease',
           }}
+          onMouseEnter={(e) => e.currentTarget.style.transform = 'scale(1.02)'}
+          onMouseLeave={(e) => e.currentTarget.style.transform = 'scale(1)'}
         >
-          <CustomToggle eventKey="3">Ragnarok</CustomToggle>
+          <span
+            style={{
+              display: 'inline-block',
+              transition: 'transform 0.3s ease',
+              transformOrigin: 'center center',
+            }}
+          >
+            <CustomToggle eventKey="1">Ragnarok</CustomToggle>
+          </span>
         </Card.Header>
         <Accordion.Collapse eventKey="3">
           <Card.Body
@@ -252,10 +296,21 @@ export default function CallOfTheNorth() {
           style={{
             backgroundColor: '#070707',
             padding: '0',
-            paddingLeft: '16px'
+            paddingLeft: '16px',
+            transition: 'transform 0.3s ease',
           }}
+          onMouseEnter={(e) => e.currentTarget.style.transform = 'scale(1.02)'}
+          onMouseLeave={(e) => e.currentTarget.style.transform = 'scale(1)'}
         >
-          <CustomToggle eventKey="4">Call For Revenge</CustomToggle>
+          <span
+            style={{
+              display: 'inline-block',
+              transition: 'transform 0.3s ease',
+              transformOrigin: 'center center',
+            }}
+          >
+            <CustomToggle eventKey="1">Call for Revenge</CustomToggle>
+          </span>
         </Card.Header>
         <Accordion.Collapse eventKey="4">
           <Card.Body
@@ -313,10 +368,21 @@ export default function CallOfTheNorth() {
           style={{
             backgroundColor: '#070707',
             padding: '0',
-            paddingLeft: '16px'
+            paddingLeft: '16px',
+            transition: 'transform 0.3s ease',
           }}
+          onMouseEnter={(e) => e.currentTarget.style.transform = 'scale(1.02)'}
+          onMouseLeave={(e) => e.currentTarget.style.transform = 'scale(1)'}
         >
-          <CustomToggle eventKey="5">Force of Judgement</CustomToggle>
+          <span
+            style={{
+              display: 'inline-block',
+              transition: 'transform 0.3s ease',
+              transformOrigin: 'center center',
+            }}
+          >
+            <CustomToggle eventKey="1">Force of Judgement</CustomToggle>
+          </span>
         </Card.Header>
         <Accordion.Collapse eventKey="5">
           <Card.Body

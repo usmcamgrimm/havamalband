@@ -15,6 +15,13 @@
   font-weight: normal;
   text-align: center;
 }
+.albumBorder {
+  color: #ffffff;
+  width: 45%;
+  height: 2px;
+  margin: 0 auto;
+  opacity: 95%;
+}
 
 @media (max-width:820px) {
   .albumTitle {

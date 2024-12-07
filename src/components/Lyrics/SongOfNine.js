@@ -31,10 +31,21 @@ export default function SongOfNine() {
           style={{
             backgroundColor: '#070707',
             padding: '0',
-            paddingLeft: '16px'
+            paddingLeft: '16px',
+            transition: 'transform 0.3s ease',
           }}
+          onMouseEnter={(e) => e.currentTarget.style.transform = 'scale(1.02)'}
+          onMouseLeave={(e) => e.currentTarget.style.transform = 'scale(1)'}
         >
-          <CustomToggle eventKey="1">Song of Nine</CustomToggle>
+          <span
+            style={{
+              display: 'inline-block',
+              transition: 'transform 0.3s ease',
+              transformOrigin: 'center center',
+            }}
+          >
+            <CustomToggle eventKey="1">Song of Nine</CustomToggle>
+          </span>
         </Card.Header>
         <Accordion.Collapse eventKey="1">
           <Card.Body

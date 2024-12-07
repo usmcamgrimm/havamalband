@@ -31,10 +31,21 @@ export default function TheShadowChapter() {
           style={{
             backgroundColor: '#070707',
             padding: '0',
-            paddingLeft: '16px'
+            paddingLeft: '16px',
+            transition: 'transform 0.3s ease',
           }}
+          onMouseEnter={(e) => e.currentTarget.style.transform = 'scale(1.02)'}
+          onMouseLeave={(e) => e.currentTarget.style.transform = 'scale(1)'}
         >
-          <CustomToggle eventKey="0">The North Awakens</CustomToggle>
+          <span
+            style={{
+              display: 'inline-block',
+              transition: 'transform 0.3s ease',
+              transformOrigin: 'center center',
+            }}
+          >
+            <CustomToggle eventKey="1">The North Awakens</CustomToggle>
+          </span>
         </Card.Header>
         <Accordion.Collapse eventKey="0">
           <Card.Body
@@ -75,10 +86,21 @@ export default function TheShadowChapter() {
           style={{
             backgroundColor: '#070707',
             padding: '0',
-            paddingLeft: '16px'
+            paddingLeft: '16px',
+            transition: 'transform 0.3s ease',
           }}
+          onMouseEnter={(e) => e.currentTarget.style.transform = 'scale(1.02)'}
+          onMouseLeave={(e) => e.currentTarget.style.transform = 'scale(1)'}
         >
-          <CustomToggle eventKey="1">Fenris</CustomToggle>
+          <span
+            style={{
+              display: 'inline-block',
+              transition: 'transform 0.3s ease',
+              transformOrigin: 'center center',
+            }}
+          >
+            <CustomToggle eventKey="1">Fenris</CustomToggle>
+          </span>
         </Card.Header>
         <Accordion.Collapse eventKey="1">
           <Card.Body
@@ -150,10 +172,21 @@ export default function TheShadowChapter() {
           style={{
             backgroundColor: '#070707',
             padding: '0',
-            paddingLeft: '16px'
+            paddingLeft: '16px',
+            transition: 'transform 0.3s ease',
           }}
+          onMouseEnter={(e) => e.currentTarget.style.transform = 'scale(1.02)'}
+          onMouseLeave={(e) => e.currentTarget.style.transform = 'scale(1)'}
         >
-          <CustomToggle eventKey="2">Nidhoggr</CustomToggle>
+          <span
+            style={{
+              display: 'inline-block',
+              transition: 'transform 0.3s ease',
+              transformOrigin: 'center center',
+            }}
+          >
+            <CustomToggle eventKey="1">Nidhoggr</CustomToggle>
+          </span>
         </Card.Header>
         <Accordion.Collapse eventKey="2">
           <Card.Body
@@ -214,10 +247,21 @@ export default function TheShadowChapter() {
           style={{
             backgroundColor: '#070707',
             padding: '0',
-            paddingLeft: '16px'
+            paddingLeft: '16px',
+            transition: 'transform 0.3s ease',
           }}
+          onMouseEnter={(e) => e.currentTarget.style.transform = 'scale(1.02)'}
+          onMouseLeave={(e) => e.currentTarget.style.transform = 'scale(1)'}
         >
-          <CustomToggle eventKey="3">Kraken</CustomToggle>
+          <span
+            style={{
+              display: 'inline-block',
+              transition: 'transform 0.3s ease',
+              transformOrigin: 'center center',
+            }}
+          >
+            <CustomToggle eventKey="1">Kraken</CustomToggle>
+          </span>
         </Card.Header>
         <Accordion.Collapse eventKey="3">
           <Card.Body
@@ -304,10 +348,21 @@ export default function TheShadowChapter() {
           style={{
             backgroundColor: '#070707',
             padding: '0',
-            paddingLeft: '16px'
+            paddingLeft: '16px',
+            transition: 'transform 0.3s ease',
           }}
+          onMouseEnter={(e) => e.currentTarget.style.transform = 'scale(1.02)'}
+          onMouseLeave={(e) => e.currentTarget.style.transform = 'scale(1)'}
         >
-          <CustomToggle eventKey="4">Empire of the Ashen Sun</CustomToggle>
+          <span
+            style={{
+              display: 'inline-block',
+              transition: 'transform 0.3s ease',
+              transformOrigin: 'center center',
+            }}
+          >
+            <CustomToggle eventKey="1">Empire of the Ashen Sun</CustomToggle>
+          </span>
         </Card.Header>
         <Accordion.Collapse eventKey="4">
           <Card.Body
@@ -364,10 +419,21 @@ export default function TheShadowChapter() {
           style={{
             backgroundColor: '#070707',
             padding: '0',
-            paddingLeft: '16px'
+            paddingLeft: '16px',
+            transition: 'transform 0.3s ease',
           }}
+          onMouseEnter={(e) => e.currentTarget.style.transform = 'scale(1.02)'}
+          onMouseLeave={(e) => e.currentTarget.style.transform = 'scale(1)'}
         >
-          <CustomToggle eventKey="5">Nornir&apos;s Call</CustomToggle>
+          <span
+            style={{
+              display: 'inline-block',
+              transition: 'transform 0.3s ease',
+              transformOrigin: 'center center',
+            }}
+          >
+            <CustomToggle eventKey="1">Nornir&apos;s Call</CustomToggle>
+          </span>
         </Card.Header>
         <Accordion.Collapse eventKey="5">
           <Card.Body
@@ -448,10 +514,21 @@ export default function TheShadowChapter() {
           style={{
             backgroundColor: '#070707',
             padding: '0',
-            paddingLeft: '16px'
+            paddingLeft: '16px',
+            transition: 'transform 0.3s ease',
           }}
+          onMouseEnter={(e) => e.currentTarget.style.transform = 'scale(1.02)'}
+          onMouseLeave={(e) => e.currentTarget.style.transform = 'scale(1)'}
         >
-          <CustomToggle eventKey="6">Jormungandr</CustomToggle>
+          <span
+            style={{
+              display: 'inline-block',
+              transition: 'transform 0.3s ease',
+              transformOrigin: 'center center',
+            }}
+          >
+            <CustomToggle eventKey="1">Jormungandr</CustomToggle>
+          </span>
         </Card.Header>
         <Accordion.Collapse eventKey="6">
           <Card.Body
@@ -525,10 +602,21 @@ export default function TheShadowChapter() {
           style={{
             backgroundColor: '#070707',
             padding: '0',
-            paddingLeft: '16px'
+            paddingLeft: '16px',
+            transition: 'transform 0.3s ease',
           }}
+          onMouseEnter={(e) => e.currentTarget.style.transform = 'scale(1.02)'}
+          onMouseLeave={(e) => e.currentTarget.style.transform = 'scale(1)'}
         >
-          <CustomToggle eventKey="7">Hel</CustomToggle>
+          <span
+            style={{
+              display: 'inline-block',
+              transition: 'transform 0.3s ease',
+              transformOrigin: 'center center',
+            }}
+          >
+            <CustomToggle eventKey="1">Hel</CustomToggle>
+          </span>
         </Card.Header>
         <Accordion.Collapse eventKey="7">
           <Card.Body
@@ -609,10 +697,21 @@ export default function TheShadowChapter() {
           style={{
             backgroundColor: '#070707',
             padding: '0',
-            paddingLeft: '16px'
+            paddingLeft: '16px',
+            transition: 'transform 0.3s ease',
           }}
+          onMouseEnter={(e) => e.currentTarget.style.transform = 'scale(1.02)'}
+          onMouseLeave={(e) => e.currentTarget.style.transform = 'scale(1)'}
         >
-          <CustomToggle eventKey="8">The Curse of Grendel</CustomToggle>
+          <span
+            style={{
+              display: 'inline-block',
+              transition: 'transform 0.3s ease',
+              transformOrigin: 'center center',
+            }}
+          >
+            <CustomToggle eventKey="1">The Curse of Grendel</CustomToggle>
+          </span>
         </Card.Header>
         <Accordion.Collapse eventKey="8">
           <Card.Body

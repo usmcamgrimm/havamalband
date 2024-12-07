@@ -27,30 +27,35 @@ export default function Lyrics() {
             <h2 className={styles.albumTitle}>
               The Storm King
             </h2>
+            <hr className={styles.albumBorder} />
             <TheStormKing />
           </Col>
           <Col sm={12} lg={6} className={styles.albumBlock}>
             <h2 className={styles.albumTitle}>
               Song of Nine
             </h2>
+            <hr className={styles.albumBorder} />
             <SongOfNine />
           </Col>
           <Col sm={12} lg={6} className={styles.albumBlock}>
             <h2 className={styles.albumTitle}>
               The Shadow Chapter
             </h2>
+            <hr className={styles.albumBorder} />
             <TheShadowChapter />
           </Col>
           <Col sm={12} lg={6} className={styles.albumBlock}>
             <h2 className={styles.albumTitle}>
               Tales From Yggdrasil
             </h2>
+            <hr className={styles.albumBorder} />
             <TalesFromYggdrasil />
           </Col>
           <Col sm={12} lg={6} className={styles.albumBlock}>
             <h2 className={styles.albumTitle}>
               Call of The North
             </h2>
+            <hr className={styles.albumBorder} />
             <CallOfTheNorth />
           </Col>
         </Row>

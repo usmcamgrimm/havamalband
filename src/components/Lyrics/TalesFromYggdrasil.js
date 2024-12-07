@@ -31,10 +31,21 @@ export default function TalesFromYggdrasil() {
           style={{
             backgroundColor: '#070707',
             padding: '0',
-            paddingLeft: '16px'
+            paddingLeft: '16px',
+            transition: 'transform 0.3s ease',
           }}
+          onMouseEnter={(e) => e.currentTarget.style.transform = 'scale(1.02)'}
+          onMouseLeave={(e) => e.currentTarget.style.transform = 'scale(1)'}
         >
-          <CustomToggle eventKey="0">Harken The Shadows</CustomToggle>
+          <span
+            style={{
+              display: 'inline-block',
+              transition: 'transform 0.3s ease',
+              transformOrigin: 'center center',
+            }}
+          >
+            <CustomToggle eventKey="1">Harken the Shadows</CustomToggle>
+          </span>
         </Card.Header>
         <Accordion.Collapse eventKey="0">
           <Card.Body
@@ -62,10 +73,21 @@ export default function TalesFromYggdrasil() {
           style={{
             backgroundColor: '#070707',
             padding: '0',
-            paddingLeft: '16px'
+            paddingLeft: '16px',
+            transition: 'transform 0.3s ease',
           }}
+          onMouseEnter={(e) => e.currentTarget.style.transform = 'scale(1.02)'}
+          onMouseLeave={(e) => e.currentTarget.style.transform = 'scale(1)'}
         >
-          <CustomToggle eventKey="1">Draugers March</CustomToggle>
+          <span
+            style={{
+              display: 'inline-block',
+              transition: 'transform 0.3s ease',
+              transformOrigin: 'center center',
+            }}
+          >
+            <CustomToggle eventKey="1">Draugers March</CustomToggle>
+          </span>
         </Card.Header>
         <Accordion.Collapse eventKey="1">
           <Card.Body
@@ -128,10 +150,21 @@ export default function TalesFromYggdrasil() {
           style={{
             backgroundColor: '#070707',
             padding: '0',
-            paddingLeft: '16px'
+            paddingLeft: '16px',
+            transition: 'transform 0.3s ease',
           }}
+          onMouseEnter={(e) => e.currentTarget.style.transform = 'scale(1.02)'}
+          onMouseLeave={(e) => e.currentTarget.style.transform = 'scale(1)'}
         >
-          <CustomToggle eventKey="2">Berserker</CustomToggle>
+          <span
+            style={{
+              display: 'inline-block',
+              transition: 'transform 0.3s ease',
+              transformOrigin: 'center center',
+            }}
+          >
+            <CustomToggle eventKey="1">Berserker</CustomToggle>
+          </span>
         </Card.Header>
         <Accordion.Collapse eventKey="2">
           <Card.Body
@@ -214,10 +247,21 @@ export default function TalesFromYggdrasil() {
           style={{
             backgroundColor: '#070707',
             padding: '0',
-            paddingLeft: '16px'
+            paddingLeft: '16px',
+            transition: 'transform 0.3s ease',
           }}
+          onMouseEnter={(e) => e.currentTarget.style.transform = 'scale(1.02)'}
+          onMouseLeave={(e) => e.currentTarget.style.transform = 'scale(1)'}
         >
-          <CustomToggle eventKey="3">Dawn of the Frost Giants</CustomToggle>
+          <span
+            style={{
+              display: 'inline-block',
+              transition: 'transform 0.3s ease',
+              transformOrigin: 'center center',
+            }}
+          >
+            <CustomToggle eventKey="1">Dawn of the Frost Giants</CustomToggle>
+          </span>
         </Card.Header>
         <Accordion.Collapse eventKey="3">
           <Card.Body
@@ -271,10 +315,21 @@ export default function TalesFromYggdrasil() {
           style={{
             backgroundColor: '#070707',
             padding: '0',
-            paddingLeft: '16px'
+            paddingLeft: '16px',
+            transition: 'transform 0.3s ease',
           }}
+          onMouseEnter={(e) => e.currentTarget.style.transform = 'scale(1.02)'}
+          onMouseLeave={(e) => e.currentTarget.style.transform = 'scale(1)'}
         >
-          <CustomToggle eventKey="4">Blood Oath</CustomToggle>
+          <span
+            style={{
+              display: 'inline-block',
+              transition: 'transform 0.3s ease',
+              transformOrigin: 'center center',
+            }}
+          >
+            <CustomToggle eventKey="1">Blood Oath</CustomToggle>
+          </span>
         </Card.Header>
         <Accordion.Collapse eventKey="4">
           <Card.Body
@@ -341,10 +396,21 @@ export default function TalesFromYggdrasil() {
           style={{
             backgroundColor: '#070707',
             padding: '0',
-            paddingLeft: '16px'
+            paddingLeft: '16px',
+            transition: 'transform 0.3s ease',
           }}
+          onMouseEnter={(e) => e.currentTarget.style.transform = 'scale(1.02)'}
+          onMouseLeave={(e) => e.currentTarget.style.transform = 'scale(1)'}
         >
-          <CustomToggle eventKey="5">Net of Ran</CustomToggle>
+          <span
+            style={{
+              display: 'inline-block',
+              transition: 'transform 0.3s ease',
+              transformOrigin: 'center center',
+            }}
+          >
+            <CustomToggle eventKey="1">Net of Ran</CustomToggle>
+          </span>
         </Card.Header>
         <Accordion.Collapse eventKey="5">
           <Card.Body
@@ -386,10 +452,21 @@ export default function TalesFromYggdrasil() {
           style={{
             backgroundColor: '#070707',
             padding: '0',
-            paddingLeft: '16px'
+            paddingLeft: '16px',
+            transition: 'transform 0.3s ease',
           }}
+          onMouseEnter={(e) => e.currentTarget.style.transform = 'scale(1.02)'}
+          onMouseLeave={(e) => e.currentTarget.style.transform = 'scale(1)'}
         >
-          <CustomToggle eventKey="6">Death of Balder</CustomToggle>
+          <span
+            style={{
+              display: 'inline-block',
+              transition: 'transform 0.3s ease',
+              transformOrigin: 'center center',
+            }}
+          >
+            <CustomToggle eventKey="1">Death of Balder</CustomToggle>
+          </span>
         </Card.Header>
         <Accordion.Collapse eventKey="6">
           <Card.Body
@@ -470,10 +547,21 @@ export default function TalesFromYggdrasil() {
           style={{
             backgroundColor: '#070707',
             padding: '0',
-            paddingLeft: '16px'
+            paddingLeft: '16px',
+            transition: 'transform 0.3s ease',
           }}
+          onMouseEnter={(e) => e.currentTarget.style.transform = 'scale(1.02)'}
+          onMouseLeave={(e) => e.currentTarget.style.transform = 'scale(1)'}
         >
-          <CustomToggle eventKey="7">Hail Havamal</CustomToggle>
+          <span
+            style={{
+              display: 'inline-block',
+              transition: 'transform 0.3s ease',
+              transformOrigin: 'center center',
+            }}
+          >
+            <CustomToggle eventKey="1">Hail Havamal</CustomToggle>
+          </span>
         </Card.Header>
         <Accordion.Collapse eventKey="7">
           <Card.Body
@@ -518,10 +606,21 @@ export default function TalesFromYggdrasil() {
           style={{
             backgroundColor: '#070707',
             padding: '0',
-            paddingLeft: '16px'
+            paddingLeft: '16px',
+            transition: 'transform 0.3s ease',
           }}
+          onMouseEnter={(e) => e.currentTarget.style.transform = 'scale(1.02)'}
+          onMouseLeave={(e) => e.currentTarget.style.transform = 'scale(1)'}
         >
-          <CustomToggle eventKey="8">Ginnungagap</CustomToggle>
+          <span
+            style={{
+              display: 'inline-block',
+              transition: 'transform 0.3s ease',
+              transformOrigin: 'center center',
+            }}
+          >
+            <CustomToggle eventKey="1">Ginnungagap</CustomToggle>
+          </span>
         </Card.Header>
         <Accordion.Collapse eventKey="8">
           <Card.Body

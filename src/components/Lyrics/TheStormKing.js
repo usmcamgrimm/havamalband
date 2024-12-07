@@ -1,7 +1,6 @@
 import Accordion from 'react-bootstrap/Accordion'
 import { useAccordionButton } from 'react-bootstrap/AccordionButton';
 import Card from 'react-bootstrap/Card'
-import { GiFlexibleLamp } from 'react-icons/gi';
 
 export default function TheSTormKing() {
   function CustomToggle({ children, eventKey }) {
@@ -32,10 +31,21 @@ export default function TheSTormKing() {
           style={{
             backgroundColor: '#070707',
             padding: '0',
-            paddingLeft: '16px'
+            paddingLeft: '16px',
+            transition: 'transform 0.3s ease',
           }}
+          onMouseEnter={(e) => e.currentTarget.style.transform = 'scale(1.02)'}
+          onMouseLeave={(e) => e.currentTarget.style.transform = 'scale(1)'}
         >
-          <CustomToggle eventKey="1">The Storm King</CustomToggle>
+          <span
+            style={{
+              display: 'inline-block',
+              transition: 'transform 0.3s ease',
+              transformOrigin: 'center center',
+            }}
+          >
+            <CustomToggle eventKey="1">The Storm King</CustomToggle>
+          </span>
         </Card.Header>
         <Accordion.Collapse eventKey="1">
           <Card.Body
