@@ -9,10 +9,10 @@
   margin: 0 auto;
   display: grid;
   place-items: center start;
-  grid-template-columns: 200px 300px 300px;
+  grid-template-columns: 200px 300px 200px 300px;
   grid-template-rows: auto;
   grid-template-areas:
-    "date event location";
+    "date event venue location";
   grid-gap: 12px;
   font-family: grenze;
   font-size: clamp(1.1rem, 5vw, 1.8rem);
@@ -31,6 +31,11 @@
 
 .EventTitle {
   grid-area: event;
+  margin: 0;
+}
+
+.VenueTitle {
+  grid-area: venue;
   margin: 0;
 }
 

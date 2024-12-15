@@ -24,6 +24,7 @@ export default function Raids() {
               >
                 <div className={styles.DateTitle}>{raids.date}</div>
                 <div className={styles.EventTitle}>{raids.event}</div>
+                <div className={styles.VenueTitle}>{raids.venue}</div>
                 <div className={styles.LocationTitle}>{raids.location}</div>
               </a>
             </div>
