@@ -34,7 +34,7 @@ export default function TheShadowChapter() {
             paddingLeft: '16px',
             transition: 'transform 0.3s ease',
           }}
-          onMouseEnter={(e) => e.currentTarget.style.transform = 'scale(1.02)'}
+          onMouseEnter={(e) => e.currentTarget.style.transform = 'scale(1.01)'}
           onMouseLeave={(e) => e.currentTarget.style.transform = 'scale(1)'}
         >
           <span
@@ -89,7 +89,7 @@ export default function TheShadowChapter() {
             paddingLeft: '16px',
             transition: 'transform 0.3s ease',
           }}
-          onMouseEnter={(e) => e.currentTarget.style.transform = 'scale(1.02)'}
+          onMouseEnter={(e) => e.currentTarget.style.transform = 'scale(1.01)'}
           onMouseLeave={(e) => e.currentTarget.style.transform = 'scale(1)'}
         >
           <span
@@ -175,7 +175,7 @@ export default function TheShadowChapter() {
             paddingLeft: '16px',
             transition: 'transform 0.3s ease',
           }}
-          onMouseEnter={(e) => e.currentTarget.style.transform = 'scale(1.02)'}
+          onMouseEnter={(e) => e.currentTarget.style.transform = 'scale(1.01)'}
           onMouseLeave={(e) => e.currentTarget.style.transform = 'scale(1)'}
         >
           <span
@@ -250,7 +250,7 @@ export default function TheShadowChapter() {
             paddingLeft: '16px',
             transition: 'transform 0.3s ease',
           }}
-          onMouseEnter={(e) => e.currentTarget.style.transform = 'scale(1.02)'}
+          onMouseEnter={(e) => e.currentTarget.style.transform = 'scale(1.01)'}
           onMouseLeave={(e) => e.currentTarget.style.transform = 'scale(1)'}
         >
           <span
@@ -351,7 +351,7 @@ export default function TheShadowChapter() {
             paddingLeft: '16px',
             transition: 'transform 0.3s ease',
           }}
-          onMouseEnter={(e) => e.currentTarget.style.transform = 'scale(1.02)'}
+          onMouseEnter={(e) => e.currentTarget.style.transform = 'scale(1.01)'}
           onMouseLeave={(e) => e.currentTarget.style.transform = 'scale(1)'}
         >
           <span
@@ -422,7 +422,7 @@ export default function TheShadowChapter() {
             paddingLeft: '16px',
             transition: 'transform 0.3s ease',
           }}
-          onMouseEnter={(e) => e.currentTarget.style.transform = 'scale(1.02)'}
+          onMouseEnter={(e) => e.currentTarget.style.transform = 'scale(1.01)'}
           onMouseLeave={(e) => e.currentTarget.style.transform = 'scale(1)'}
         >
           <span
@@ -517,7 +517,7 @@ export default function TheShadowChapter() {
             paddingLeft: '16px',
             transition: 'transform 0.3s ease',
           }}
-          onMouseEnter={(e) => e.currentTarget.style.transform = 'scale(1.02)'}
+          onMouseEnter={(e) => e.currentTarget.style.transform = 'scale(1.01)'}
           onMouseLeave={(e) => e.currentTarget.style.transform = 'scale(1)'}
         >
           <span
@@ -605,7 +605,7 @@ export default function TheShadowChapter() {
             paddingLeft: '16px',
             transition: 'transform 0.3s ease',
           }}
-          onMouseEnter={(e) => e.currentTarget.style.transform = 'scale(1.02)'}
+          onMouseEnter={(e) => e.currentTarget.style.transform = 'scale(1.01)'}
           onMouseLeave={(e) => e.currentTarget.style.transform = 'scale(1)'}
         >
           <span
@@ -700,7 +700,7 @@ export default function TheShadowChapter() {
             paddingLeft: '16px',
             transition: 'transform 0.3s ease',
           }}
-          onMouseEnter={(e) => e.currentTarget.style.transform = 'scale(1.02)'}
+          onMouseEnter={(e) => e.currentTarget.style.transform = 'scale(1.01)'}
           onMouseLeave={(e) => e.currentTarget.style.transform = 'scale(1)'}
         >
           <span
