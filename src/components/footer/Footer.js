@@ -14,7 +14,7 @@ const FooterBar = styled.footer`
 const FooterLink = styled.a`
   color: #66add9;
   font-family: grenze;
-  font-size: 1.25rem;
+  font-size: 1rem;
   text-decoration: none;
   :hover {
     color: #ffffff;
@@ -27,7 +27,7 @@ export default function Footer() {
       <p 
         style={{
           fontFamily: 'grenze',
-          fontSize: '1.25rem',
+          fontSize: '1rem',
           color: '#66add9',
           margin: '0 auto'
         }}
