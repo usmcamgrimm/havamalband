@@ -3,7 +3,7 @@ import Image from 'next/image'
 import HavamalVideo from '../components/video/HavamalVideo'
 import Raids from '../components/raids/Raids'
 import styles from '../styles/Home.module.css'
-import havamalPhoto from '../../public/images/bandPhoto.jpg'
+import havamalPhoto from '../../public/images/bandPhoto2025.jpg'
 import havamalLogo from '../../public/images/havamal.png'
 
 export default function Home() {
