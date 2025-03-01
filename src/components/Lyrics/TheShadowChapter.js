@@ -47,7 +47,7 @@ export default function TheShadowChapter() {
             <CustomToggle eventKey="1">The North Awakens</CustomToggle>
           </span>
         </Card.Header>
-        <Accordion.Collapse eventKey="0">
+        <Accordion.Collapse eventKey="1">
           <Card.Body
             style={{
               backgroundColor: '#070707',
@@ -99,10 +99,10 @@ export default function TheShadowChapter() {
               transformOrigin: 'center center',
             }}
           >
-            <CustomToggle eventKey="1">Fenris</CustomToggle>
+            <CustomToggle eventKey="2">Fenris</CustomToggle>
           </span>
         </Card.Header>
-        <Accordion.Collapse eventKey="1">
+        <Accordion.Collapse eventKey="2">
           <Card.Body
             style={{
               backgroundColor: '#070707',
@@ -185,10 +185,10 @@ export default function TheShadowChapter() {
               transformOrigin: 'center center',
             }}
           >
-            <CustomToggle eventKey="1">Nidhoggr</CustomToggle>
+            <CustomToggle eventKey="3">Nidhoggr</CustomToggle>
           </span>
         </Card.Header>
-        <Accordion.Collapse eventKey="2">
+        <Accordion.Collapse eventKey="3">
           <Card.Body
             style={{
               backgroundColor: '#070707',
@@ -260,10 +260,10 @@ export default function TheShadowChapter() {
               transformOrigin: 'center center',
             }}
           >
-            <CustomToggle eventKey="1">Kraken</CustomToggle>
+            <CustomToggle eventKey="4">Kraken</CustomToggle>
           </span>
         </Card.Header>
-        <Accordion.Collapse eventKey="3">
+        <Accordion.Collapse eventKey="4">
           <Card.Body
             style={{
               backgroundColor: '#070707',
@@ -361,10 +361,10 @@ export default function TheShadowChapter() {
               transformOrigin: 'center center',
             }}
           >
-            <CustomToggle eventKey="1">Empire of the Ashen Sun</CustomToggle>
+            <CustomToggle eventKey="5">Empire of the Ashen Sun</CustomToggle>
           </span>
         </Card.Header>
-        <Accordion.Collapse eventKey="4">
+        <Accordion.Collapse eventKey="5">
           <Card.Body
             style={{
               backgroundColor: '#070707',
@@ -432,10 +432,10 @@ export default function TheShadowChapter() {
               transformOrigin: 'center center',
             }}
           >
-            <CustomToggle eventKey="1">Nornir&apos;s Call</CustomToggle>
+            <CustomToggle eventKey="6">Nornir&apos;s Call</CustomToggle>
           </span>
         </Card.Header>
-        <Accordion.Collapse eventKey="5">
+        <Accordion.Collapse eventKey="6">
           <Card.Body
             style={{
               backgroundColor: '#070707',
@@ -527,10 +527,10 @@ export default function TheShadowChapter() {
               transformOrigin: 'center center',
             }}
           >
-            <CustomToggle eventKey="1">Jormungandr</CustomToggle>
+            <CustomToggle eventKey="7">Jormungandr</CustomToggle>
           </span>
         </Card.Header>
-        <Accordion.Collapse eventKey="6">
+        <Accordion.Collapse eventKey="7">
           <Card.Body
             style={{
               backgroundColor: '#070707',
@@ -615,10 +615,10 @@ export default function TheShadowChapter() {
               transformOrigin: 'center center',
             }}
           >
-            <CustomToggle eventKey="1">Hel</CustomToggle>
+            <CustomToggle eventKey="8">Hel</CustomToggle>
           </span>
         </Card.Header>
-        <Accordion.Collapse eventKey="7">
+        <Accordion.Collapse eventKey="8">
           <Card.Body
             style={{
               backgroundColor: '#070707',
@@ -710,10 +710,10 @@ export default function TheShadowChapter() {
               transformOrigin: 'center center',
             }}
           >
-            <CustomToggle eventKey="1">The Curse of Grendel</CustomToggle>
+            <CustomToggle eventKey="9">The Curse of Grendel</CustomToggle>
           </span>
         </Card.Header>
-        <Accordion.Collapse eventKey="8">
+        <Accordion.Collapse eventKey="9">
           <Card.Body
             style={{
               backgroundColor: '#070707',

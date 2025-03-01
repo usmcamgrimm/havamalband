@@ -47,7 +47,7 @@ export default function CallOfTheNorth() {
             <CustomToggle eventKey="1">Havamal</CustomToggle>
           </span>
         </Card.Header>
-        <Accordion.Collapse eventKey="0">
+        <Accordion.Collapse eventKey="1">
           <Card.Body
             style={{
               backgroundColor: '#070707',
@@ -86,10 +86,10 @@ export default function CallOfTheNorth() {
               transformOrigin: 'center center',
             }}
           >
-            <CustomToggle eventKey="1">Dread Age</CustomToggle>
+            <CustomToggle eventKey="2">Dread Age</CustomToggle>
           </span>
         </Card.Header>
-        <Accordion.Collapse eventKey="1">
+        <Accordion.Collapse eventKey="2">
           <Card.Body
             style={{
               backgroundColor: '#070707',
@@ -152,10 +152,10 @@ export default function CallOfTheNorth() {
               transformOrigin: 'center center',
             }}
           >
-            <CustomToggle eventKey="1">Jotun War</CustomToggle>
+            <CustomToggle eventKey="3">Jotun War</CustomToggle>
           </span>
         </Card.Header>
-        <Accordion.Collapse eventKey="2">
+        <Accordion.Collapse eventKey="3">
           <Card.Body
             style={{
               backgroundColor: '#070707',
@@ -239,10 +239,10 @@ export default function CallOfTheNorth() {
               transformOrigin: 'center center',
             }}
           >
-            <CustomToggle eventKey="1">Ragnarok</CustomToggle>
+            <CustomToggle eventKey="4">Ragnarok</CustomToggle>
           </span>
         </Card.Header>
-        <Accordion.Collapse eventKey="3">
+        <Accordion.Collapse eventKey="4">
           <Card.Body
             style={{
               backgroundColor: '#070707',
@@ -309,10 +309,10 @@ export default function CallOfTheNorth() {
               transformOrigin: 'center center',
             }}
           >
-            <CustomToggle eventKey="1">Call for Revenge</CustomToggle>
+            <CustomToggle eventKey="5">Call for Revenge</CustomToggle>
           </span>
         </Card.Header>
-        <Accordion.Collapse eventKey="4">
+        <Accordion.Collapse eventKey="5">
           <Card.Body
             style={{
               backgroundColor: '#070707',
@@ -381,10 +381,10 @@ export default function CallOfTheNorth() {
               transformOrigin: 'center center',
             }}
           >
-            <CustomToggle eventKey="1">Force of Judgement</CustomToggle>
+            <CustomToggle eventKey="6">Force of Judgement</CustomToggle>
           </span>
         </Card.Header>
-        <Accordion.Collapse eventKey="5">
+        <Accordion.Collapse eventKey="6">
           <Card.Body
             style={{
               backgroundColor: '#070707',
