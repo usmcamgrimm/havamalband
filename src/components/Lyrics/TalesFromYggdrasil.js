@@ -47,7 +47,7 @@ export default function TalesFromYggdrasil() {
             <CustomToggle eventKey="1">Harken the Shadows</CustomToggle>
           </span>
         </Card.Header>
-        <Accordion.Collapse eventKey="0">
+        <Accordion.Collapse eventKey="1">
           <Card.Body
             style={{
               backgroundColor: '#070707',
@@ -86,10 +86,10 @@ export default function TalesFromYggdrasil() {
               transformOrigin: 'center center',
             }}
           >
-            <CustomToggle eventKey="1">Draugers March</CustomToggle>
+            <CustomToggle eventKey="2">Draugers March</CustomToggle>
           </span>
         </Card.Header>
-        <Accordion.Collapse eventKey="1">
+        <Accordion.Collapse eventKey="2">
           <Card.Body
             style={{
               backgroundColor: '#070707',
@@ -163,10 +163,10 @@ export default function TalesFromYggdrasil() {
               transformOrigin: 'center center',
             }}
           >
-            <CustomToggle eventKey="1">Berserker</CustomToggle>
+            <CustomToggle eventKey="3">Berserker</CustomToggle>
           </span>
         </Card.Header>
-        <Accordion.Collapse eventKey="2">
+        <Accordion.Collapse eventKey="3">
           <Card.Body
             style={{
               backgroundColor: '#070707',
@@ -260,10 +260,10 @@ export default function TalesFromYggdrasil() {
               transformOrigin: 'center center',
             }}
           >
-            <CustomToggle eventKey="1">Dawn of the Frost Giants</CustomToggle>
+            <CustomToggle eventKey="4">Dawn of the Frost Giants</CustomToggle>
           </span>
         </Card.Header>
-        <Accordion.Collapse eventKey="3">
+        <Accordion.Collapse eventKey="4">
           <Card.Body
             style={{
               backgroundColor: '#070707',
@@ -328,10 +328,10 @@ export default function TalesFromYggdrasil() {
               transformOrigin: 'center center',
             }}
           >
-            <CustomToggle eventKey="1">Blood Oath</CustomToggle>
+            <CustomToggle eventKey="5">Blood Oath</CustomToggle>
           </span>
         </Card.Header>
-        <Accordion.Collapse eventKey="4">
+        <Accordion.Collapse eventKey="5">
           <Card.Body
             style={{
               backgroundColor: '#070707',
@@ -409,10 +409,10 @@ export default function TalesFromYggdrasil() {
               transformOrigin: 'center center',
             }}
           >
-            <CustomToggle eventKey="1">Net of Ran</CustomToggle>
+            <CustomToggle eventKey="6">Net of Ran</CustomToggle>
           </span>
         </Card.Header>
-        <Accordion.Collapse eventKey="5">
+        <Accordion.Collapse eventKey="6">
           <Card.Body
             style={{
               backgroundColor: '#070707',
@@ -465,10 +465,10 @@ export default function TalesFromYggdrasil() {
               transformOrigin: 'center center',
             }}
           >
-            <CustomToggle eventKey="1">Death of Balder</CustomToggle>
+            <CustomToggle eventKey="7">Death of Balder</CustomToggle>
           </span>
         </Card.Header>
-        <Accordion.Collapse eventKey="6">
+        <Accordion.Collapse eventKey="7">
           <Card.Body
             style={{
               backgroundColor: '#070707',
@@ -560,10 +560,10 @@ export default function TalesFromYggdrasil() {
               transformOrigin: 'center center',
             }}
           >
-            <CustomToggle eventKey="1">Hail Havamal</CustomToggle>
+            <CustomToggle eventKey="8">Hail Havamal</CustomToggle>
           </span>
         </Card.Header>
-        <Accordion.Collapse eventKey="7">
+        <Accordion.Collapse eventKey="8">
           <Card.Body
             style={{
               backgroundColor: '#070707',
@@ -619,10 +619,10 @@ export default function TalesFromYggdrasil() {
               transformOrigin: 'center center',
             }}
           >
-            <CustomToggle eventKey="1">Ginnungagap</CustomToggle>
+            <CustomToggle eventKey="9">Ginnungagap</CustomToggle>
           </span>
         </Card.Header>
-        <Accordion.Collapse eventKey="8">
+        <Accordion.Collapse eventKey="9">
           <Card.Body
             style={{
               backgroundColor: '#070707',
