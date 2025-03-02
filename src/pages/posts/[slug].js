@@ -8,7 +8,7 @@ export default function Post({ frontmatter, content }) {
   const {title, author, date, image} = frontmatter
 
   return (
-    <main>
+    <main className={styles.wrapper}>
       <div className={styles.postBody}>
         <h1 className={styles.postTitle}>{title}</h1>
         <h2 className={styles.postAuthor}>By: {author}</h2>

@@ -1,3 +1,7 @@
+.wrapper {
+  height: 100vh;
+}
+
 .postBody {
   display: flex;
   flex-direction: column;

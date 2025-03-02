@@ -9,6 +9,7 @@ const FooterBar = styled.footer`
   align-items: center;
   border-top: 2px solid rgba(255, 255, 255, 0.02);
   margin-top: 3rem;
+  flex-shrink: 0;
 `;
 
 const FooterLink = styled.a`

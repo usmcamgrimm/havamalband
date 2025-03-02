@@ -1,6 +1,6 @@
 .container {
   background: #070707;
-  min-height: 100vh;
+  flex: 1 0 auto;
 }
 
 .pageTitle {
