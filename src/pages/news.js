@@ -34,7 +34,7 @@ export default function News({ posts }) {
                     className={styles.linkToPost}
                     href={`/posts/${slug}`}>
                     <h2 className={styles.postTitle}>{title}</h2>
-                    <h3 className={styles.postAuthor}>By: {author}</h3>
+                    <h3 className={styles.postAuthor}>{author}</h3>
                     <Image 
                       src={post.frontmatter.image}
                       layout="responsive"
