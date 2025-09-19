@@ -66,7 +66,7 @@ export default function TheShaman() {
             They will steer my grim decisions<br/>
             And my knife in hand<br/>
             <br/>
-            I'm their blade, their willing vessel<br/>
+            I&apos;m their blade, their willing vessel<br/>
             Shadow servant by their command<br/>
             Spawned from the realm of evermist<br/>
             Blótdeclarer here I stand<br/>
@@ -78,7 +78,7 @@ export default function TheShaman() {
             I conjure might beyond the mortal realm<br/>
             No sword in these worlds will be my bane<br/>
             Through maddened visions I will overwhelm<br/>
-            Your mind reborn I'll drive insane<br/>
+            Your mind reborn I&apos;ll drive insane<br/>
             So fear the light that shines from the pyre<br/>
             Meet the Gods through steel and fire<br/>
             Join me on the altar<br/>
@@ -90,11 +90,11 @@ export default function TheShaman() {
             Listen when I speak for my words are made of gold<br/>
             Leave my words behind and you never will grow old<br/>
             Leading the rite that will satiate their will<br/>
-            By the blade in my hand I'll offer them their kill<br/>
+            By the blade in my hand I&apos;ll offer them their kill<br/>
             Crimson they demand cause the Gods will never bleed<br/>
             As a servant in the flesh I can see their bloody need<br/>
             <br/>
-            I'm their blade, their willing vessel<br/>
+            I&apos;m their blade, their willing vessel<br/>
             Shadow servant by their command<br/>
             Spawned from the realm of evermist<br/>
             Blótdeclarer here I stand<br/>
