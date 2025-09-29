@@ -10,11 +10,19 @@
     },
     {
       "id": 39,
-      "link": "ttps://www.facebook.com/events/1732945853978686",
+      "link": "https://www.facebook.com/events/793533900028563/",
       "date": "14-16 May 2026",
       "event": "Metal Power Open Air",
       "venue": "Eventarena Wittstock",
       "location": "Wittstock, Germany"
+    },
+    {
+      "id": 40,
+      "link": "https://www.darktroll-festival.de/en/start/start/init.html",
+      "date": "14-16 May 2026",
+      "event": "Dark Troll Festival",
+      "venue": "Burgruine Bornstedt",
+      "location": "Bornstedt, Germany"
     }
   ]
 }
