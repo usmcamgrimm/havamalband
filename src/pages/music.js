@@ -35,26 +35,26 @@ export default function Music() {
         The Hymns of Havamal
       </h1>
 
-      <section id="singleTheShaman">
+      <section id="singleHymnsOfTheFallen">
         <div className={styles.albumContainer}>
           <AlbumImage>
             <Image
-              src="/images/albums/shaman.jpg"
+              src="/images/albums/hotf.jpg"
               height={500}
               width={500}
-              alt="The Shaman single image"
+              alt="Hymns of the Fallen single cover"
             />
           </AlbumImage>
           <div className="albumDetails">
             <h2 className={styles.albumTitle}>
-              The Shaman
+              Hymns of the Fallen
             </h2>
             <h3 className={styles.releaseInfo}>
-              Art Gates Records | September 2025
+              Art Gates Records | October 2025
             </h3>
             <iframe
-              title="The Shaman Sample on Spotify"
-              src="https://open.spotify.com/embed/album/1cbCsjYegGcuuoVxzPtF5w"
+              title="Hymns of the Fallen Sample on Spotify"
+              src="https://open.spotify.com/embed/album/4KsEz7fAUhijJ8XTLzJTL7"
               width="325"
               height="360"
               allowtransparency="true"
