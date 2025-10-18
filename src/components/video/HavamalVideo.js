@@ -22,18 +22,47 @@ const VideoContainer = styled.div`
   } 
 `;
 
-export default function HavamalVideo({ videoURL, videoTitle  }) {
+const VideosLink = styled.div`
+  margin: 48px 0;
+  text-align: center;
+   @media screen and (max-width: 600px) {
+    margin: 24px 0 0 0;
+  } 
+`;
+
+const VideosButton = styled.button`
+  background: #070707;
+  border: none;
+`;
+
+export default function HavamalVideo({ videoURL, videoTitle }) {
   return (
-    <VideoContainer>
-      <iframe
-        className={styles.iframe}
-        src={videoURL}
-        title={videoTitle}
-        frameBorder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowFullScreen
-      />
-    </VideoContainer>
+    <>
+      <VideoContainer>
+        <iframe
+          className={styles.iframe}
+          src={videoURL}
+          title={videoTitle}
+          frameBorder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen
+        />
+      </VideoContainer>
+
+      <VideosLink>
+        <VideosButton>
+          <a
+            href="https://www.youtube.com/@havamalofficial"
+            target="_blank"
+            rel="noopener noreferrer"
+            title="Official Havamal on YouTube"
+            className={styles.moreVideos}
+          >
+            More Videos
+          </a>
+        </VideosButton>
+      </VideosLink>
+    </>
   )
 }
 
