@@ -1,7 +1,7 @@
 import fs from 'fs'
 import matter from 'gray-matter'
 import md from 'markdown-it'
-import Image from "next/legacy/image";
+import Image from "next/image";
 import styles from './posts.module.css'
 
 export default function Post({ frontmatter, content }) {
@@ -14,14 +14,12 @@ export default function Post({ frontmatter, content }) {
         <h2 className={styles.postAuthor}>{author}</h2>
         <h2 className={styles.postDate}>{date}</h2>
         <div className={styles.postContent} dangerouslySetInnerHTML={{ __html: md().render(content) }} />
-        <div className={styles.imageWrapper}>
+        <div className={styles.imageWrapper} style={{ position: 'relative', width: '100%', aspectRatio: '16/9' }}>
           <Image
             src={image}
             alt="Havamal updates"
-            layout="responsive"
-            objectFit="contain"
-            height="100%"
-            width="100%"
+            fill
+            style={{ objectFit: 'contain' }}
           />
         </div>
       </div>
