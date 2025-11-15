@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import AlbumRelease from '../components/AlbumRelease/AlbumRelease'
 import HavamalVideo from '../components/video/HavamalVideo'
 import Raids from '../components/raids/Raids'
 import styles from '../styles/Home.module.css'
@@ -32,9 +33,10 @@ export default function Home() {
             />
           </div>
         </section>
-        <h1 className={styles.title}>
-          Hail, Hordes of Havamal!
-        </h1>
+
+        <section className={styles.AlbumRelease}>
+          <AlbumRelease />
+        </section>
 
         <section className={styles.VideoContainer}>
           <HavamalVideo

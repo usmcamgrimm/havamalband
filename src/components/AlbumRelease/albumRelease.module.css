@@ -1,0 +1,45 @@
+.releaseHeading {
+  margin: 0 auto;
+  line-height: 1.15;
+  font-family: "norse", sans-serif;
+  font-weight: normal;
+  color: #66add9;
+  font-size: clamp(3rem, 6vw, 5rem);
+  text-align: center;
+  margin-top: 2rem;
+}
+.preOrderButton {
+  text-align: center;
+  font-family: grenze;
+  font-size: 28px;
+  background: #070707;
+  padding: 6px 48px;
+  color: #ffffff;
+  border-radius: 6px;
+  text-decoration: none;
+  box-shadow: 0 0 12px 4px rgba(0, 0, 0, 0.75);
+  border: 2px solid #66add9;
+  transition: all 0.3s ease;
+}
+.preOrderButton:hover {
+  text-decoration: underline;
+  color: #66add9;
+  border-color: #66add9;
+  animation: borderPulse 2s infinite;
+}
+@media screen and (max-width: 600px) {
+  .preOrderButton {
+    font-size: 24px;
+  }
+}
+@keyframes borderPulse {
+  0% {
+    border-color: #66add0;
+  }
+  50% {
+    border-color: #ffffff;
+  }
+  100% {
+    border-color: #66add9;
+  }
+}
