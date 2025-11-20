@@ -17,7 +17,8 @@ const ReleaseButton = styled.button`
 export default function AlbumRelease() {
   return (
     <div className={styles.AlbumRelease}>
-      <h1 className={styles.releaseHeading}>Age of The Gods<br></br>releases 21 November</h1>
+      <h1 className={styles.releaseHeading}>Age of The Gods</h1>
+      <p className={styles.releaseText}>New Album Out Now</p>
       <ReleaseLink>
         <ReleaseButton>
           <a
@@ -27,7 +28,7 @@ export default function AlbumRelease() {
             title="Pre-order Age of The Gods from Art Gates Records"
             className={styles.preOrderButton}
           >
-            Pre-Order Age of The Gods
+            Order at Art Gates Records
           </a>
         </ReleaseButton>
       </ReleaseLink>

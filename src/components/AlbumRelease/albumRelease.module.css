@@ -4,9 +4,17 @@
   font-family: "norse", sans-serif;
   font-weight: normal;
   color: #66add9;
-  font-size: clamp(3rem, 6vw, 5rem);
+  font-size: clamp(3.5rem, 6vw, 8rem);
   text-align: center;
   margin-top: 2rem;
+  font-weight: bold;
+}
+.releaseText {
+  text-align: center;
+  font-family: grenze;
+  font-size: 64px;
+  color: #ffffff;
+  margin: 8px  0;
 }
 .preOrderButton {
   text-align: center;
@@ -29,7 +37,10 @@
 }
 @media screen and (max-width: 600px) {
   .preOrderButton {
-    font-size: 21px;
+    font-size: 22px;
+  }
+  .releaseText {
+    font-size: 30px;
   }
 }
 @keyframes borderPulse {
