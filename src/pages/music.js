@@ -35,26 +35,26 @@ export default function Music() {
         The Hymns of Havamal
       </h1>
 
-      <section id="singleHymnsOfTheFallen">
+      <section id="albumAOTG">
         <div className={styles.albumContainer}>
           <AlbumImage>
             <Image
-              src="/images/albums/hotf.jpg"
+              src="/images/albums/aotg.jpg"
               height={500}
               width={500}
-              alt="Hymns of the Fallen single cover"
+              alt="Age of the Gods album cover"
             />
           </AlbumImage>
           <div className="albumDetails">
             <h2 className={styles.albumTitle}>
-              Hymns of the Fallen
+              Age of The Gods
             </h2>
             <h3 className={styles.releaseInfo}>
-              Art Gates Records | October 2025
+              Art Gates Records | November 2025
             </h3>
             <iframe
-              title="Hymns of the Fallen Sample on Spotify"
-              src="https://open.spotify.com/embed/album/4KsEz7fAUhijJ8XTLzJTL7"
+              title="Age of The Gods Sample on Spotify"
+              src="https://open.spotify.com/embed/album/3NTVDU44ZimNNKubxH3I0G"
               width="325"
               height="360"
               allowtransparency="true"
