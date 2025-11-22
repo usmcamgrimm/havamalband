@@ -16,7 +16,7 @@ const NavBar = styled.nav`
     background-image: none;
     background-color: #005293;
     position: sticky;
-    height: 4rem;
+    height: 5rem;
     top: 0;
     right: 0;
     bottom: 0;
@@ -32,6 +32,21 @@ const NavToggle = styled.div`
     display: flex;
     align-items: center;
   }
+`;
+
+const AxeDisplay = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 6px;
+`;
+
+const AxeText = styled.p`
+  color: #ffffff;
+  font-family: grenze;
+  font-size: 1rem;
+  margin: 0;
 `;
 
 const NavLinksContainer = styled.div`
@@ -65,12 +80,15 @@ export default function Navbar() {
         navExpand={navExpand}
         onClick={() => setNavExpand(!navExpand)}
       >
-        <Image
-          src="/images/axes.png"
-          alt="crossed axes toggle button"
-          width={65}
-          height={53}
-        />
+        <AxeDisplay>
+          <Image
+            src="/images/axes.png"
+            alt="crossed axes toggle button"
+            width={49}
+            height={40} 
+          />
+          <AxeText>MENU</AxeText>
+        </AxeDisplay>
         {navExpand ? <AxeMenu open /> : <AxeMenu />}
       </NavToggle>
       {navExpand ? (
