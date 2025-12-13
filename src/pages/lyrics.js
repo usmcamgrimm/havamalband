@@ -8,7 +8,7 @@ import TalesFromYggdrasil from '../components/Lyrics/TalesFromYggdrasil'
 import TheShadowChapter from '../components/Lyrics/TheShadowChapter'
 import TheStormKing from '../components/Lyrics/TheStormKing'
 import SongOfNine from '../components/Lyrics/SongOfNine'
-import TheShaman from '../components/Lyrics/TheShaman'
+import AgeOfTheGods from '../components/Lyrics/AgeOfTheGods'
 
 export default function Lyrics() {
   return (
@@ -26,10 +26,10 @@ export default function Lyrics() {
         <Row>
           <Col sm={12} lg={6} className={styles.albumBlock}>
             <h2 className={styles.albumTitle}>
-              The Shaman
+              Age Of The Gods
             </h2>
             <hr className={styles.albumBorder} />
-            <TheShaman />
+            <AgeOfTheGods />
           </Col>
           <Col sm={12} lg={6} className={styles.albumBlock}>
             <h2 className={styles.albumTitle}>
