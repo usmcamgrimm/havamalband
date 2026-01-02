@@ -21,7 +21,7 @@ export default function Home() {
           <Image
             src={havamalPhoto}
             alt="The members of Havamal"
-            quality={100}
+            quality={75}
             priority={true}
             className={styles.havamalPhoto}
           />
