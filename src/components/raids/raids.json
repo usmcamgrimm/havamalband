@@ -1,6 +1,14 @@
 {
   "raids": [
     {
+      "id": 41,
+      "link": "https://www.facebook.com/events/1850897215639482",
+      "date": "10 January 2026",
+      "event": "HellFrog Festival 2026",
+      "venue": "O'Learys Vällingby",
+      "location": "Stockholm, Sweden"
+    },
+    {
       "id": 39,
       "link": "https://www.facebook.com/events/793533900028563/",
       "date": "14-16 May 2026",
