@@ -1,12 +1,12 @@
 import Head from 'next/head'
-import styles from '../styles/news.module.css'
+import styles from '../styles/updates.module.css'
 import fs from 'fs'
 import matter from 'gray-matter'
 import Link from 'next/link'
 import Image from "next/image";
 import { DateTime } from 'luxon'
 
-export default function News({ posts }) {
+export default function Updates({ posts }) {
   const sortPostsByDate = posts.sort((a, b) => {
     const beforeDate = DateTime.fromFormat(a.frontmatter.date, 'm-d-yyyy')
     const afterDate = DateTime.fromFormat(b.frontmatter.date, 'm-d-yyyy')
@@ -16,7 +16,7 @@ export default function News({ posts }) {
     <>
       <Head>
         <title>
-          HAVAMAL | News
+          HAVAMAL | Updates
         </title>
       </Head>
       <h1 className={styles.pageTitle}>Havamal Updates</h1>
