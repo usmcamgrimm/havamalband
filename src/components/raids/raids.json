@@ -2,14 +2,6 @@
   "raids": [
     {
       "id": 42
-    },
-    {
-      "id": 39,
-      "link": "https://www.facebook.com/Havamalofficial/events",
-      "date": "15 May 2026",
-      "event": "Havamal Live",
-      "venue": "The Scotsman",
-      "location": "Schwerin, Germany"
     }
   ]
 }
