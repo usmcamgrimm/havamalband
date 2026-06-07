@@ -43,6 +43,7 @@ export default function Music() {
               height={500}
               width={500}
               alt="Age of the Gods album cover"
+              loading="eager"
             />
           </AlbumImage>
           <div className="albumDetails">
@@ -80,6 +81,7 @@ export default function Music() {
               height={500}
               width={500}
               alt="Song of Nine single image"
+              loading="eager"
             />
           </AlbumImage>
           <div className="albumDetails">
