@@ -40,6 +40,7 @@ export default function Updates({ posts }) {
                         src={post.frontmatter.image}
                         fill
                         style={{ objectFit: 'contain' }}
+                        sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                         alt="Image from post"
                       />
                     </div>
