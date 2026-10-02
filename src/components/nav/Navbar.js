@@ -85,7 +85,8 @@ export default function Navbar() {
             src="/images/axes.png"
             alt="crossed axes toggle button"
             width={49}
-            height={40} 
+            height={40}
+            style={{ width: 'auto', height: '40px' }}
           />
           <AxeText>MENU</AxeText>
         </AxeDisplay>
