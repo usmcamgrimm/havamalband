@@ -1,7 +1,12 @@
 {
   "raids": [
     {
-      "id": 43
+      "id": 43,
+      "link": "https://arvranfest.fr/billetterie/",
+      "date": "2 - 4 July 2027",
+      "event": "Ar’Vran Fest",
+      "venue": "Le Gentieg",
+      "location": "Janzé, France"
     }
   ]
 }
