@@ -12,7 +12,6 @@ export default function Post({ frontmatter, content }) {
       <div className={styles.postBody}>
         <h1 className={styles.postTitle}>{title}</h1>
         <h2 className={styles.postAuthor}>{author}</h2>
-        <h2 className={styles.postDate}>{date}</h2>
         <div className={styles.postContent} dangerouslySetInnerHTML={{ __html: md().render(content) }} />
         <div className={styles.imageWrapper} style={{ position: 'relative', width: '100%', aspectRatio: '16/9' }}>
           <Image
